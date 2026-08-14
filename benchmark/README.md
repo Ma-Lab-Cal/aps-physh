@@ -4,8 +4,8 @@ Frozen artifacts for reproducing the paper's F1 scores.
 
 ## Files
 
-- `concept_similarity.npz`: read by `src/evaluate_predictions.py`. Contains two arrays: `labels` (length 3,793) and `similarity` (3,793 × 3,793, `float32`, values in `[0, 1]`, diagonal 1).
-- `ground_truth.jsonl.gz`: 197,167 post-2016 APS research articles with APS-assigned PhySH labels. Each row contains `doi`, `title`, `disciplines`, and `concepts`.
+- `concept_similarity.npz`: read by `src/evaluate_predictions.py`. The matrix posted before 2026-08-14 was an outdated variant and has been replaced; all published scores use the current file (a min-anchored affine rescale of Gemini text-embedding-004 cosines). Contains two arrays: `labels` (length 3,793) and `similarity` (3,793 × 3,793, `float32`, values in `[0, 1]`, diagonal 1).
+- `ground_truth.jsonl.gz`: 197,167 APS research articles from 2016 onward with APS-assigned PhySH labels. Each row contains `doi`, `title`, `disciplines`, and `concepts`.
 
 ## Usage
 

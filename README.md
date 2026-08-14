@@ -20,6 +20,10 @@ embedding/
   umap_default_coordinates.csv.gz  # default 2D UMAP coordinates for released + gold papers
 runs/                           # Five PhySH classification runs of the APS archive
   run_1.jsonl.gz ... run_5.jsonl.gz  # five independent runs with resampled few-shot exemplars
+corpus/                         # Corpus definition ledger and accounting
+validation/                     # Validation samples, human panel, QIS&T audit, robustness labels, propagation baseline
+error_model/                    # Frozen inputs for the trend-stability figures
+figure_code/                    # Scripts that regenerate Figs. 5-6 and the SM band figures from those inputs
 style/
   discipline_colors.json        # Fixed discipline color palette for plots
 docs/                           # Method notes for the supplement

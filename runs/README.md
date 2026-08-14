@@ -1,6 +1,6 @@
 # PhySH Classification Runs
 
-Five independent PhySH classification runs over the APS research-article corpus. Each file is gzipped JSONL, one row per paper:
+Five independent PhySH classification runs over the APS research-article corpus. Each file has 558,921 rows: every corpus paper without author-assigned PhySH labels, plus the dual-labeled 2016 cohort. The corpus definition and full accounting are in `../corpus/canonical_corpus_rawverified.json`. Each file is gzipped JSONL, one row per paper:
 
 ```json
 {

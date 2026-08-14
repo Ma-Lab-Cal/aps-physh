@@ -1,0 +1,1209 @@
+{
+ "version": 6,
+ "changelog": [
+  "v1 (2026-08-11): raw-verified filter = type in {article,rapid,brief,letter}; journal != PHYSICS; DOI != 10.1103/PhysRev.75.1614.2; title-prefix/exact exclusion. corpus 745,889 / gold 205,243.",
+  "v2 (2026-08-12): added PhySH guard to the title heuristic -- a record carrying PhySH classification is never excluded by title. Restores 5 research papers the prefix rules caught by accident ('Correction to the energy spectrum...', 'Retraction dynamics of...droplets...', etc.), all of which are in the released benchmark gold set. corpus 745,894 / gold 205,248; needing and 2016 cohort unchanged. Released gold (197,167) is now a strict subset of canonical gold.",
+  "v3 (2026-08-12): every title-flagged record (93) reviewed individually from title and abstract, per PI direction that exclusion must mean genuinely non-research. 43 are non-research (27 front matter/errata/publisher's notes/editorials/announcements + 16 comment-reply correspondence addressing a specific publication) and stay excluded; 50 are genuine research papers and are kept (24 'Correction to...' research papers, 19 topic-style 'Comment on the...' research notes, the 1893 'Note.' proof, 1 'Reply'-titled... none -- plus the 5 label-bearing papers of v2). Corpus 745,894 -> 745,939. The v2 PhySH-guard rule is superseded by the reviewed per-record table below; gold, 2016 cohort, and letters unchanged.",
+  "v4 (2026-08-12): FINAL. Two closures per PI decision. (a) The 11 records from 2023-2025 that entered the APS files after the production runs are excluded by definition (snapshot boundary; they are expected to carry author labels in APS's current database, which this paper does not use). (b) The 45 reviewed-in research papers without labels were labeled with the released prompt by five independent frontier-model annotator runs (Claude Opus x2, Sonnet x2, Haiku; 15 fresh exemplars per run) and appended to the five run files, one run each. Corpus 745,928 = 205,248 author-labeled + 540,680 model-labeled; coverage complete; no residual. Dual-label cohort for the error analysis = the 17,777 papers of 2016. The public repository is regenerated to carry exactly the corpus-filtered runs.",
+  "v5 (2026-08-12): FINAL (supersedes v4). The 11 post-snapshot records are corpus members and were labeled by the same five annotator runs as the 45 reviewed-in papers (56 backfilled in total), so the post-snapshot exclusion is gone and coverage is complete with no residual. Corpus 745,939 = 205,248 author-labeled + 540,691 model-labeled. The dual-label cohort for the S2 error analysis is the 2016 rollout cohort (17,777). Regenerated public run files: 558,952 rows per run (540,691 model-labeled corpus papers + 18,261 papers that also carry author labels, whose author labels take precedence in all analyses).",
+  "v6 (2026-08-13): thorough second title pass per PI direction after mock round 10 found 'Important Announcement: Page-Charge Problem' escaping the prefix screen. Keywords searched anywhere in the title; 283 new hits individually reviewed; 31 excluded (see widescan_2026_08_13 and the appended title_review_table rows). Title-review exclusions 43 -> 74; total misclassified 44 -> 75. All 31 are pre-2016 and carry no author labels: gold, the 2016 cohort, and letters are unchanged. known_residuals cleared (176.425 now excluded)."
+ ],
+ "filter": {
+  "articleType_in": [
+   "article",
+   "rapid",
+   "brief",
+   "letter"
+  ],
+  "journal_not": "PHYSICS",
+  "doi_not": "10.1103/PhysRev.75.1614.2",
+  "title_screen": "prefixes/exacts below flag candidate records; the frozen per-record review (title_review_table) decides membership -- flagged research papers stay in the corpus",
+  "title_flag_prefixes": [
+   "announcement",
+   "comment on",
+   "correction to",
+   "editorial",
+   "erratum",
+   "note.",
+   "publisher's note",
+   "reply to",
+   "retraction"
+  ],
+  "title_flag_exacts": [
+   "books received",
+   "errata",
+   "minor contributions",
+   "new books",
+   "notes",
+   "proceedings"
+  ],
+  "normalization": "NFKC; U+2018/U+2019 -> ASCII apostrophe; NBSP -> space; whitespace collapsed; lowercased; stripped"
+ },
+ "raw_total": 792772,
+ "type_pass": 745983,
+ "excluded": {
+  "journal_PHYSICS": 0,
+  "misclassified_1949_letter": 1,
+  "title_review_nonresearch": 74
+ },
+ "corpus": 745908,
+ "gold": 205248,
+ "needing": 540660,
+ "y2016": {
+  "total": 18332,
+  "gold": 17777,
+  "no_gold": 555
+ },
+ "letters": {
+  "in_corpus": 7623,
+  "with_gold": 7608
+ },
+ "coverage_public_runs": {
+  "note": "complete; 558,921 rows per regenerated run file (v6 corpus)",
+  "residual": 0
+ },
+ "gold_definition_note": "gold := physh block with >=1 discipline or concept; under the v2 filter this coincides exactly with 'physh block present' (no empty-block records pass the filter)",
+ "bad_title_dois": [
+  "10.1103/PhysRev.1.1",
+  "10.1103/PhysRev.119.829",
+  "10.1103/PhysRev.137.AB1",
+  "10.1103/PhysRev.139.A1716",
+  "10.1103/PhysRev.139.B1112",
+  "10.1103/PhysRev.140.AB1",
+  "10.1103/PhysRev.15.318",
+  "10.1103/PhysRev.172.240",
+  "10.1103/PhysRev.172.243",
+  "10.1103/PhysRev.172.579",
+  "10.1103/PhysRev.175.1",
+  "10.1103/PhysRev.176.425",
+  "10.1103/PhysRev.180.328",
+  "10.1103/PhysRev.3.364",
+  "10.1103/PhysRev.3.366",
+  "10.1103/PhysRev.32.996",
+  "10.1103/PhysRev.33.627",
+  "10.1103/PhysRev.75.1601",
+  "10.1103/PhysRev.9.127",
+  "10.1103/PhysRevA.82.036703",
+  "10.1103/PhysRevA.82.036704",
+  "10.1103/PhysRevA.9.2238",
+  "10.1103/PhysRevB.13.3665",
+  "10.1103/PhysRevB.46.4986",
+  "10.1103/PhysRevB.46.5715",
+  "10.1103/PhysRevB.6.2575",
+  "10.1103/PhysRevD.19.3161",
+  "10.1103/PhysRevD.25.3251",
+  "10.1103/PhysRevD.35.2034",
+  "10.1103/PhysRevD.36.3820",
+  "10.1103/PhysRevD.50.4227",
+  "10.1103/PhysRevD.55.7980",
+  "10.1103/PhysRevD.59.047502",
+  "10.1103/PhysRevD.85.127502",
+  "10.1103/PhysRevD.92.109904",
+  "10.1103/PhysRevE.83.033101",
+  "10.1103/PhysRevLett.115.209902",
+  "10.1103/PhysRevLett.17.390",
+  "10.1103/PhysRevLett.18.229",
+  "10.1103/PhysRevLett.18.824",
+  "10.1103/PhysRevLett.20.918",
+  "10.1103/PhysRevLett.22.922",
+  "10.1103/PhysRevLett.24.279",
+  "10.1103/PhysRevLett.24.33",
+  "10.1103/PhysRevLett.24.503",
+  "10.1103/PhysRevLett.24.504",
+  "10.1103/PhysRevLett.24.587",
+  "10.1103/PhysRevLett.25.1603",
+  "10.1103/PhysRevLett.25.550",
+  "10.1103/PhysRevLett.26.756",
+  "10.1103/PhysRevLett.28.268",
+  "10.1103/PhysRevLett.29.88",
+  "10.1103/PhysRevLett.31.1556",
+  "10.1103/PhysRevLett.43.475",
+  "10.1103/PhysicsPhysiqueFizika.1.311",
+  "10.1103/RevModPhys.16.152",
+  "10.1103/RevModPhys.17.2",
+  "10.1103/RevModPhys.27.249",
+  "10.1103/RevModPhys.30.908",
+  "10.1103/RevModPhys.39.574",
+  "10.1103/RevModPhys.39.592",
+  "10.1103/RevModPhys.39.648",
+  "10.1103/RevModPhys.39.699",
+  "10.1103/RevModPhys.39.716",
+  "10.1103/RevModPhys.40.235",
+  "10.1103/RevModPhys.40.810",
+  "10.1103/RevModPhys.58.517",
+  "10.1103/RevModPhys.64.1",
+  "10.1103/RevModPhys.70.319",
+  "10.1103/RevModPhys.71.1247",
+  "10.1103/RevModPhys.71.1249",
+  "10.1103/RevModPhys.73.247",
+  "10.1103/RevModPhys.74.1343",
+  "10.1103/RevModPhys.75.1083"
+ ],
+ "title_review_table": [
+  {
+   "doi": "10.1103/PhysRevSeriesI.1.59",
+   "year": "1893",
+   "type": "article",
+   "title": "Note. Geometrical Proof of the Three-Ammeter Method of Measuring Power",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.1.1",
+   "year": "1913",
+   "type": "article",
+   "title": "Announcement of the Transfer of the Review to the American Physical Society",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.32.996",
+   "year": "1928",
+   "type": "article",
+   "title": "Reply to the Foregoing Criticism by S. Chapman",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRev.98.77",
+   "year": "1955",
+   "type": "article",
+   "title": "Correction to the Exponential Dependence of Neutron Transmissions",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.119.1180",
+   "year": "1960",
+   "type": "article",
+   "title": "Correction to the Debye-H\u00fcckel Theory",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.119.829",
+   "year": "1960",
+   "type": "article",
+   "title": "Comment on a Paper of Mori on Time-Correlation Expressions for Transport Properties",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRev.121.940",
+   "year": "1961",
+   "type": "article",
+   "title": "Correction to the Debye-H\u00fcckel Theory",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.135.A1696",
+   "year": "1964",
+   "type": "article",
+   "title": "Comment on the Elastic Properties of \u03b2 Brass",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysicsPhysiqueFizika.1.311",
+   "year": "1965",
+   "type": "article",
+   "title": "Reply to A. W. Overhauser \"Note on the band theory of magnetism\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.15.336",
+   "year": "1965",
+   "type": "article",
+   "title": "Correction to the (He3, 2S13) TO (He3+, 2S122) Hyperfine-Structure Ratio",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.139.A1716",
+   "year": "1965",
+   "type": "article",
+   "title": "ANNOUNCEMENT: ZIP Code Information",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.140.AB1",
+   "year": "1965",
+   "type": "article",
+   "title": "EDITORIAL: The Physical Review in 1966",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.139.B1112",
+   "year": "1965",
+   "type": "article",
+   "title": "ANNOUNCEMENT: ZIP Code Information",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.137.AB1",
+   "year": "1965",
+   "type": "article",
+   "title": "EDITORIAL: A Proposal for Changing The Physical Review",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.16.544",
+   "year": "1966",
+   "type": "article",
+   "title": "Comment on the Application of Cutkosky's Rules",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.160.538",
+   "year": "1967",
+   "type": "article",
+   "title": "Comment on the Solution of the Schr\u00f6dinger Equation for a Nonrelativistic Electron in the ",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.18.824",
+   "year": "1967",
+   "type": "article",
+   "title": "Comment on the Paper \"Photoelectric Ion Emission from Cesiated Surfaces\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/RevModPhys.40.810",
+   "year": "1968",
+   "type": "article",
+   "title": "Comment on Hubbard's Theory of the Mott Transition",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRev.172.579",
+   "year": "1968",
+   "type": "article",
+   "title": "Announcement: Comments and Addenda",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.172.243",
+   "year": "1968",
+   "type": "article",
+   "title": "Announcement: Comments and Addenda",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.172.240",
+   "year": "1968",
+   "type": "article",
+   "title": "Announcement: Comments and Addenda",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.174.2168",
+   "year": "1968",
+   "type": "article",
+   "title": "Comment on the Anisotropy of the Primeval Fireball",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRev.175.1",
+   "year": "1968",
+   "type": "article",
+   "title": "Editorial: Why the New Format?",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRev.180.328",
+   "year": "1969",
+   "type": "article",
+   "title": "Announcement: Increased Page Charges for the Physical Review",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.22.922",
+   "year": "1969",
+   "type": "article",
+   "title": "Comment on the Model of Gorman et al. for Plasma Confinement Time in Stellarators",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevC.2.905",
+   "year": "1970",
+   "type": "article",
+   "title": "Correction to the Nuclear-Matter Calculations of Second Order in vc",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.25.1603",
+   "year": "1970",
+   "type": "article",
+   "title": "Reply to \"Longitudinal Diffusion Coefficients Misnamed,\" by R. N. Varney",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevC.2.421",
+   "year": "1970",
+   "type": "article",
+   "title": "Comment on the Number of Degrees of Freedom in Fluctuation Analysis",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.26.756",
+   "year": "1971",
+   "type": "article",
+   "title": "Comment on the Proposed Magnetic Cooling of He3",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevB.6.2575",
+   "year": "1972",
+   "type": "article",
+   "title": "Comment on Gorkov and Eliashberg's Result for the Polarizability of a Minute Metallic Part",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.31.1556",
+   "year": "1973",
+   "type": "article",
+   "title": "Comment on \"\u03c0 Condensation in Nuclear Matter\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevA.8.2272",
+   "year": "1973",
+   "type": "article",
+   "title": "Correction to the n P 13 Levels of the Helium Isoelectronic Sequence Owing to Mixing with ",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevA.8.2657",
+   "year": "1973",
+   "type": "article",
+   "title": "Comment on the Specific Heat of a Bose Gas Confined to a Thin-Film Geometry",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevA.9.2238",
+   "year": "1974",
+   "type": "article",
+   "title": "Comment on the Hartree-Fock theory for hyperfine interactions",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.35.983",
+   "year": "1975",
+   "type": "article",
+   "title": "Correction to Muonic X-Ray Spectra for Nuclear Polarization and Extended Space",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.13.3665",
+   "year": "1976",
+   "type": "article",
+   "title": "Erratum: Tunneling theory without the transfer-Hamiltonian formalism. IV. The abrupt (zero",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevA.14.2071",
+   "year": "1976",
+   "type": "article",
+   "title": "Comment on the stabilization method: Variational calculation of the resonance width",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevC.15.2251",
+   "year": "1977",
+   "type": "rapid",
+   "title": "Correction to an assignment in T1186 \u03b1 decay",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.19.3921",
+   "year": "1979",
+   "type": "article",
+   "title": "Correction to Fuchs' calculation of the electrostatic energy of a Wigner solid",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.19.3161",
+   "year": "1979",
+   "type": "article",
+   "title": "Comment on radiative corrections in the large-Higgs-mass limit",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.44.1733",
+   "year": "1980",
+   "type": "article",
+   "title": "Comment on Chiral and Conformal Anomalies",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.23.4773",
+   "year": "1981",
+   "type": "brief",
+   "title": "Comment on pinning and conductivity of two-dimensional charge-density waves in magnetic fi",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.23.4253",
+   "year": "1981",
+   "type": "brief",
+   "title": "Comment on solute diffusion in Pb: The size effect",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.46.170",
+   "year": "1981",
+   "type": "article",
+   "title": "Correction to ZPZT Expansions for Electron Capture",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.25.3251",
+   "year": "1982",
+   "type": "article",
+   "title": "Comment on the preceding paper by T. H. Boyer",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevD.26.3741",
+   "year": "1982",
+   "type": "brief",
+   "title": "Comment on the \u03b2 function for quantum chromodynamics",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.27.85",
+   "year": "1983",
+   "type": "article",
+   "title": "Comment on motional narrowing",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevA.28.455",
+   "year": "1983",
+   "type": "brief",
+   "title": "Comment on mesic-atom Auger-rate calculation",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.28.1024",
+   "year": "1983",
+   "type": "article",
+   "title": "Comment on the Peccei-Quinn symmetry",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.30.1349",
+   "year": "1984",
+   "type": "article",
+   "title": "Comment on the ultraviolet behavior of guage-dependent Green's functions in QCD",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.31.3182",
+   "year": "1985",
+   "type": "rapid",
+   "title": "Correction to scaling exponent for the two-dimensional self-avoiding walk",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.31.1174",
+   "year": "1985",
+   "type": "rapid",
+   "title": "Correction to the two-dimensional density of states",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevA.33.2124",
+   "year": "1986",
+   "type": "brief",
+   "title": "Comment on the ultimate single-ion laser-frequency standard",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.34.2157",
+   "year": "1986",
+   "type": "brief",
+   "title": "Correction to the width of heavy Higgs bosons: An addendum to \"Radiative decay of heavy Hi",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/RevModPhys.58.517",
+   "year": "1986",
+   "type": "article",
+   "title": "Editorial: Color Illustrations in Reviews of Modern Physics",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevA.36.4975",
+   "year": "1987",
+   "type": "article",
+   "title": "Correction to the heat-balance equation and its influence on velocity selection in dendrit",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.36.3820",
+   "year": "1987",
+   "type": "brief",
+   "title": "Erratum: How reliable are neutrino mass limits derived from SN1987A: [Phys. Rev. D 35, 359",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevB.37.3693",
+   "year": "1988",
+   "type": "brief",
+   "title": "Correction to acoustic transmission through a rough solid-superfluid He4 interface (due to",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.37.3059",
+   "year": "1988",
+   "type": "brief",
+   "title": "Correction to \u2018\u2018Acceleration radiation and the generalized second law of thermodynamics\u2019\u2019",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/RevModPhys.64.1",
+   "year": "1992",
+   "type": "article",
+   "title": "Editorial: RMP COLLOQUIA",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevB.46.5715",
+   "year": "1992",
+   "type": "brief",
+   "title": "Erratum: Elasticity and the Landau-Peierls instability in the smectic twist-grain-boundary",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevB.46.4986",
+   "year": "1992",
+   "type": "brief",
+   "title": "Erratum and addendum: Frequency-dependent conductivity in polycrystalline metals and semic",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevC.48.1003",
+   "year": "1993",
+   "type": "article",
+   "title": "Comment on the question of reflection asymmetry in Pa229",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.48.16084",
+   "year": "1993",
+   "type": "brief",
+   "title": "Correction to scaling for the self-avoiding walk in d=2: Results based on a cell renormali",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.49.7767",
+   "year": "1994",
+   "type": "brief",
+   "title": "Correction to the decay rate of nonequilibrium carrier distributions due to scattering-in ",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevB.55.1295",
+   "year": "1997",
+   "type": "brief",
+   "title": "Correction to Slater exchange potential to yield exact Kohn-Sham potential generating the ",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.55.7980",
+   "year": "1997",
+   "type": "brief",
+   "title": "Erratum and Addendum: Gravitational radiation from a particle in circular orbit around a b",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/RevModPhys.70.319",
+   "year": "1998",
+   "type": "article",
+   "title": "Erratum: The extraordinary phases of liquid3He [Rev. Mod. Phys. 69, 645 (1997)]",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevD.59.047502",
+   "year": "1999",
+   "type": "brief",
+   "title": "Erratum and Addendum: Gravitational waves induced by a spinning particle falling into a ro",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/RevModPhys.71.1249",
+   "year": "1999",
+   "type": "article",
+   "title": "Erratum: High-transition-temperature superconducting quantum interference devices [Rev. Mo",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/RevModPhys.71.1247",
+   "year": "1999",
+   "type": "article",
+   "title": "Erratum: Gravitational radiation [Rev. Mod. Phys. 71, S187 (1999)]",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevD.60.104009",
+   "year": "1999",
+   "type": "article",
+   "title": "Comment on entropy bounds and the generalized second law",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/RevModPhys.73.247",
+   "year": "2001",
+   "type": "article",
+   "title": "Erratum: Energetics of Si(001) [Rev. Mod. Phys. 72, 593 (2000)]",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/RevModPhys.74.1343",
+   "year": "2002",
+   "type": "article",
+   "title": "Erratum: Nobel Lecture: A confrontation with infinity [Rev. Mod. Phys. 72, 333 (2000)]",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/RevModPhys.75.1083",
+   "year": "2003",
+   "type": "article",
+   "title": "Erratum: Bose-Einstein condensation in the alkali gases: Some fundamental concepts [Rev. M",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevA.69.062102",
+   "year": "2004",
+   "type": "article",
+   "title": "Correction to the Casimir force due to the anomalous skin effect",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.69.011502",
+   "year": "2004",
+   "type": "rapid",
+   "title": "Comment on extracting \u03b1 from B\u2192\u03c1\u03c1",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevE.72.056103",
+   "year": "2005",
+   "type": "article",
+   "title": "Correction to scaling in the response function of the two-dimensional kinetic Ising model",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevA.82.036703",
+   "year": "2010",
+   "type": "article",
+   "title": "Comment on \u201cCollisional cooling investigation of THz rotational transitions of water\u201d",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevA.82.036704",
+   "year": "2010",
+   "type": "article",
+   "title": "Reply to \u201cComment on \u2018Collisional cooling investigation of THz rotational transitions of w",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevD.84.071504",
+   "year": "2011",
+   "type": "rapid",
+   "title": "Comment on measuring the tt\u00af forward-backward asymmetry at ATLAS and CMS",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.84.104007",
+   "year": "2011",
+   "type": "article",
+   "title": "Correction to the Dirac field entropy of a Schwarzschild black hole by a modified dispersi",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevE.83.033101",
+   "year": "2011",
+   "type": "article",
+   "title": "Comment on \u201cPhase transition in a one-dimensional Ising ferromagnet at zero temperature us",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication"
+  },
+  {
+   "doi": "10.1103/PhysRevD.85.114028",
+   "year": "2012",
+   "type": "article",
+   "title": "Correction to the chiral magnetic effect from axial-vector interaction",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.85.127502",
+   "year": "2012",
+   "type": "brief",
+   "title": "Erratum and Addendum: Gravitational waves from black hole-neutron star binaries: Classific",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevA.91.042111",
+   "year": "2015",
+   "type": "article",
+   "title": "Correction to the geometric phase by structured environments: The onset of non-Markovian e",
+   "verdict": "keep",
+   "reason": "research paper (title merely begins with a screened word; verified from abstract)"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.115.209902",
+   "year": "2015",
+   "type": "article",
+   "title": "Publisher\u2019s Note: Rb379760: The Cornerstone of the Region of Deformation around A\u223c100 [Phy",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevD.92.109904",
+   "year": "2015",
+   "type": "article",
+   "title": "Publisher\u2019s Note: Static self-forces in a five-dimensional black hole spacetime [Phys. Rev",
+   "verdict": "exclude",
+   "reason": "front matter / erratum / publisher's note / editorial / announcement"
+  },
+  {
+   "doi": "10.1103/PhysRevD.99.074007",
+   "year": "2019",
+   "type": "article",
+   "title": "Correction to the energy spectrum of S10 heavy quarkonia due to two-gluon annihilation eff",
+   "verdict": "keep",
+   "reason": "research paper (carries author-assigned PhySH labels)"
+  },
+  {
+   "doi": "10.1103/PhysRevFluids.5.041601",
+   "year": "2020",
+   "type": "rapid",
+   "title": "Retraction and freezing of a water film on ice",
+   "verdict": "keep",
+   "reason": "research paper (carries author-assigned PhySH labels)"
+  },
+  {
+   "doi": "10.1103/PhysRevFluids.5.033604",
+   "year": "2020",
+   "type": "article",
+   "title": "Retraction dynamics of water droplets after impacting upon solid surfaces from hydrophilic",
+   "verdict": "keep",
+   "reason": "research paper (carries author-assigned PhySH labels)"
+  },
+  {
+   "doi": "10.1103/PhysRevD.108.123022",
+   "year": "2023",
+   "type": "article",
+   "title": "Correction to plasmon spectrum due to dark photons in a graphene periodic structure",
+   "verdict": "keep",
+   "reason": "research paper (carries author-assigned PhySH labels)"
+  },
+  {
+   "doi": "10.1103/PhysRevFluids.10.033602",
+   "year": "2025",
+   "type": "article",
+   "title": "Retraction dynamics of an impacting droplet on a rotating surface",
+   "verdict": "keep",
+   "reason": "research paper (carries author-assigned PhySH labels)"
+  },
+  {
+   "doi": "10.1103/PhysRev.3.364",
+   "year": "1914",
+   "type": "article",
+   "title": "A Reply to Mr. Irving Langmuir's Paper \"The Effect of Space Charge and Residual Gases on TherMi",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: reply to a specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRev.3.366",
+   "year": "1914",
+   "type": "article",
+   "title": "A Reply to Mr. W. D. Coolidge's Paper \"A Powerful R\u00f6ntgen Ray Tube with A Pure Electron Dischar",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: reply to a specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRev.9.127",
+   "year": "1917",
+   "type": "article",
+   "title": "The Mica X-Ray Spectrometer. A Reply to Mr. Siegbahn",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: reply to a specific criticism"
+  },
+  {
+   "doi": "10.1103/PhysRev.15.318",
+   "year": "1920",
+   "type": "article",
+   "title": "Minutes of the New York Meeting, February 28, 1920",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: meeting minutes"
+  },
+  {
+   "doi": "10.1103/PhysRev.33.627",
+   "year": "1929",
+   "type": "article",
+   "title": "Absorption Spectrum of Liquid Benzene: Reply to the Foregoing Criticism by Ellis",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: reply to a specific criticism"
+  },
+  {
+   "doi": "10.1103/RevModPhys.16.152",
+   "year": "1944",
+   "type": "article",
+   "title": "Foreword",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: foreword"
+  },
+  {
+   "doi": "10.1103/RevModPhys.17.2",
+   "year": "1945",
+   "type": "article",
+   "title": "Foreword",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: foreword"
+  },
+  {
+   "doi": "10.1103/PhysRev.75.1601",
+   "year": "1949",
+   "type": "article",
+   "title": "What Led to the Founding of the American Physical Society",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: society-history essay"
+  },
+  {
+   "doi": "10.1103/RevModPhys.27.249",
+   "year": "1955",
+   "type": "article",
+   "title": "Memorial Symposium Held in Honor of Enrico Fermi at the Washington Meeting of the American Phys",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: memorial symposium record"
+  },
+  {
+   "doi": "10.1103/RevModPhys.30.908",
+   "year": "1958",
+   "type": "article",
+   "title": "Preface",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: preface"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.17.390",
+   "year": "1966",
+   "type": "article",
+   "title": "Comments on \"Direct Evidence of Flux Motion\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/RevModPhys.39.574",
+   "year": "1967",
+   "type": "article",
+   "title": "Abstracts of Contributed Papers in Session B",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: session abstracts"
+  },
+  {
+   "doi": "10.1103/RevModPhys.39.592",
+   "year": "1967",
+   "type": "article",
+   "title": "Abstracts of Contributed Papers in Session C",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: session abstracts"
+  },
+  {
+   "doi": "10.1103/RevModPhys.39.648",
+   "year": "1967",
+   "type": "article",
+   "title": "Abstracts of Contributed Papers in Session D",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: session abstracts"
+  },
+  {
+   "doi": "10.1103/RevModPhys.39.699",
+   "year": "1967",
+   "type": "article",
+   "title": "Abstracts of Contributed Papers in Session E",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: session abstracts"
+  },
+  {
+   "doi": "10.1103/RevModPhys.39.716",
+   "year": "1967",
+   "type": "article",
+   "title": "Abstracts of Contributed Papers in Session F",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: session abstracts"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.18.229",
+   "year": "1967",
+   "type": "article",
+   "title": "Comments on \"Paramagnetic Resonance Transmission in Gadolinium\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRev.176.425",
+   "year": "1968",
+   "type": "article",
+   "title": "Important Announcement: Page-Charge Problem",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: editorial announcement (page charges)"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.20.918",
+   "year": "1968",
+   "type": "article",
+   "title": "Comments on \"Standing Spin-Wave Resonance in `Flash-Evaporated' Permalloy Films\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/RevModPhys.40.235",
+   "year": "1968",
+   "type": "article",
+   "title": "On Hidden Variables\u2014A Reply to Comments by Jauch and Piron and by Gudder",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: reply to specific comments"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.24.279",
+   "year": "1970",
+   "type": "article",
+   "title": "Comments on \"Evidence of Quarks in Air-Shower Cores\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.24.33",
+   "year": "1970",
+   "type": "article",
+   "title": "Comments on the Letter \"Evidence of Quarks in Air-Shower Cores\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.24.503",
+   "year": "1970",
+   "type": "article",
+   "title": "Comments on \"Zero Resistance in a Longitudinal Magnetic Field for Gallium Single Crystals...\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.24.504",
+   "year": "1970",
+   "type": "article",
+   "title": "Rebuttal on \"Comments on Zero Resistance in a Longitudinal Magnetic Field for Gallium Single Cr",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: rebuttal to a specific comment"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.24.587",
+   "year": "1970",
+   "type": "article",
+   "title": "Comments on \"Lorenz- Function Enhancement Due to Inelastic Processes Near the N\u00e9el Point of Chr",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.25.550",
+   "year": "1970",
+   "type": "article",
+   "title": "Comments on \"Evidence of a Quark in a High-Energy Cosmic-Ray Bubble-Chamber Picture\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.28.268",
+   "year": "1972",
+   "type": "article",
+   "title": "Comments on \"Demonstration of Collisionless Interactions Between Interstreaming Ions in a Laser",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.29.88",
+   "year": "1972",
+   "type": "article",
+   "title": "Comments on \"Evidence for a New Phase of Solid He3\"",
+   "verdict": "exclude",
+   "reason": "comment or reply addressing a specific publication: comment on a quoted specific paper"
+  },
+  {
+   "doi": "10.1103/PhysRevLett.43.475",
+   "year": "1979",
+   "type": "article",
+   "title": "Acceptance Criteria and Editorial Procedures",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: journal policy editorial"
+  },
+  {
+   "doi": "10.1103/PhysRevD.35.2034",
+   "year": "1987",
+   "type": "brief",
+   "title": "Symmetry and variational methods in higher-dimensional theories: Errata and addendum",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: erratum-and-addendum correction notice"
+  },
+  {
+   "doi": "10.1103/PhysRevD.50.4227",
+   "year": "1994",
+   "type": "brief",
+   "title": "Quantum fluctuations of the electroweak sphaleron: Erratum and addendum",
+   "verdict": "exclude",
+   "reason": "front matter / notice / meeting record: erratum-and-addendum correction notice"
+  }
+ ],
+ "dual_cohort_s2": {
+  "definition": "the 2016 rollout cohort: corpus papers of 2016 carrying author labels, all present in the run files",
+  "count": 17777
+ },
+ "backfilled_labels": {
+  "count": 56,
+  "note": "45 reviewed-in research papers + 11 records postdating the production runs; labeled with the released prompt by five independent annotator runs (Claude Opus x2, Sonnet x2, Haiku; 15 fresh exemplars per run), concept strings mapped to the frozen vocabulary; appended one run each to the five public run files"
+ },
+ "post_snapshot_dois_backfilled": [
+  "10.1103/PhysRevD.108.084022",
+  "10.1103/PhysRevD.108.095004",
+  "10.1103/PhysRevE.109.014606",
+  "10.1103/PhysRevFluids.9.014201",
+  "10.1103/RevModPhys.97.015003",
+  "10.1103/RevModPhys.97.015005",
+  "10.1103/RevModPhys.97.015006",
+  "10.1103/RevModPhys.97.015007",
+  "10.1103/RevModPhys.97.021001",
+  "10.1103/RevModPhys.97.021002",
+  "10.1103/RevModPhys.97.025001"
+ ],
+ "widescan_2026_08_13": {
+  "note": "second, thorough pass: the flag keywords were searched ANYWHERE in the title (not only as prefixes) across the whole corpus; all 283 new hits were read and classified one by one. 31 non-research records excluded (15 front matter/notices/meeting records + 16 target-specific comment/reply correspondence); 252 are research papers and stay (all 16 'retraction' hits, all 127 'Addendum to' supplements -- a peer-reviewed genre APS itself assigns PhySH labels to -- 97 topic-style comment papers, the 7 APS study-group technical reports, and others).",
+  "keywords": [
+   "announcement",
+   "erratum",
+   "errata",
+   "editorial",
+   "publisher's note",
+   "retraction",
+   "corrigendum",
+   "addendum",
+   "obituary",
+   "in memoriam",
+   "memorial to",
+   "proceedings of the",
+   "minutes of",
+   "abstracts of",
+   "american physical society",
+   "acknowledgment of referees",
+   "author index",
+   "subject index",
+   "index to volume",
+   "cumulative index",
+   "table of contents",
+   "preface",
+   "foreword",
+   "editor's note",
+   "comment",
+   "reply to",
+   "book review",
+   "books received",
+   "new books",
+   "announcements"
+  ],
+  "hits_reviewed": 283,
+  "excluded": 31,
+  "kept_by_bucket": {
+   "reply to": 0,
+   "addendum": 127,
+   "minutes of": 1,
+   "errata": 2,
+   "comment": 97,
+   "foreword": 0,
+   "american physical society": 7,
+   "preface": 1,
+   "abstracts of": 0,
+   "announcement": 1,
+   "editorial": 0,
+   "erratum": 0,
+   "retraction": 16
+  }
+ }
+}

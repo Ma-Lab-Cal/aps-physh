@@ -1,0 +1,449 @@
+{
+ "benchmark_floors": {
+  "n": 991,
+  "random4": 0.554,
+  "top4": 0.606,
+  "oracle_disc": 0.708,
+  "matrix": "min-rescale"
+ },
+ "reference_author_level_n1000": {
+  "n": 1000,
+  "disc_f1": 0.855,
+  "disc_ci": [
+   0.836,
+   0.872
+  ],
+  "conc_f1": 0.841,
+  "conc_ci": [
+   0.836,
+   0.846
+  ],
+  "matrix": "min-rescale (concept_similarity_min.npz)"
+ },
+ "per_era_permutation_floors_and_more": {
+  "archive_per_decade": {
+   "1890": 200,
+   "1900": 200,
+   "1910": 200,
+   "1920": 200,
+   "1930": 200,
+   "1940": 200,
+   "1950": 200,
+   "1960": 200,
+   "1970": 200,
+   "1980": 200,
+   "1990": 200,
+   "2000": 200,
+   "2010": 200,
+   "2020": 14
+  },
+  "sonnet_500_baseline": {
+   "n": 500,
+   "disc_f1": 0.836,
+   "conc_sem_f1": 0.667
+  },
+  "per_era_permutation_floors": {
+   "1893-1912": 0.26,
+   "1913-1929": 0.26,
+   "1930-1945": 0.26,
+   "1946-1960": 0.23,
+   "1961-1975": 0.22,
+   "1976-1990": 0.3,
+   "1991-2005": 0.21,
+   "2006-2016": 0.16
+  },
+  "benchmark_oracle_floor": 0.446
+ },
+ "propagation_metrics": {
+  "edges": 9576828,
+  "seeds": 194861,
+  "agreement_by_decade": {
+   "1890": {
+    "n": 8,
+    "agreement_f1": 0.4583
+   },
+   "1900": {
+    "n": 60,
+    "agreement_f1": 0.2222
+   },
+   "1910": {
+    "n": 364,
+    "agreement_f1": 0.5257
+   },
+   "1920": {
+    "n": 1326,
+    "agreement_f1": 0.6055
+   },
+   "1930": {
+    "n": 3206,
+    "agreement_f1": 0.6811
+   },
+   "1940": {
+    "n": 2549,
+    "agreement_f1": 0.7092
+   },
+   "1950": {
+    "n": 10532,
+    "agreement_f1": 0.8107
+   },
+   "1960": {
+    "n": 27571,
+    "agreement_f1": 0.8315
+   },
+   "1970": {
+    "n": 40429,
+    "agreement_f1": 0.8694
+   },
+   "1980": {
+    "n": 62598,
+    "agreement_f1": 0.851
+   },
+   "1990": {
+    "n": 114540,
+    "agreement_f1": 0.85
+   },
+   "2000": {
+    "n": 162595,
+    "agreement_f1": 0.842
+   },
+   "2010": {
+    "n": 128514,
+    "agreement_f1": 0.8387
+   },
+   "2020": {
+    "n": 14,
+    "agreement_f1": 0.9762
+   }
+  },
+  "benchmark": {
+   "n": 1000,
+   "coverage": 0.998,
+   "discipline_f1_covered": 0.8523
+  },
+  "reference_sample": {
+   "1893-1912": {
+    "coverage": 0.1,
+    "discipline_f1_covered": 0.2
+   },
+   "1913-1929": {
+    "coverage": 0.82,
+    "discipline_f1_covered": 0.6236
+   },
+   "1930-1945": {
+    "coverage": 0.94,
+    "discipline_f1_covered": 0.7
+   },
+   "1946-1960": {
+    "coverage": 0.96,
+    "discipline_f1_covered": 0.816
+   },
+   "1961-1975": {
+    "coverage": 1.0,
+    "discipline_f1_covered": 0.8467
+   },
+   "1976-1990": {
+    "coverage": 1.0,
+    "discipline_f1_covered": 0.9533
+   },
+   "1991-2005": {
+    "coverage": 1.0,
+    "discipline_f1_covered": 0.8047
+   },
+   "2006-2016": {
+    "coverage": 1.0,
+    "discipline_f1_covered": 0.8593
+   }
+  },
+  "corpus_coverage_by_decade": {
+   "1890": {
+    "papers": 217,
+    "coverage": 0.0369,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1900": {
+    "papers": 627,
+    "coverage": 0.0957,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1910": {
+    "papers": 894,
+    "coverage": 0.4072,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1920": {
+    "papers": 1611,
+    "coverage": 0.8231,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1930": {
+    "papers": 3357,
+    "coverage": 0.955,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1940": {
+    "papers": 2661,
+    "coverage": 0.9579,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1950": {
+    "papers": 10739,
+    "coverage": 0.9807,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1960": {
+    "papers": 27915,
+    "coverage": 0.9877,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1970": {
+    "papers": 40633,
+    "coverage": 0.995,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1980": {
+    "papers": 63034,
+    "coverage": 0.9931,
+    "median_direct_labeled_neighbors": 0
+   },
+   "1990": {
+    "papers": 115175,
+    "coverage": 0.9945,
+    "median_direct_labeled_neighbors": 0
+   },
+   "2000": {
+    "papers": 163151,
+    "coverage": 0.9966,
+    "median_direct_labeled_neighbors": 1
+   },
+   "2010": {
+    "papers": 128847,
+    "coverage": 0.9974,
+    "median_direct_labeled_neighbors": 3
+   },
+   "2020": {
+    "papers": 14,
+    "coverage": 1.0,
+    "median_direct_labeled_neighbors": 5
+   }
+  }
+ },
+ "discipline_panel_metrics": {
+  "annotators": [
+   "ANNOTATOR3",
+   "ANNOTATOR4",
+   "ANNOTATOR5",
+   "ERIC",
+   "PRAGYAN"
+  ],
+  "n_hist": 24,
+  "n_ctrl": 6,
+  "hist": {
+   "ANNOTATOR3-ANNOTATOR4": 0.903,
+   "ANNOTATOR3-ANNOTATOR5": 0.903,
+   "ANNOTATOR3-ERIC": 0.903,
+   "ANNOTATOR3-PRAGYAN": 0.917,
+   "ANNOTATOR4-ANNOTATOR5": 0.875,
+   "ANNOTATOR4-ERIC": 0.958,
+   "ANNOTATOR4-PRAGYAN": 0.944,
+   "ANNOTATOR5-ERIC": 0.917,
+   "ANNOTATOR5-PRAGYAN": 0.903,
+   "ERIC-PRAGYAN": 0.986,
+   "ANNOTATOR3-fable": 0.944,
+   "ANNOTATOR4-fable": 0.958,
+   "ANNOTATOR5-fable": 0.917,
+   "ERIC-fable": 0.958,
+   "PRAGYAN-fable": 0.972,
+   "ANNOTATOR3-reference": 0.819,
+   "ANNOTATOR4-reference": 0.875,
+   "ANNOTATOR5-reference": 0.792,
+   "ERIC-reference": 0.875,
+   "PRAGYAN-reference": 0.861,
+   "fable-reference": 0.847,
+   "ANNOTATOR3-production": 0.703,
+   "ANNOTATOR4-production": 0.728,
+   "ANNOTATOR5-production": 0.694,
+   "ERIC-production": 0.736,
+   "PRAGYAN-production": 0.744
+  },
+  "ctrl": {
+   "ANNOTATOR3-authors": 0.778,
+   "ANNOTATOR4-authors": 0.778,
+   "ANNOTATOR5-authors": 0.833,
+   "ERIC-authors": 0.722,
+   "PRAGYAN-authors": 0.778,
+   "fable-authors": 0.833,
+   "ANNOTATOR3-ANNOTATOR4": 1.0,
+   "ANNOTATOR3-ANNOTATOR5": 0.861,
+   "ANNOTATOR3-ERIC": 0.861,
+   "ANNOTATOR3-PRAGYAN": 0.917,
+   "ANNOTATOR4-ANNOTATOR5": 0.861,
+   "ANNOTATOR4-ERIC": 0.861,
+   "ANNOTATOR4-PRAGYAN": 0.917,
+   "ANNOTATOR5-ERIC": 0.889,
+   "ANNOTATOR5-PRAGYAN": 0.944,
+   "ERIC-PRAGYAN": 0.944
+  },
+  "per_era": {
+   "1893-1912": {
+    "ANNOTATOR3-ANNOTATOR4": 0.833,
+    "ANNOTATOR3-ANNOTATOR5": 0.833,
+    "ANNOTATOR3-ERIC": 0.833,
+    "ANNOTATOR3-PRAGYAN": 0.875,
+    "ANNOTATOR4-ANNOTATOR5": 0.875,
+    "ANNOTATOR4-ERIC": 0.875,
+    "ANNOTATOR4-PRAGYAN": 0.833,
+    "ANNOTATOR5-ERIC": 1.0,
+    "ANNOTATOR5-PRAGYAN": 0.958,
+    "ERIC-PRAGYAN": 0.958,
+    "ANNOTATOR3-ref": 0.708,
+    "ANNOTATOR4-ref": 0.75,
+    "ANNOTATOR5-ref": 0.75,
+    "ERIC-ref": 0.75,
+    "PRAGYAN-ref": 0.708
+   },
+   "1913-1929": {
+    "ANNOTATOR3-ANNOTATOR4": 1.0,
+    "ANNOTATOR3-ANNOTATOR5": 1.0,
+    "ANNOTATOR3-ERIC": 1.0,
+    "ANNOTATOR3-PRAGYAN": 1.0,
+    "ANNOTATOR4-ANNOTATOR5": 1.0,
+    "ANNOTATOR4-ERIC": 1.0,
+    "ANNOTATOR4-PRAGYAN": 1.0,
+    "ANNOTATOR5-ERIC": 1.0,
+    "ANNOTATOR5-PRAGYAN": 1.0,
+    "ERIC-PRAGYAN": 1.0,
+    "ANNOTATOR3-ref": 1.0,
+    "ANNOTATOR4-ref": 1.0,
+    "ANNOTATOR5-ref": 1.0,
+    "ERIC-ref": 1.0,
+    "PRAGYAN-ref": 1.0
+   },
+   "1930-1945": {
+    "ANNOTATOR3-ANNOTATOR4": 0.875,
+    "ANNOTATOR3-ANNOTATOR5": 0.875,
+    "ANNOTATOR3-ERIC": 0.875,
+    "ANNOTATOR3-PRAGYAN": 0.875,
+    "ANNOTATOR4-ANNOTATOR5": 0.75,
+    "ANNOTATOR4-ERIC": 1.0,
+    "ANNOTATOR4-PRAGYAN": 1.0,
+    "ANNOTATOR5-ERIC": 0.75,
+    "ANNOTATOR5-PRAGYAN": 0.75,
+    "ERIC-PRAGYAN": 1.0,
+    "ANNOTATOR3-ref": 0.75,
+    "ANNOTATOR4-ref": 0.875,
+    "ANNOTATOR5-ref": 0.625,
+    "ERIC-ref": 0.875,
+    "PRAGYAN-ref": 0.875
+   }
+  }
+ },
+ "semantic_values_min_matrix": {
+  "per_era_concept": {
+   "1893-1912": {
+    "f1": 0.821,
+    "ci": [
+     0.79,
+     0.84
+    ],
+    "n": 50
+   },
+   "1913-1929": {
+    "f1": 0.811,
+    "ci": [
+     0.79,
+     0.83
+    ],
+    "n": 50
+   },
+   "1930-1945": {
+    "f1": 0.819,
+    "ci": [
+     0.8,
+     0.84
+    ],
+    "n": 50
+   },
+   "1946-1960": {
+    "f1": 0.835,
+    "ci": [
+     0.81,
+     0.85
+    ],
+    "n": 50
+   },
+   "1961-1975": {
+    "f1": 0.834,
+    "ci": [
+     0.82,
+     0.85
+    ],
+    "n": 50
+   },
+   "1976-1990": {
+    "f1": 0.843,
+    "ci": [
+     0.83,
+     0.86
+    ],
+    "n": 50
+   },
+   "1991-2005": {
+    "f1": 0.842,
+    "ci": [
+     0.82,
+     0.86
+    ],
+    "n": 50
+   },
+   "2006-2016": {
+    "f1": 0.856,
+    "ci": [
+     0.84,
+     0.87
+    ],
+    "n": 50
+   }
+  },
+  "controls": {
+   "production_vs_authors": {
+    "f1": 0.814,
+    "ci": [
+     0.79,
+     0.83
+    ]
+   },
+   "reference_vs_authors": {
+    "f1": 0.839,
+    "ci": [
+     0.81,
+     0.86
+    ]
+   }
+  },
+  "refbench_level": {
+   "f1": 0.841,
+   "ci": [
+    0.84,
+    0.85
+   ]
+  },
+  "w5": {
+   "sonnet": 0.83,
+   "haiku": 0.762,
+   "varA_500": 0.832,
+   "varB_500": 0.825,
+   "sonnet_same500": 0.828,
+   "production_5run_mean": 0.811,
+   "sonnet_vs_production_run1": 0.852
+  },
+  "floors_dual1000": {
+   "random4": 0.546,
+   "top4": 0.601
+  },
+  "floors_benchmark": {
+   "random4": 0.554,
+   "top4": 0.606,
+   "oracle_disc": 0.708
+  }
+ }
+}
