@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: A Unified Subject Map for 130 Years of Physics
+message: >-
+  If you use this code, taxonomy, or data, please cite the accompanying
+  paper.
+type: software
+license: MIT
+year: 2026
+repository-code: https://github.com/Ma-Lab-Cal/aps-physh
+contact:
+  - family-names: Ma
+    given-names: Eric Y.
+    email: eric.y.ma@berkeley.edu
+authors:
+  - family-names: Nguyen
+    given-names: Khoa
+    affiliation: >-
+      Department of Electrical Engineering and Computer Sciences,
+      University of California, Berkeley, California 94720, USA
+  - family-names: Pandey
+    given-names: Pragyan
+    affiliation: >-
+      Department of Physics, University of California, Berkeley,
+      California 94720, USA
+  - family-names: Li
+    given-names: Sophie
+    affiliation: >-
+      Palo Alto High School, Palo Alto, California 94301, USA
+  - family-names: Ma
+    given-names: Eric Y.
+    email: eric.y.ma@berkeley.edu
+    affiliation: >-
+      Department of Electrical Engineering and Computer Sciences and
+      Department of Physics, University of California, Berkeley;
+      Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA
+preferred-citation:
+  type: article
+  title: A Unified Subject Map for 130 Years of Physics
+  journal: "TBD"
+  year: 2026
+  doi: "10.0000/REPLACE-WITH-FINAL-DOI"
+  authors:
+    - family-names: Nguyen
+      given-names: Khoa
+    - family-names: Pandey
+      given-names: Pragyan
+    - family-names: Li
+      given-names: Sophie
+    - family-names: Ma
+      given-names: Eric Y.

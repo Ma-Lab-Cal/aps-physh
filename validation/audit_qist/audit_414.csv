@@ -1,0 +1,415 @@
+doi,year,runs_assigned_of_5,category,note
+10.1103/PhysRevSeriesI.23.475,1906,1/5,D,1906 classical capacitance measurement
+10.1103/PhysRevSeriesI.24.152,1907,1/5,D,1907 wireless telegraphy resonance
+10.1103/PhysRev.19.578,1922,3/5,D,"old-quantum-theory perturbation methodology, QIS overreach"
+10.1103/PhysRev.22.547,1923,4/5,C,early quantization-conditions formalism
+10.1103/PhysRev.24.287,1924,3/5,C,quantization formalism
+10.1103/PhysRev.26.419,1925,3/5,D,degenerate-systems dynamics methodology
+10.1103/PhysRev.27.769,1926,1/5,D,"Atomic physics test of space quantization, not foundations lineage"
+10.1103/PhysRev.28.711,1926,5/5,C,operator-calculus formalism
+10.1103/PhysRev.29.727,1927,1/5,D,"Susceptibility theory, quantum statistical mechanics application"
+10.1103/PhysRev.30.55,1927,1/5,D,"Relativistic wave-equation formalism, generic"
+10.1103/PhysRev.31.344,1928,5/5,A,uncertainty-principle foundations (Ruark)
+10.1103/PhysRev.31.66,1928,2/5,D,"Continuum normalization and scattering formalism, generic methodology"
+10.1103/PhysRev.31.876,1928,3/5,C,wave-mechanics formalism
+10.1103/PhysRev.31.891,1928,1/5,D,"Mathieu-function quantum pendulum, generic methodology"
+10.1103/PhysRev.31.973,1928,1/5,D,"Old-quantum-theory Stark-effect orbits, atomic physics"
+10.1103/PhysRev.32.273,1928,2/5,D,"Schroedinger wave refraction, generic wave mechanics"
+10.1103/PhysRev.32.570,1928,5/5,A,uncertainty principle in Weyl system
+10.1103/PhysRev.32.812,1928,4/5,C,Hamiltonian quantization formalism
+10.1103/PhysRev.34.92,1929,1/5,D,Quantum theory of chemical reactions
+10.1103/PhysRev.35.579,1930,5/5,A,exclusion-principle interpretation / identity foundations
+10.1103/PhysRev.35.948,1930,2/5,D,Boundary-condition technicalities of wave mechanics
+10.1103/PhysRev.36.1144,1930,3/5,A,identity principle \
+10.1103/PhysRev.36.1154,1930,1/5,D,WKB approximation method
+10.1103/PhysRev.37.1164,1931,5/5,A,interpretational program (wave-particle possibilities)
+10.1103/PhysRev.37.1425,1931,1/5,D,Van der Waals force calculation
+10.1103/PhysRev.37.333,1931,1/5,D,"Composite-particle statistics rule, quantum statistics, not QIST"
+10.1103/PhysRev.38.1612,1931,4/5,C,local-momentum formalism
+10.1103/PhysRev.38.1979,1931,1/5,D,Numerical barrier reflection coefficients
+10.1103/PhysRev.38.2115,1931,4/5,A,uncertainty principle via general SE solution
+10.1103/PhysRev.38.2240,1931,2/5,D,Unit conventions for atomic calculations
+10.1103/PhysRev.38.491,1931,1/5,D,Classical loaded-string mechanics
+10.1103/PhysRev.39.455,1932,4/5,C,local-momentum formalism II
+10.1103/PhysRev.39.938,1932,1/5,D,Ammonia band molecular spectroscopy
+10.1103/PhysRev.40.569,1932,4/5,A,relativity + uncertainty foundations
+10.1103/PhysRev.40.621,1932,3/5,D,wave-packet scattering methodology
+10.1103/PhysRev.41.713,1932,1/5,D,WKB method exposition
+10.1103/PhysRev.43.548,1933,2/5,D,"Integrability of quantum top, generic formalism"
+10.1103/PhysRev.45.815,1934,2/5,D,"Numerical lattice solution, quantum-computation concept spurious"
+10.1103/PhysRev.46.734,1934,2/5,D,Fundamental-constant speculation in electrodynamics
+10.1103/PhysRev.46.794,1934,5/5,A,multi-observable indeterminacy relation
+10.1103/PhysRev.47.367,1935,1/5,C,"Wave-function interpretation argument within x-ray scattering, gray"
+10.1103/PhysRev.47.538,1935,3/5,A,identity of similar particles foundations
+10.1103/PhysRev.47.777,1935,5/5,A,EPR paradox (flagship QIS lineage)
+10.1103/PhysRev.48.161,1935,4/5,D,exact SE solutions methodology
+10.1103/PhysRev.48.549,1935,1/5,D,Rigorous WKB connection formulas
+10.1103/PhysRev.48.696,1935,5/5,A,Bohr reply to EPR (flagship)
+10.1103/PhysRev.49.240,1936,5/5,A,EPR-completeness debate (Ruark)
+10.1103/PhysRev.49.393,1936,5/5,A,Furry: measurement theory note
+10.1103/PhysRev.50.1066,1936,1/5,D,"Precision Coulomb-law test, electrostatics"
+10.1103/PhysRev.50.1145,1936,1/5,D,"Dirac wave-packet construction, generic relativistic QM"
+10.1103/PhysRev.50.115,1936,1/5,B,"Beth photon angular-momentum measurement, quantum-optics precursor"
+10.1103/PhysRev.51.202,1937,2/5,D,"Iterative eigenvalue approximation, computation concept spurious"
+10.1103/PhysRev.51.586,1937,1/5,D,"Dirac eigenfunction density, formalism"
+10.1103/PhysRev.52.658,1937,1/5,D,Virial theorem for molecular eigenfunctions
+10.1103/PhysRev.52.987,1937,5/5,A,quantum measurement \
+10.1103/PhysRev.53.591,1938,1/5,D,Critique of Eddington's Dirac formalism
+10.1103/PhysRev.54.1085,1938,1/5,C,"Experimental test of de Broglie relation, duality-adjacent, gray"
+10.1103/PhysRev.54.945,1938,2/5,D,Boundary-condition perturbation method
+10.1103/PhysRev.54.955,1938,1/5,D,Large-perturbation method
+10.1103/PhysRev.55.873,1939,1/5,D,Variational-function symmetry properties
+10.1103/PhysRev.56.1013,1939,1/5,C,"Von Neumann entropy, quantum-statistical foundations, gray"
+10.1103/PhysRev.56.1146,1939,1/5,C,"Quantum basis of entropy and statistical mechanics, gray"
+10.1103/PhysRev.56.937,1939,1/5,B,"Zero-point field fluctuations, quantum-noise lineage"
+10.1103/PhysRev.57.641,1940,3/5,D,degeneracy methodology
+10.1103/PhysRev.58.457,1940,1/5,D,Fundamental-constants metrology chart
+10.1103/PhysRev.59.737,1941,3/5,D,eigenvalue-problem methodology
+10.1103/PhysRev.66.343,1944,5/5,C,finite-precision calculus (foundational formalism)
+10.1103/PhysRev.67.39,1945,3/5,D,analog electric-circuit computation of SE ('Quantum computation' concept errant)
+10.1103/PhysRev.67.44,1945,3/5,D,analog network-analyzer computation of SE
+10.1103/PhysRev.69.195,1946,3/5,D,electron/HF-field interaction methodology
+10.1103/PhysRev.70.728,1946,2/5,D,"Second-quantization formalism, generic"
+10.1103/PhysRev.71.200,1947,5/5,A,Schroedinger-Heisenberg equivalence foundations
+10.1103/PhysRev.71.547,1947,3/5,C,momentum-operator formalism
+10.1103/PhysRev.71.635,1947,3/5,D,variational-method applications ('Quantum computation' errant)
+10.1103/PhysRev.71.902,1947,5/5,D,variational-method note ('Quantum algorithms' errant)
+10.1103/PhysRev.72.1060,1947,1/5,D,QED triplet pair production
+10.1103/PhysRev.72.1090,1947,1/5,D,"Relativistic invariance of radiation theory, QED"
+10.1103/PhysRev.73.1092,1948,4/5,C,localizable-systems quantum theory
+10.1103/PhysRev.73.1346,1948,1/5,B,"Photon distributions under mode transformations, proto quantum optics"
+10.1103/PhysRev.73.781,1948,1/5,D,Mathematical spectral theory of continuous spectra
+10.1103/PhysRev.74.779,1948,1/5,D,Variational principle for classical electrodynamics
+10.1103/PhysRev.74.788,1948,1/5,D,Speculative phase-space unification of gravity and electromagnetism
+10.1103/PhysRev.75.1088,1949,1/5,D,"Linear-algebra reduction of quadratic forms, pure mathematical methods"
+10.1103/PhysRev.75.1579,1949,1/5,A,Uncertainty-limited measurability of spacetime curvature
+10.1103/PhysRev.77.396,1950,3/5,C,dissipative-system quantization = proto open-systems
+10.1103/PhysRev.77.711,1950,3/5,A,Wigner: do equations of motion determine commutation relations
+10.1103/PhysRev.78.592,1950,4/5,C,localizable-systems quantum theory II
+10.1103/PhysRev.80.797,1950,1/5,D,"Singular potentials and Hamiltonian specification, generic QM theory"
+10.1103/PhysRev.81.848,1951,2/5,D,"Path-integral definition for QFT, mathematical methodology, not QIS\"
+10.1103/PhysRev.83.1047,1951,5/5,C,commutation-relations formalism
+10.1103/PhysRev.84.788,1951,5/5,C,harmonic-oscillator quantum rule formalism
+10.1103/PhysRev.85.166,1952,5/5,A,Bohm hidden variables I (flagship)
+10.1103/PhysRev.85.180,1952,5/5,A,Bohm hidden variables II (flagship)
+10.1103/PhysRev.85.603,1952,1/5,C,"Exact density-matrix spin relaxation, equilibration question, open-system precursor"
+10.1103/PhysRev.85.653,1952,1/5,D,"Point transformations, operator ordering, quantized gravity, quantum-gates tag spurious"
+10.1103/PhysRev.87.267,1952,3/5,D,thermodynamic-continuity argument
+10.1103/PhysRev.87.652,1952,3/5,D,bound-states/interaction-representation methodology
+10.1103/PhysRev.88.1382,1952,2/5,D,"Fluctuation-dissipation and Onsager relations, statistical mechanics, not QIS\"
+10.1103/PhysRev.89.1040,1953,5/5,A,critique of Bohm hidden variables
+10.1103/PhysRev.89.458,1953,4/5,A,Bohm: probability density approaches $|$psi$|$\^{}2
+10.1103/PhysRev.89.467,1953,1/5,D,"Relativistic two-body quantization scheme, generic formalism"
+10.1103/PhysRev.89.755,1953,1/5,D,"Gelfand-Levitan inverse scattering, mathematical scattering theory"
+10.1103/PhysRev.90.791,1953,1/5,D,"Collision line broadening, atomic spectroscopy theory"
+10.1103/PhysRev.90.977,1953,5/5,B,quantum noise of damped oscillator
+10.1103/PhysRev.91.1213,1953,5/5,A,complementarity in angular momentum
+10.1103/PhysRev.91.1551,1953,5/5,A,statistical postulate reformulation
+10.1103/PhysRev.91.392,1953,5/5,D,time-ordered expansion of U ('Quantum gates' errant)
+10.1103/PhysRev.91.882,1953,2/5,D,"Be8 breakup nuclear experiment, foundations tags spurious"
+10.1103/PhysRev.91.985,1953,5/5,A,causal interpretation
+10.1103/PhysRev.92.817,1953,1/5,D,"Kohn-Hulthen variational scattering formalism, generic methodology"
+10.1103/PhysRev.93.121,1954,5/5,B,Stokes-parameter (photon two-state/density-matrix) formalism
+10.1103/PhysRev.93.230,1954,1/5,D,"Rayleigh-Ritz extension for eigenfunctions, generic variational method"
+10.1103/PhysRev.93.99,1954,1/5,B,"Dicke superradiance, foundational collective coherence, quantum optics precursor"
+10.1103/PhysRev.94.1063,1954,1/5,D,"Unitarity of U operator, S-matrix formalism"
+10.1103/PhysRev.94.211,1954,3/5,B,quantum noise of damped oscillator II
+10.1103/PhysRev.94.215,1954,2/5,B,"Vacuum fluctuations observed in noise, quantum noise lineage"
+10.1103/PhysRev.94.292,1954,1/5,D,"Particle in well with field, Stark polarization, textbook QM"
+10.1103/PhysRev.94.327,1954,2/5,D,"Quantum definition of refractive index, light-matter theory, overreach"
+10.1103/PhysRev.95.1115,1954,1/5,D,"Oscillator wave packets note, pedagogical QM, overreach"
+10.1103/PhysRev.95.1443,1954,1/5,D,"Crystal-field wave function calculation, electronic structure methods"
+10.1103/PhysRev.95.904,1954,3/5,D,electron/HF-field methodology
+10.1103/PhysRev.96.1147,1954,1/5,D,"Commutation relations for degenerate linear systems, quantization formalism"
+10.1103/PhysRev.96.196,1954,1/5,D,"Formal scattering theory transition rates, generic methodology"
+10.1103/PhysRev.96.208,1954,5/5,A,Bohm-Vigier stochastic causal interpretation
+10.1103/PhysRev.96.516,1954,2/5,C,"New space-time representation of wave mechanics, foundations-adjacent reformulation"
+10.1103/PhysRev.96.869,1954,2/5,C,"Quantum irreversibility, dissipation assumptions, open-quantum-systems lineage"
+10.1103/PhysRev.100.1023,1955,4/5,B,quantum theory of fluctuations
+10.1103/PhysRev.100.1191,1955,1/5,D,"Multi-frequency resonance shifts, spectroscopy methodology"
+10.1103/PhysRev.100.1208,1955,1/5,D,"Auxiliary conditions in quantized fields, QFT formalism"
+10.1103/PhysRev.100.1513,1955,1/5,D,"Hamiltonian form of integer-spin wave equations, relativistic formalism"
+10.1103/PhysRev.97.1474,1955,1/5,C,"Lowdin reduced density matrices, natural orbitals, density-matrix formalism, gray"
+10.1103/PhysRev.97.1509,1955,1/5,D,"Projected Hartree-Fock correlation scheme, quantum chemistry methodology"
+10.1103/PhysRev.97.507,1955,4/5,C,operator formalism
+10.1103/PhysRev.97.536,1955,1/5,D,"Field angular momentum zero-point paradox, QFT formalism"
+10.1103/PhysRev.98.1099,1955,1/5,D,"Matrix solutions of Bloch equations, NMR methodology"
+10.1103/PhysRev.98.1213,1955,1/5,D,"Fractional parentage coefficients, shell model, state-engineering tag spurious"
+10.1103/PhysRev.98.875,1955,1/5,B,"Quantum fluctuations of cavity field with electrons, early cavity-QED"
+10.1103/PhysRev.99.1009,1955,1/5,D,"Constrained quantization of covariant fields, quantum gravity formalism"
+10.1103/PhysRev.99.1264,1955,1/5,B,"Townes maser paper, amplifier near quantum noise limit"
+10.1103/PhysRev.99.1274,1955,1/5,D,"Rabi transitions in rotating field, molecular beam spectroscopy theory"
+10.1103/PhysRev.101.427,1956,1/5,D,"Nucleon-nucleon charge independence, nuclear physics, tags spurious"
+10.1103/PhysRev.101.429,1956,4/5,A,measurement theory in differential-space quantum theory
+10.1103/PhysRev.102.264,1956,1/5,D,"Rearrangement collision theory, scattering formalism"
+10.1103/PhysRev.104.1173,1956,3/5,C,function-space formalism
+10.1103/PhysRev.104.1186,1956,5/5,D,oscillator Green's-function methodology
+10.1103/PhysRev.106.617,1957,3/5,B,inherent quantum noise of amplifiers
+10.1103/PhysRev.106.8,1957,3/5,B,maser (molecular amplifier) noise
+10.1103/PhysRev.107.1013,1957,5/5,C,Fano: density-matrix formalism review
+10.1103/PhysRev.107.1145,1957,1/5,D,"Moment-method approximation, quantum-algorithms tag spurious"
+10.1103/PhysRev.107.1180,1957,1/5,D,"Convergent perturbation theory, quantum-algorithms tag spurious"
+10.1103/PhysRev.107.1483,1957,3/5,B,noise figure of quantum amplifiers
+10.1103/PhysRev.107.1559,1957,1/5,B,"Optical pumping and optically detected resonance, quantum-sensing precursor"
+10.1103/PhysRev.107.333,1957,3/5,D,ergodic-theorem methodology
+10.1103/PhysRev.107.337,1957,5/5,A,quantum recurrence theorem (foundations)
+10.1103/PhysRev.108.1070,1957,5/5,A,Bohm-Aharonov: experimental EPR proof discussion (flagship)
+10.1103/PhysRev.108.565,1957,5/5,C,noncommuting-operator distribution functions (phase space)
+10.1103/PhysRev.108.891,1957,5/5,C,superposition/periodicity formalism
+10.1103/PhysRev.109.1988,1958,2/5,B,"Solid-state maser, near-quantum-limited noise temperature, defensible"
+10.1103/PhysRev.109.2198,1958,4/5,C,quasi-probability phase-space formulation
+10.1103/PhysRev.109.571,1958,4/5,A,Salecker-Wigner: quantum limits of spacetime measurement
+10.1103/PhysRev.110.601,1958,1/5,B,"Cooperative radiation and identity principle, superradiance quantum optics"
+10.1103/PhysRev.111.1212,1958,1/5,D,"Kinetic-energy matrix element transformation, numerical methodology"
+10.1103/PhysRev.111.1447,1958,4/5,D,Majorana formula (spin methodology)
+10.1103/PhysRev.111.668,1958,1/5,C,"von Neumann quantum ergodic theorem, quantum-statistical foundations, gray"
+10.1103/PhysRev.112.2129,1958,1/5,D,"General relativity particle dynamics speculation, not QIS\"
+10.1103/PhysRev.113.1522,1959,1/5,D,"Multiple-quantum NMR transitions, spectroscopy methodology"
+10.1103/PhysRev.113.585,1959,1/5,D,"Radiation damping in NMR, magnetic resonance physics"
+10.1103/PhysRev.115.1531,1959,4/5,C,new QM representation
+10.1103/PhysRev.115.1643,1959,2/5,D,"Three-body boundary-condition model, few-body methodology"
+10.1103/PhysRev.115.227,1959,1/5,B,"Quantum treatment of lossy cavity emission, cavity-QED noise precursor"
+10.1103/PhysRev.115.485,1959,2/5,A,"Aharonov-Bohm paper, canonical quantum foundations"
+10.1103/PhysRev.115.784,1959,5/5,A,proposed direct test of uncertainty principle
+10.1103/PhysRev.117.1421,1960,1/5,C,"Irreversibility under random forces, smoothed density matrices, decoherence lineage"
+10.1103/PhysRev.118.1653,1960,4/5,C,generalization of QM
+10.1103/PhysRev.118.335,1960,1/5,A,"Uncertainty limits on field measurement, Bohr-Rosenfeld measurement theory"
+10.1103/PhysRev.118.623,1960,4/5,A,significance of potentials (Aharonov-Bohm circle)
+10.1103/PhysRev.119.178,1960,1/5,C,"Master equation from Schroedinger dynamics, open-quantum-systems formalism"
+10.1103/PhysRev.119.670,1960,3/5,C,dissipation in QM (open systems)
+10.1103/PhysRev.119.821,1960,5/5,C,commutation-relations formalism
+10.1103/PhysRev.120.1927,1960,1/5,D,"Solid helium compressibility, quantum solids, unrelated"
+10.1103/PhysRev.120.622,1960,5/5,A,Araki-Yanase: measurement of quantum operators (flagship)
+10.1103/PhysRev.121.1204,1961,4/5,A,demonstration of QM in the large (macroscopic quantum)
+10.1103/PhysRev.121.1275,1961,1/5,C,"Semiclassical quantum-corrected density matrix, phase-space methods, gray"
+10.1103/PhysRev.121.1833,1961,1/5,D,"Classical spin models and zitterbewegung, particle theory"
+10.1103/PhysRev.121.659,1961,5/5,C,density-matrix eigenvalues
+10.1103/PhysRev.121.920,1961,4/5,C,stochastic dynamics of quantum systems
+10.1103/PhysRev.122.1649,1961,5/5,A,Aharonov-Bohm: time-energy uncertainty (flagship)
+10.1103/PhysRev.122.1781,1961,1/5,D,"Dynamic nuclear polarization in crystals, magnetic resonance methodology"
+10.1103/PhysRev.122.1932,1961,5/5,A,classical interpretation of QM
+10.1103/PhysRev.123.1495,1961,4/5,D,hypervirial variational methodology
+10.1103/PhysRev.123.1511,1961,1/5,A,"Aharonov-Bohm follow-up, quantum foundations of potentials"
+10.1103/PhysRev.123.666,1961,5/5,A,optimal measuring apparatus
+10.1103/PhysRev.124.1178,1961,1/5,D,"Mossbauer transmission calculation, nuclear resonance physics"
+10.1103/PhysRev.124.642,1961,1/5,C,"Quantum dissipation formalism, oscillator plus reservoir, open-systems lineage"
+10.1103/PhysRev.125.1100,1962,1/5,D,"WKB semiclassical formalism, generic methodology"
+10.1103/PhysRev.125.1109,1962,1/5,D,"WKB transformation theory, generic formalism"
+10.1103/PhysRev.125.1116,1962,1/5,D,"Semiclassical spin theory, generic methodology"
+10.1103/PhysRev.125.1788,1962,5/5,D,sum-rule methodology
+10.1103/PhysRev.125.2189,1962,2/5,A,Aharonov-Bohm potentials debate (foundations)
+10.1103/PhysRev.125.2192,1962,2/5,A,"Aharonov-Bohm potentials debate, foundations of QED nonlocality"
+10.1103/PhysRev.125.558,1962,1/5,D,"Generic perturbation-theory transition rates, not QIS\"
+10.1103/PhysRev.126.1028,1962,2/5,D,Hartree-Fock electronic-structure perturbation theory
+10.1103/PhysRev.126.1152,1962,1/5,A,Experimental hidden-variables test via radioactive decay
+10.1103/PhysRev.126.365,1962,5/5,A,wave-packet reduction in measurement
+10.1103/PhysRev.126.378,1962,3/5,C,Hamilton-Jacobi quantization formalism
+10.1103/PhysRev.127.1405,1962,2/5,C,"Density-matrix master equation, open-system equilibration"
+10.1103/PhysRev.128.1054,1962,1/5,C,Stochastic open-system spin-relaxation formalism
+10.1103/PhysRev.128.1381,1962,4/5,D,variational integral-relationship methodology
+10.1103/PhysRev.128.1485,1962,2/5,D,Nuclear two-body potential equivalence
+10.1103/PhysRev.128.2407,1962,5/5,B,Haus-Mullen: quantum noise limit of linear amplifiers (flagship)
+10.1103/PhysRev.128.2832,1962,1/5,A,"Commuting observables and gauge, Aharonov-Bohm foundations debate"
+10.1103/PhysRev.128.2837,1962,3/5,D,enclosed-system energy methodology
+10.1103/PhysRev.128.2864,1962,3/5,B,incoherence \
+10.1103/PhysRev.128.391,1962,3/5,C,Liouville equation with reservoir (open systems)
+10.1103/PhysRev.128.451,1962,1/5,D,Relativistic angular-momentum kinematics
+10.1103/PhysRev.129.2342,1963,1/5,B,"Lax quantum regression theorem, quantum noise theory"
+10.1103/PhysRev.129.481,1963,3/5,B,quantum fluctuations in parametric processes
+10.1103/PhysRev.129.940,1963,5/5,A,measurement-operator theory
+10.1103/PhysRev.129.944,1963,1/5,D,Statistical mechanics of quantum gas mixtures
+10.1103/PhysRev.131.1083,1963,1/5,D,"Tunneling Hamiltonian for solids, many-body method"
+10.1103/PhysRev.131.2766,1963,1/5,B,"Glauber coherent states, foundational quantum optics"
+10.1103/PhysRev.131.2827,1963,4/5,C,dissipation in two-level system (open systems)
+10.1103/PhysRev.131.886,1963,2/5,D,"Variational virial theorems, generic formalism"
+10.1103/PhysRev.132.1343,1963,4/5,D,symmetry-projection methodology ('Quantum computation' errant)
+10.1103/PhysRev.132.1527,1963,1/5,D,Semiconductor electron-phonon kinetic equations
+10.1103/PhysRev.133.A1215,1964,1/5,C,"Density-matrix entropy bound, gray formalism"
+10.1103/PhysRev.133.A1228,1964,1/5,C,System-heat-bath statistical matrix dynamics
+10.1103/PhysRev.133.A69,1964,2/5,B,"Maser cavity coherence buildup, early laser theory"
+10.1103/PhysRev.133.A811,1964,1/5,D,Spin-wave magnetism of EuS
+10.1103/PhysRev.133.A899,1964,1/5,D,Charged Bose gas ground-state energy
+10.1103/PhysRev.133.A915,1964,1/5,B,Parametric amplifier quantum noise limits
+10.1103/PhysRev.133.A935,1964,1/5,D,"Bogoliubov approximation test, many-body theory"
+10.1103/PhysRev.133.B487,1964,1/5,D,"Relativistic scattering model, unrelated"
+10.1103/PhysRev.133.B542,1964,1/5,A,"Undecidability of macroscopic distinguishability, foundations plus computability"
+10.1103/PhysRev.134.A10,1964,2/5,B,"Interference of independent beams, photon statistics"
+10.1103/PhysRev.134.A1149,1964,1/5,B,Quantized-field coherence of blackbody radiation
+10.1103/PhysRev.134.A362,1964,1/5,D,"Molecular exchange coupling, atomic structure"
+10.1103/PhysRev.134.A411,1964,1/5,D,Ferromagnetic domain-wall dynamics
+10.1103/PhysRev.134.A816,1964,2/5,C,"Dissipative two-level system, decoherence precursor"
+10.1103/PhysRev.134.B1183,1964,1/5,A,Aharonov-Bohm effect foundations discussion
+10.1103/PhysRev.134.B1410,1964,5/5,A,Aharonov-Bergmann-Lebowitz: time symmetry in measurement (flagship)
+10.1103/PhysRev.134.B1417,1964,5/5,A,time-energy indeterminacy exchange
+10.1103/PhysRev.134.B919,1964,5/5,A,measurement of time correlations
+10.1103/PhysRev.135.B1486,1964,5/5,A,macroscopic bodies in quantum theory
+10.1103/PhysRev.136.A316,1964,4/5,B,EM-field measurement \
+10.1103/PhysRev.136.A879,1964,3/5,C,generalized master equation (open systems)
+10.1103/PhysRev.136.B1850,1964,4/5,A,theory of hidden variables
+10.1103/PhysRev.136.B248,1964,5/5,A,symmetrization postulate foundations
+10.1103/PhysicsPhysiqueFizika.1.195,1964,4/5,A,Bell: On the EPR paradox (flagship)
+10.1103/PhysicsPhysiqueFizika.1.49,1964,5/5,A,Susskind-Glogower: phase and time operator (flagship)
+10.1103/PhysRev.137.A1635,1965,4/5,C,dissipation in two-level system III
+10.1103/PhysRev.137.B1127,1965,2/5,C,"Golden-Thompson trace inequalities, gray operator formalism"
+10.1103/PhysRev.137.B1394,1965,1/5,D,Random-matrix ensemble statistics
+10.1103/PhysRev.137.B1396,1965,2/5,B,"Intensity-fluctuation correlations, beam coherence measurement"
+10.1103/PhysRev.137.B204,1965,1/5,B,"Field-mode relaxation density operator, quantum optics"
+10.1103/PhysRev.137.B219,1965,1/5,A,"Aharonov-Bohm potential measurability, foundations"
+10.1103/PhysRev.138.A1668,1965,1/5,D,NMR spin-temperature thermal-mixing experiment
+10.1103/PhysRev.138.A1785,1965,1/5,D,Dynamic nuclear polarization experiment
+10.1103/PhysRev.138.B1332,1965,2/5,A,Hidden-variable Brownian model of quantum mechanics
+10.1103/PhysRev.138.B1338,1965,4/5,D,"fermion RDM eigenvalues (many-body methodology, QIP concepts errant)"
+10.1103/PhysRev.138.B1566,1965,3/5,B,coherent-state representations of photon density operator
+10.1103/PhysRev.138.B274,1965,2/5,B,Ordering rules and quasiprobability representations of coherence
+10.1103/PhysRev.138.B485,1965,2/5,B,"Critique of P-representation, photon statistics"
+10.1103/PhysRev.138.B979,1965,1/5,D,"Floquet driven-resonance methodology, generic"
+10.1103/PhysRev.139.A1374,1965,1/5,D,Optical-pumping spin-exchange cross sections
+10.1103/PhysRev.139.A1717,1965,1/5,B,Laser amplifier quantum statistics
+10.1103/PhysRev.139.A19,1965,1/5,D,Optical-pumping precision gyromagnetic-ratio measurements
+10.1103/PhysRev.139.B1103,1965,5/5,A,quantum limits on momentum measurement
+10.1103/PhysRev.139.B1436,1965,3/5,C,quantum-classical correspondence formalism
+10.1103/PhysRev.139.B500,1965,5/5,A,permutation-symmetry foundations
+10.1103/PhysRev.140.A1051,1965,1/5,B,Two-level atom with quantized coherent mode
+10.1103/PhysRev.140.A98,1965,3/5,C,generalized master equation
+10.1103/PhysRev.140.B500,1965,5/5,B,measurement accuracy in photon counting/correlation
+10.1103/PhysicsPhysiqueFizika.2.131,1965,3/5,C,Bohr-Sommerfeld/Weyl correspondence formalism
+10.1103/PhysRev.141.1223,1966,1/5,C,"Quantum time as random variable, phase-space distributions"
+10.1103/PhysRev.141.281,1966,3/5,D,correlated Gaussian wavefunction methodology
+10.1103/PhysRev.141.287,1966,5/5,B,gas-laser photocount statistics
+10.1103/PhysRev.141.306,1966,4/5,B,cw-laser intensity fluctuations
+10.1103/PhysRev.141.32,1966,1/5,D,Helium Hartree-Fock perturbation expansions
+10.1103/PhysRev.141.428,1966,1/5,D,Hartree-Fock polarizability calculation
+10.1103/PhysRev.145.1041,1966,2/5,B,Coherence conditions on field density operators
+10.1103/PhysRev.145.110,1966,2/5,B,"Lax quantum noise sources, Langevin theory"
+10.1103/PhysRev.145.285,1966,1/5,B,Photon statistics of mixed laser/chaotic light
+10.1103/PhysRev.145.93,1966,4/5,C,quantum Brownian motion (open systems)
+10.1103/PhysRev.147.896,1966,3/5,D,N-representability methodology
+10.1103/PhysRev.148.945,1966,1/5,D,"Surface specific-heat lattice dynamics, concept-tag error"
+10.1103/PhysRev.149.1008,1966,1/5,A,Symmetrization postulate foundations
+10.1103/PhysRev.149.309,1966,2/5,B,"Many-atom laser master equation, photon statistics"
+10.1103/PhysRev.150.1079,1966,3/5,A,Nelson: stochastic-mechanics derivation of SE
+10.1103/PhysRev.150.1251,1966,1/5,D,"Noether conservation laws, classical variational theory"
+10.1103/PhysRev.151.165,1966,1/5,D,"Electron in time-varying field, generic wave mechanics"
+10.1103/PhysRev.152.1103,1966,5/5,A,simultaneous measurement of noncommuting observables (flagship)
+10.1103/PhysRev.152.278,1966,1/5,B,Laser intensity-fluctuation statistics
+10.1103/PhysRev.152.358,1966,2/5,D,"Proton-spin refrigerator, NMR polarization device"
+10.1103/PhysRev.152.438,1966,3/5,B,antinormally-ordered correlations \
+10.1103/PhysRev.155.1387,1967,1/5,B,"Damped radiation mode, quantum optics theory"
+10.1103/PhysRev.155.1428,1967,5/5,A,Aharonov-Susskind: charge superselection rule (flagship)
+10.1103/PhysRev.155.1431,1967,5/5,A,measurement effect on quantum ensemble
+10.1103/PhysRev.155.921,1967,1/5,B,Photon statistics in nonlinear optical processes
+10.1103/PhysRev.155.980,1967,1/5,D,"Nonlinear optics of Kerr liquids, density-matrix methodology"
+10.1103/PhysRev.156.1377,1967,3/5,A,relativistic quantum observation
+10.1103/PhysRev.156.286,1967,2/5,B,Two-photon amplifier photon statistics
+10.1103/PhysRev.156.320,1967,1/5,B,"Gas laser density matrix, coherence properties"
+10.1103/PhysRev.156.343,1967,2/5,B,"Early quantum heat engine, maser thermodynamics precursor"
+10.1103/PhysRev.157.1183,1967,1/5,B,Coherence tensors of quantized electromagnetic field
+10.1103/PhysRev.157.1198,1967,3/5,B,coherent-state dynamics
+10.1103/PhysRev.157.1220,1967,2/5,D,Generic quantum-mechanical sum rules
+10.1103/PhysRev.157.1309,1967,1/5,D,QFT canonical commutation formalism
+10.1103/PhysRev.157.291,1967,1/5,D,Rotating-frame Bloch-Siegert resonance methodology
+10.1103/PhysRev.158.1237,1967,4/5,A,Aharonov-Susskind: 2pi spinor rotation observability (flagship)
+10.1103/PhysRev.158.423,1967,1/5,B,Josephson weak-link macroscopic quantum coherence
+10.1103/PhysRev.159.208,1967,1/5,B,"Scully-Lamb laser theory, photon statistics"
+10.1103/PhysRev.160.1076,1967,3/5,B,Mollow-Glauber: quantum parametric amplification I
+10.1103/PhysRev.160.1097,1967,3/5,B,Mollow-Glauber: quantum parametric amplification II
+10.1103/PhysRev.160.1113,1967,1/5,D,"Canonical quantum gravity, not QIS\"
+10.1103/PhysRev.160.1190,1967,3/5,A,hidden variables \
+10.1103/PhysRev.161.165,1967,1/5,B,Quantum Langevin noise for damped systems
+10.1103/PhysRev.162.1175,1967,3/5,D,perturbational-variational methodology
+10.1103/PhysRev.162.1256,1967,4/5,B,quantum statistics of coupled oscillators
+10.1103/PhysRev.163.1348,1967,2/5,B,Photon-field commutators in intensity correlations
+10.1103/PhysRev.163.1353,1967,4/5,A,symmetrization postulate
+10.1103/PhysRev.164.1610,1967,2/5,B,"P-representation of density operators, quantum optics"
+10.1103/PhysRev.165.1391,1968,1/5,B,Photon statistics in multiphoton absorption
+10.1103/PhysRev.165.1426,1968,1/5,B,"Coherent-state dynamics, parametric amplification"
+10.1103/PhysRev.165.1434,1968,5/5,A,determination of quantum state by measurements (proto-tomography)
+10.1103/PhysRev.165.420,1968,5/5,B,Scully-Lamb: quantum theory of gas laser II
+10.1103/PhysRev.165.870,1968,1/5,D,"Symmetry-based level ordering, generic QM"
+10.1103/PhysRev.166.1255,1968,1/5,D,"Generic variational methods, not estimation theory"
+10.1103/PhysRev.166.1645,1968,1/5,D,"QFT hyperquantization, spin-statistics"
+10.1103/PhysRev.166.1691,1968,1/5,D,Axiomatic QFT scattering bounds
+10.1103/PhysRev.166.1703,1968,1/5,D,QFT analyticity in momentum transfer
+10.1103/PhysRev.166.1795,1968,1/5,D,QFT equal-time commutators
+10.1103/PhysRev.166.197,1968,1/5,D,Relativistic blackbody statistical mechanics
+10.1103/PhysRev.166.225,1968,1/5,B,Spontaneous parametric down-conversion precursor
+10.1103/PhysRev.166.246,1968,1/5,B,"Scully-Lamb quantum laser theory, linewidth"
+10.1103/PhysRev.166.382,1968,1/5,B,"Coherent-state field dynamics, photon correlations"
+10.1103/PhysRev.167.1152,1968,3/5,B,photoelectric-detection theory
+10.1103/PhysRev.167.116,1968,2/5,C,"Reduced density matrices, Schmidt-type expansion"
+10.1103/PhysRev.167.183,1968,2/5,B,"Coherent states, macroscopic superfluid coherence"
+10.1103/PhysRev.167.416,1968,3/5,B,Josephson phase quantization (macroscopic coherence)
+10.1103/PhysRev.167.418,1968,3/5,B,coherence in nearly superconducting rings
+10.1103/PhysRev.168.1418,1968,1/5,B,Field statistics effects in two-photon absorption
+10.1103/PhysRev.168.167,1968,1/5,D,"Classical waves in random media, QM analogy"
+10.1103/PhysRev.168.185,1968,2/5,C,"Quantum entropy subadditivity, proto-QIT"
+10.1103/PhysRev.168.1896,1968,2/5,B,Quantum photodetection and field-attenuation theory
+10.1103/PhysRev.168.301,1968,1/5,D,Conventional NMR passage experiment
+10.1103/PhysRev.168.318,1968,1/5,D,"NMR pulse line narrowing, conventional technique"
+10.1103/PhysRev.169.101,1968,3/5,D,N-representability methodology
+10.1103/PhysRev.169.315,1968,1/5,D,Gamma-ray and x-ray crystal optics
+10.1103/PhysRev.169.397,1968,1/5,D,Josephson mm-wave mixing device work
+10.1103/PhysRev.170.1185,1968,3/5,A,2pi spinor rotation exchange
+10.1103/PhysRev.170.276,1968,1/5,D,"Optical-pumping nuclear polarization, not QIS\"
+10.1103/PhysRev.171.7,1968,1/5,D,"Hartree-Fock electron affinities, quantum chemistry"
+10.1103/PhysRev.172.110,1968,1/5,D,"Bound-state existence conditions, generic QM"
+10.1103/PhysRev.172.173,1968,3/5,D,2-matrix angular symmetry methodology
+10.1103/PhysRev.172.350,1968,3/5,B,Lax quantum noise XI
+10.1103/PhysRev.172.362,1968,2/5,B,Lax quantum-noise laser fluctuation theory
+10.1103/PhysRev.173.1207,1968,1/5,B,Generalized coherent states of field
+10.1103/PhysRev.174.1572,1968,4/5,D,multiple-transition methodology
+10.1103/PhysRev.174.749,1968,1/5,D,"Boxed harmonic oscillator WKB, generic"
+10.1103/PhysRev.175.2140,1968,3/5,C,currents-as-coordinates formalism
+10.1103/PhysRev.175.286,1968,4/5,C,coupled-oscillator QM description
+10.1103/PhysRev.175.641,1968,1/5,D,NMR dynamic polarization stochastic model
+10.1103/PhysRev.176.425,1968,1/5,D,"Editorial announcement, not physics"
+10.1103/PhysRev.176.461,1968,2/5,B,Quantum three-wave parametric interactions
+10.1103/PhysRev.177.1843,1969,3/5,C,currents formulation of QM
+10.1103/PhysRev.177.1848,1969,1/5,D,Causality and analyticity in scattering theory
+10.1103/PhysRev.177.1857,1969,5/5,B,Cahill-Glauber: ordered boson expansions (flagship)
+10.1103/PhysRev.177.1882,1969,5/5,B,Cahill-Glauber: density operators \
+10.1103/PhysRev.177.19,1969,5/5,D,"Clinton et al. density-matrix determination IV (quantum-chemistry methodology, 'Quantum tomography' concept..."
+10.1103/PhysRev.177.27,1969,2/5,D,Density-matrix eigensolver for quantum chemistry
+10.1103/PhysRev.177.400,1969,5/5,C,phase-space time-correlation analysis
+10.1103/PhysRev.177.639,1969,3/5,B,e/h via macroscopic quantum phase coherence
+10.1103/PhysRev.177.7,1969,5/5,D,Clinton et al. density-matrix determination II
+10.1103/PhysRev.178.2025,1969,3/5,B,phase-space master equations in quantum optics
+10.1103/PhysRev.180.1239,1969,2/5,B,P representation of pure field states
+10.1103/PhysRev.180.1244,1969,2/5,B,"Regularized P representation, quantum optics"
+10.1103/PhysRev.180.319,1969,2/5,D,"Tensor-operator correlation functions, group theory"
+10.1103/PhysRev.181.1748,1969,2/5,D,"Field quantization prescription, generic formalism"
+10.1103/PhysRev.181.1755,1969,1/5,D,"Relativistic position operators, QFT formalism"
+10.1103/PhysRev.181.32,1969,1/5,C,"Reservoir damping, open-quantum-system formalism"
+10.1103/PhysRev.181.600,1969,1/5,B,"Atom-field correlations, laser phase fluctuations"
+10.1103/PhysRev.182.367,1969,3/5,B,spontaneous emission in parametric up-conversion
+10.1103/PhysRev.182.43,1969,1/5,D,"Perturbation-theory sum rule, quantum chemistry"
+10.1103/PhysRev.182.522,1969,1/5,D,Classical excess noise in bolometers
+10.1103/PhysRev.182.531,1969,1/5,D,Thermal noise in Josephson junctions
+10.1103/PhysRev.183.1069,1969,1/5,B,Two-photon and parametric quantum optics
+10.1103/PhysRev.183.1081,1969,2/5,A,Hidden-variable statistical derivation of QM
+10.1103/PhysRev.183.1108,1969,2/5,B,Coherent-state superposition of photon fields
+10.1103/PhysRev.183.1116,1969,5/5,A,measurement in Bohm-Bub hidden-variable theory
+10.1103/PhysRev.183.129,1969,2/5,C,"N-representability, quantum marginal problem ancestor"
+10.1103/PhysRev.183.142,1969,1/5,D,"Expectation-value bounds, quantum chemistry"
+10.1103/PhysRev.184.1261,1969,3/5,C,Finkelstein space-time code (proto-quantum-information spacetime)
+10.1103/PhysRev.184.1283,1969,2/5,C,"Wigner function classical limit, phase space"
+10.1103/PhysRev.184.1315,1969,5/5,C,presymmetry foundations
+10.1103/PhysRev.185.1618,1969,1/5,B,Quantum statistics of parametric amplification
+10.1103/PhysRev.185.420,1969,1/5,D,NMR spin-lattice relaxation theory
+10.1103/PhysRev.185.446,1969,2/5,B,Photon-correlation measurements near laser threshold
+10.1103/PhysRev.185.568,1969,3/5,B,Lax quantum noise XII
+10.1103/PhysRev.185.592,1969,1/5,D,Solid-state tunneling through impure barriers
+10.1103/PhysRev.185.629,1969,1/5,D,"Classical mode-locking statistics, laser engineering"
+10.1103/PhysRev.186.1342,1969,2/5,C,"Dephasing master equation, open quantum system"
+10.1103/PhysRev.186.1355,1969,1/5,B,Photocounting statistics of Gaussian light
+10.1103/PhysRev.186.1380,1969,4/5,A,coherent superposition of charge states (superselection)
+10.1103/PhysRev.186.174,1969,4/5,C,phase-space description of quantum Markovian systems
+10.1103/PhysRev.187.1803,1969,4/5,C,angle \
+10.1103/PhysRev.187.441,1969,1/5,B,Spin coherent states and classical limit
+10.1103/PhysRev.187.833,1969,1/5,D,"Anomalous skin effect, electron transport"
+10.1103/PhysRev.187.842,1969,1/5,D,"Skin effect in magnetic field, transport"
+10.1103/PhysRev.188.1969,1969,1/5,B,Mollow resonance fluorescence spectrum
+10.1103/PhysRev.188.1976,1969,1/5,B,Tavis-Cummings multiatom cavity model
+10.1103/PhysRev.188.198,1969,1/5,B,Time-resolved photoelectric detection theory
+10.1103/PhysRev.188.529,1969,3/5,D,multilevel-resonance methodology
+10.1103/PhysRev.188.571,1969,1/5,D,Gamma-gamma angular correlation spectroscopy

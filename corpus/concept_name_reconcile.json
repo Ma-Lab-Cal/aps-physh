@@ -1,0 +1,29 @@
+{
+ "renames": {
+  "Van der Waals systems": "van der Waals systems",
+  "Van der Waals interaction": "van der Waals interaction",
+  "Electromagnetism (defunct)": "Electromagnetism",
+  "Node-line semimetals": "Nodal-line semimetals",
+  "van Hove singularity": "Van Hove singularity",
+  "Classical field theory (defunct)": "Classical field theory",
+  "Aging": "Polymer aging",
+  "Charge distributions (defunct)": "Charge distributions",
+  "Subcellular processes & properties (defunct)": "Subcellular processes & properties",
+  "Crystal field excitations": "Crystal-field excitations",
+  "Diseases (defunct)": "Diseases",
+  "Biological optics (defunct)": "Biological optics",
+  "Pathology (defunct)": "Pathology"
+ },
+ "new_uuids": {
+  "a50e8ff6-ceef-409e-992a-b17cc2541ca6": "Aggregation",
+  "9557aa49-72bb-404d-afe9-76ca9e5e5ef2": "Neutrino detection",
+  "e4c4c0af-5486-4833-88ff-e347f070d04d": "Stimulated Raman adiabatic passage",
+  "92597d78-ac9b-4e8b-8b10-23893c0c4716": "Entropic sampling methods",
+  "aa8ef099-e628-4144-b624-c3c6529abb74": "Energy efficient accelerators & components",
+  "b4e35d81-1c0e-4b5b-982e-ac42e1ff0c00": "Sustainable accelerators",
+  "a34a6241-eab6-4358-b980-ef67fe59c533": "Onsager relations",
+  "e8cc2f3c-1229-4151-81a7-4074fb75bee4": "Magnonics",
+  "1deaff1d-2567-446c-9cf3-2f51c13d2409": "MXenes"
+ },
+ "note": "uuid pair aa8ef099/b4e35d81 co-occur only in 10.1103/cwdp-rpfx; name-to-uuid assignment within the pair is arbitrary, set-level output identical"
+}

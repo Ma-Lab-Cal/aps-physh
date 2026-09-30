@@ -1,0 +1,2098 @@
+concept,exact_precision,exact_recall,n_gold_pooled,n_pred_pooled
+0-dimensional systems,0.0,0.0,20,13
+1-dimensional spin chains,0.096,0.45,160,750
+1-dimensional systems,0.17,0.598,550,1940
+150 ≤ A ≤ 189,,0.0,180,0
+190 ≤ A ≤ 219,,0.0,155,0
+2-dimensional systems,0.257,0.423,1415,2334
+20 ≤ A ≤ 38,,0.0,250,0
+3-dimensional systems,0.01,0.1,30,299
+39 ≤ A ≤ 58,,0.0,185,0
+59 ≤ A ≤ 89,,0.0,205,0
+6 ≤ A ≤ 19,,0.0,385,0
+90 ≤ A ≤ 149,,0.0,470,0
+A ≤ 5,,0.0,35,0
+A ≥ 220,,0.0,210,0
+AC susceptibility measurements,0.44,0.183,60,25
+Ab initio calculations,0.322,0.081,470,118
+Abstract algebra,0.0,0.0,20,32
+Accelerator applications,0.0,0.0,15,49
+Accelerator subsystems,0.034,0.4,10,117
+Accelerator/storage ring control systems,0.0,0.0,5,46
+Accelerators & storage rings,0.019,0.2,15,155
+Accretion disk & black-hole plasma,0.367,0.157,70,30
+Acoustic interactions,0.333,0.05,20,3
+Acoustic measurements,0.156,0.233,30,45
+Acoustic metamaterials,0.517,0.569,130,143
+Acoustic phonons,0.171,0.104,135,82
+Acoustic wave phenomena,0.257,0.573,150,334
+Acoustics,0.25,0.027,75,8
+Actin,0.526,0.286,35,19
+Active Brownian particles,0.07,0.429,35,214
+Adhesion,0.545,0.343,35,22
+Adiabatic approximation,0.076,0.08,100,105
+Adiabatic quantum optimization,0.0,,0,85
+Adsorbed biomolecules,0.125,0.013,80,8
+Adsorption,0.423,0.355,380,319
+Aerodynamics,0.405,0.429,35,37
+Aggregation,0.455,0.2,75,33
+Aharonov-Bohm effect,0.45,0.653,75,109
+Alloys,0.323,0.413,225,288
+Alpha decay,0.756,0.581,155,119
+Alternative gravity theories,0.666,0.815,1610,1969
+Amorphous materials,0.514,0.478,230,214
+Anderson impurity model,0.649,0.322,115,57
+Anderson localization,0.469,0.649,245,339
+Andreev point contact spectroscopy,,0.0,20,0
+Andreev reflection,0.495,0.676,210,287
+Angle-resolved photoemission spectroscopy,0.65,0.775,610,728
+Angular momentum,0.385,0.25,60,39
+Angular momentum of light,0.632,0.525,320,266
+Anharmonic lattice dynamics,0.481,0.504,125,131
+Anisotropic magnetoresistance,0.158,0.24,25,38
+Annealing,0.167,0.067,45,18
+Anomalies,0.244,0.4,170,279
+Anomalous Hall effect,0.582,0.662,145,165
+Anomalous diffusion,0.37,0.405,210,230
+Antiferroelectricity,0.55,0.314,35,20
+Antiferromagnetism,0.306,0.575,1065,2003
+Antiferromagnets,0.216,0.029,550,74
+Anyons,0.508,0.518,195,199
+Applications of soft matter,,0.0,20,0
+Approximation methods for many-body systems,0.025,0.027,110,121
+Artificial neural networks,0.341,0.175,80,41
+Assessment,0.381,0.871,70,160
+Astronomical black holes,0.246,0.097,175,69
+Astrophysical & cosmological simulations,0.154,0.105,95,65
+Astrophysical electromagnetic fields,0.231,0.086,35,13
+Astrophysical fluid dynamics,0.077,0.133,15,26
+Astrophysical jets,0.125,0.3,10,24
+Astrophysical studies of gravity,0.057,0.02,100,35
+Asymmetric nuclear matter,0.5,0.085,130,22
+Asymmetric simple exclusion process,0.062,0.2,10,32
+Atmospheric fluid dynamics,0.542,0.289,45,24
+Atom & ion cooling,0.485,0.305,210,132
+Atom & ion trapping & guiding,0.226,0.127,220,124
+Atom diffraction,0.25,0.033,30,4
+Atom impact & scattering,,0.0,25,0
+Atom interferometry,0.611,0.686,245,275
+Atom lasers,0.5,0.05,20,2
+Atom optics,0.127,0.106,85,71
+Atom or molecule scattering from surfaces,0.1,0.25,20,50
+Atomic & molecular beams,0.114,0.08,50,35
+Atomic & molecular clusters,0.381,0.2,80,42
+Atomic & molecular collisions,0.149,0.535,155,558
+Atomic & molecular processes in external fields,0.094,0.165,345,607
+Atomic & molecular structure,0.099,0.16,125,202
+Atomic Properties,0.0,,0,31
+Atomic ensemble,0.212,0.085,130,52
+Atomic force microscopy,0.656,0.35,180,96
+Atomic gases,0.069,0.008,245,29
+Atomic orbital,,0.0,50,0
+Atomic spectra,0.284,0.35,320,394
+"Atomic, optical & lattice clocks",0.569,0.663,175,204
+Atoms,0.076,0.106,310,432
+"Atoms, ions, & molecules in cavities",0.213,0.065,155,47
+Attacks on networks,0.5,0.05,20,2
+Attosecond laser irradiation,0.0,0.0,65,2
+Attosecond laser spectroscopy,0.04,0.04,25,25
+Auger electron spectroscopy,0.556,0.091,55,9
+Autoionization & Auger processes,0.0,,0,152
+Axion-like particles,0.0,,0,49
+Axions,0.573,0.691,285,344
+BCS theory,0.236,0.168,155,110
+BCS-BEC crossover,0.277,0.4,65,94
+BKT transition,0.289,0.169,65,38
+Bacteria,0.556,0.286,70,36
+Ballistic transport,0.307,0.274,215,192
+Band gap,0.322,0.365,595,673
+Band structure methods,0.078,0.047,190,116
+Baryogenesis & leptogenesis,0.621,0.716,190,219
+Baryon & lepton number symmetries,0.263,0.056,90,19
+Baryons,0.404,0.4,210,208
+Batteries,0.5,0.3,20,12
+Bayesian methods,0.169,0.169,65,65
+Bayesian networks,0.0,,0,20
+Bead-spring models,0.0,0.0,20,4
+Beam code development & simulation techniques,0.263,0.182,55,38
+Beam control,0.109,0.2,30,55
+Beam diagnostics,0.133,0.556,45,188
+Beam dynamics,0.145,0.304,115,242
+Beam impedance,0.629,0.55,40,35
+"Beam injection, extraction & transport",0.25,0.029,35,4
+Beam instabilities,0.232,0.486,105,220
+Beam optics,0.084,0.292,65,226
+Beam optics correction schemes,0.069,0.267,15,58
+Beam optics transport,0.0,0.0,20,36
+Beam polarization,0.394,0.325,40,33
+Beam processes,0.0,0.0,25,9
+Beam techniques,0.0,0.0,25,4
+Bending,0.111,0.029,35,9
+Berry curvature,0.0,,0,39
+Beta decay,0.767,0.667,345,300
+Bethe ansatz,0.384,0.622,45,73
+Bethe-Salpeter equation,0.0,,0,71
+Biexcitons,0.72,0.277,65,25
+Bifurcation analysis,0.042,0.044,45,48
+Bifurcations,0.16,0.461,180,518
+Big bang nucleosynthesis,0.618,0.494,85,68
+Bilayer films,0.29,0.131,275,124
+Binary fluids,0.333,0.015,65,3
+Binary stars,0.106,0.113,80,85
+Binding energy & masses,0.586,0.342,190,111
+Biological fluid dynamics,0.221,0.292,65,86
+Biological movement,0.045,0.033,30,22
+Biological networks,0.154,0.109,55,39
+Biological neural networks,0.361,0.142,155,61
+Biological self-organization,0.136,0.114,70,59
+Biomechanics,0.188,0.12,25,16
+Biomimetic & bio-inspired materials,0.0,0.0,25,15
+Biomolecular dynamics,0.054,0.111,45,92
+Biomolecular interactions,0.059,0.2,15,51
+Biomolecular processes,0.075,0.15,40,80
+Biomolecular self-assembly,0.105,0.08,25,19
+Biomolecular structure,0.048,0.133,15,42
+Biomolecules,0.114,0.178,45,70
+Birefringence,0.586,0.2,85,29
+Bloch wave theory,0.412,0.074,95,17
+Bloch-Floquet theorem,0.143,0.019,105,14
+Block copolymers,0.8,0.571,35,25
+Bogoliubov-de Gennes equations,0.333,0.192,130,75
+Boltzmann theory,0.461,0.206,315,141
+Bose gases,0.339,0.289,540,460
+Bose-Einstein condensates,0.63,0.706,1475,1653
+Bose-Fermi mixtures,0.388,0.224,85,49
+Bose-Hubbard model,0.426,0.341,135,108
+Boson sampling,0.0,,0,31
+Bosonization,0.483,0.28,100,58
+Bosons,0.218,0.069,175,55
+Bottom baryons,0.5,0.171,35,12
+Bottom mesons,0.524,0.42,395,317
+Bottom quark,0.258,0.145,55,31
+Bound states,0.211,0.186,210,185
+Bound states in the continuum,0.0,,0,29
+"Boundary layer receptivity, stability & separation",0.0,0.0,35,2
+Boundary layers,0.244,0.433,120,213
+Bragg spectroscopy,0.5,0.2,20,8
+Bragg structures,0.364,0.073,55,11
+Brain,0.667,0.08,25,3
+Brain network,0.143,0.04,25,7
+Branching fraction,0.195,0.244,135,169
+Braneworlds,0.333,0.107,75,24
+Breakup reactions,0.532,0.387,150,109
+Breathers,0.418,0.509,55,67
+Brillouin scattering & spectroscopy,0.712,0.495,105,73
+Brownian dynamics,0.219,0.175,120,96
+Brownian motion,0.361,0.424,375,441
+Buckling,0.118,0.057,35,17
+CP symmetry,0.224,0.118,110,58
+CP violation,0.358,0.681,210,399
+CPT symmetry,0.25,0.015,65,4
+Calorimetry,0.6,0.3,30,15
+Canonical quantum gravity,0.35,0.122,115,40
+Capacitance,0.214,0.1,30,14
+Capillary interactions,0.062,0.025,40,16
+Capillary waves,0.333,0.075,40,9
+Carbides,0.571,0.089,45,7
+Carbon-based materials,0.317,0.141,135,60
+Cardiac dynamics,0.647,0.314,35,17
+Carrier dynamics,0.0,,0,64
+Carrier generation & recombination,0.0,,0,109
+Cascades,0.211,0.133,30,19
+Casimir effect,0.369,0.267,195,141
+Casimir effect & related phenomena,0.407,0.47,185,214
+Cavitation,0.381,0.4,20,21
+Cavity methods,0.5,0.033,60,4
+Cavity quantum electrodynamics,0.391,0.451,810,933
+Cavity resonators,0.14,0.14,235,235
+Cell adhesion,0.6,0.2,30,10
+Cell division,1.0,0.029,35,1
+Cell growth,0.75,0.12,25,4
+Cell locomotion,0.0,0.0,35,2
+Cell mechanics,0.429,0.3,30,21
+Cell membrane,0.111,0.029,35,9
+Cells,0.15,0.037,80,20
+Cellular automata,0.292,0.14,50,24
+Cellular bilayers,0.0,0.0,65,6
+Ceramics,1.0,0.022,45,1
+Chalcogenides,0.249,0.148,325,193
+Chaos,0.317,0.144,320,145
+Chaos & nonlinear dynamics,0.119,0.11,365,336
+Chaotic advection,0.0,0.0,5,29
+Chaotic systems,0.105,0.188,85,153
+Charge,0.033,0.018,55,30
+Charge density waves,0.452,0.78,455,786
+Charge distributions,0.0,0.0,90,1
+Charge order,0.214,0.158,95,70
+Charge-exchange reactions,0.4,0.178,90,40
+Charged colloids,0.353,0.092,65,17
+Charm quark,0.256,0.147,75,43
+Charmed baryons,0.681,0.356,90,47
+Charmed mesons,0.306,0.471,210,324
+Chemical Physics & Physical Chemistry,0.118,0.04,50,17
+Chemical binding,0.0,0.0,25,1
+Chemical bonding,0.184,0.07,100,38
+"Chemical kinetics, dynamics & catalysis",0.147,0.147,75,75
+Chemical networks,0.286,0.1,20,7
+Chemical reactions,0.352,0.161,155,71
+Chemical synthesis,0.5,0.05,20,2
+Chemical vapor deposition,0.0,0.0,50,1
+Chemisorption,0.0,0.0,25,2
+Chemotaxis,0.0,0.0,45,1
+Cherenkov radiation,0.0,,0,26
+Chern insulators,0.0,,0,135
+Chern number,0.0,,0,20
+Chern-Simons gauge theory,0.54,0.309,220,126
+Chimera states,0.87,0.515,130,77
+Chiral magnets,0.0,,0,69
+Chiral perturbation theory,0.359,0.572,180,287
+Chiral symmetry,0.359,0.19,575,304
+Chirality,0.333,0.189,190,108
+Cholesteric liquid crystals,0.727,0.229,35,11
+Chromosomes,0.625,0.25,20,8
+Circuit quantum electrodynamics,0.0,,0,118
+Classical black holes,0.51,0.8,1230,1930
+Classical electromagnetism,0.021,0.022,45,47
+Classical field theory,0.0,0.0,85,3
+Classical fluids,0.033,0.018,55,30
+Classical mechanics,0.282,0.088,125,39
+Classical optics,0.123,0.062,225,114
+Classical solutions in field theory,0.271,0.087,150,48
+Classical spin models,0.143,0.096,125,84
+Classical statistical mechanics,0.137,0.148,290,314
+Classical transport,0.042,0.006,160,24
+Clathrates,0.875,0.2,35,8
+Cloaking,0.917,0.147,75,12
+Cluster expansion,0.538,0.14,50,13
+Cluster methods,0.167,0.12,50,36
+Cluster models,0.513,0.498,205,199
+Clustering,0.0,0.0,90,36
+Clusters,0.071,0.044,45,28
+Coarse graining,0.146,0.08,75,41
+Coatings,0.0,0.0,25,1
+Cobaltates,0.3,0.1,30,10
+Coherent control,0.195,0.315,505,817
+Coherent potential approximation,0.174,0.32,25,46
+Coherent structures,0.115,0.2,15,26
+Cold and ultracold molecules,0.0,,0,122
+Cold atoms & matter waves,0.131,0.22,555,929
+Cold gases in optical lattices,0.547,0.454,810,673
+Collective behavior,0.234,0.147,170,107
+Collective behavior in networks,0.0,0.0,85,15
+Collective dynamics,0.162,0.055,110,37
+Collective effects in atomic physics,0.0,,0,20
+Collective effects in quantum optics,0.0,,0,78
+Collective flow,0.713,0.49,335,230
+Collective levels,0.618,0.188,585,178
+Collective models,0.333,0.374,235,264
+Colliders,0.0,0.0,20,2
+Collisionless shock in plasma,0.765,0.52,25,17
+Colloidal crystal,1.0,0.057,35,2
+Colloidal glass,0.231,0.086,35,13
+Colloids,0.445,0.551,365,452
+Color centers,0.351,0.217,60,37
+Color confinement,0.255,0.225,160,141
+Color deconfinement,,0.0,40,0
+Colossal magnetoresistance,0.579,0.44,25,19
+Combinatorics,0.0,0.0,20,6
+Combustion,0.571,0.32,25,14
+Community detection algorithms,0.167,0.25,20,30
+Community structure,0.446,0.446,65,65
+Compactification,0.385,0.071,70,13
+Complex fluids,0.27,0.042,240,37
+Complex media,0.2,0.02,50,5
+Complex systems,0.15,0.077,220,113
+Composite fermions,0.4,0.467,60,70
+Composite materials,0.619,0.325,40,21
+Composite models,0.596,0.361,180,109
+Composition,0.0,0.0,35,3
+Composition of astronomical objects,,0.0,20,0
+Compressible flows,0.155,0.291,55,103
+Compressive strength,,0.0,30,0
+Compton scattering,0.286,0.089,45,14
+Computational complexity,0.138,0.212,85,130
+Concepts & principles,0.4,0.353,85,75
+Conducting polymers,0.5,0.35,20,14
+Configuration interaction,0.175,0.233,30,40
+Confinement,0.241,0.04,175,29
+Confocal imaging,0.0,0.0,40,3
+Conformal field theory,0.434,0.683,420,661
+Conformal symmetry,0.158,0.035,85,19
+Conformation & topology,0.047,0.057,35,43
+Contact line dynamics,0.412,0.431,65,68
+Continuous percolation transition,,0.0,25,0
+Continuous phase transition,0.0,0.0,25,10
+Continuous symmetries,0.0,0.0,45,1
+Continuous-time random walk,0.341,0.187,75,41
+Continuum mechanics,0.057,0.043,70,53
+Control & applications of chaos,0.667,0.095,105,15
+Control theory,0.0,,0,48
+Convection,0.536,0.58,205,222
+Cooling & trapping,0.229,0.173,255,192
+Cooper pairs,0.0,0.0,20,25
+Core-shell nanoparticles,1.0,0.04,25,1
+Correlation function measurements,0.0,,0,86
+Cosmic microwave background,0.43,0.777,390,704
+Cosmic ray & astroparticle detectors,0.191,0.236,110,136
+Cosmic ray acceleration,0.286,0.114,35,14
+Cosmic ray composition & spectra,0.542,0.213,150,59
+Cosmic ray propagation,0.348,0.7,70,141
+Cosmic ray sources,0.343,0.192,120,67
+Cosmic rays & astroparticles,0.327,0.309,165,156
+Cosmic strings & domain walls,0.644,0.542,120,101
+Cosmological constant,0.385,0.182,110,52
+Cosmological parameters,0.343,0.445,400,519
+Cosmology,0.46,0.201,1625,708
+Coulomb blockade,0.451,0.386,215,184
+Coulomb energies & analogue states,0.0,0.0,25,10
+Coupled cluster,0.135,0.25,20,37
+Coupled mode theory,0.0,,0,22
+Coupled oscillators,0.532,0.498,550,515
+Cracking,0.2,0.05,40,10
+Critical exponents,0.163,0.1,160,98
+Critical field,0.0,0.0,45,13
+Critical phenomena,0.182,0.392,510,1099
+Cryogenics,0.0,0.0,25,19
+Crystal binding,,0.0,20,0
+Crystal defects,0.075,0.19,100,253
+Crystal growth,0.242,0.164,140,95
+Crystal melting,0.429,0.06,50,7
+Crystal orientation,,0.0,25,0
+Crystal phenomena,0.0,0.0,40,12
+Crystal structure,0.133,0.218,275,452
+Crystal structures,0.112,0.092,195,161
+Crystal symmetry,0.132,0.067,75,38
+Crystal-field theory,0.256,0.523,65,133
+Crystalline systems,0.023,0.018,55,44
+Crystallization,0.452,0.2,70,31
+Crystallography,0.0,0.0,60,7
+Cuprates,0.481,0.692,260,374
+Cyclotron resonance,0.0,,0,29
+Cytoskeleton,0.348,0.2,40,23
+DC susceptibility measurements,0.0,0.0,75,2
+DFT+DMFT,0.75,0.043,140,8
+DFT+U,0.353,0.052,115,17
+DNA,0.624,0.43,135,93
+Dark energy,0.631,0.531,550,463
+Dark matter,0.445,0.268,690,416
+Dark matter detectors,0.516,0.526,215,219
+Data analysis,0.125,0.12,125,120
+Decoherence in quantum gases,0.0,0.0,80,12
+Deep inelastic scattering,0.51,0.408,245,196
+Defects,0.132,0.26,335,657
+Degree correlations,0.125,0.05,20,8
+Degree distributions,0.061,0.1,20,33
+Density functional approximations,0.0,0.0,125,21
+Density functional calculations,0.05,0.002,620,20
+Density functional theory,0.467,0.547,2640,3090
+Density functional theory development,0.02,0.011,175,99
+Density matrix methods,0.0,,0,47
+Density matrix renormalization group,0.533,0.689,305,394
+Density of states,0.19,0.189,375,373
+Depletion interactions,0.667,0.16,25,6
+Determination of fundamental constants,1.0,0.022,90,2
+Developmental pattern formation,1.0,0.08,25,2
+Devices,0.224,0.148,115,76
+Diagrammatic methods,0.0,,0,42
+Diamond,0.367,0.293,75,60
+Dichalcogenides,0.091,0.013,80,11
+Dicke model,0.265,0.55,40,83
+Dielectric properties,0.302,0.338,405,454
+Dielectric spectroscopy,0.652,0.2,75,23
+Dielectrics,0.263,0.074,135,38
+Diffractive production,0.143,0.05,20,7
+Diffusion,0.345,0.351,700,714
+Diffusion & dynamics of clusters,0.0,0.0,5,21
+Diffusion & random walks,0.048,0.36,75,565
+Diffusion quantum Monte Carlo,0.213,0.2,65,61
+Dilution refrigerator,0.0,0.0,75,1
+Diodes,0.625,0.125,40,8
+Dipolar gases,0.417,0.391,115,108
+Dipolar interaction,0.158,0.207,140,183
+Dipole approximation,0.182,0.04,100,22
+Dirac equation,0.0,,0,25
+Dirac fermions,0.237,0.285,355,427
+Dirac semimetal,0.241,0.703,175,510
+Direct numerical simulations,0.0,,0,41
+Direct reactions,0.169,0.071,140,59
+Disclinations & dislocations,0.551,0.481,135,118
+Discontinuous phase transition,0.05,0.04,25,20
+Discrete dipole approximation,1.0,0.12,25,3
+Discrete symmetries,0.5,0.1,120,24
+Discrete symmetries in condensed matter,0.0,0.0,20,3
+Disordered alloys,0.071,0.014,70,14
+Disordered systems,0.226,0.515,550,1250
+Displacement of immiscible fluids,,0.0,20,0
+Dissipative dynamics,0.0,,0,37
+Dissipative particle dynamics,0.526,0.182,55,19
+"Distances, redshifts, & velocities",0.0,0.0,35,21
+Distortions & defects,,0.0,30,0
+Diversity & inclusion,0.976,0.381,105,41
+Domain walls,0.441,0.643,415,606
+Domains,0.0,0.0,70,10
+Dopants,0.162,0.227,75,105
+Doped semiconductors,0.179,0.108,195,117
+Doping effects,0.0,,0,90
+Double beta decay,0.217,0.333,45,69
+Double quantum dots,0.495,0.313,150,95
+Dresselhaus coupling,0.875,0.127,55,8
+Drop & bubble phenomena,0.16,0.438,105,288
+Drop breakup,0.133,0.067,30,15
+Drop coalescence,1.0,0.05,20,1
+Drop interactions,0.176,0.075,80,34
+Drops & bubbles,0.428,0.275,280,180
+Drude model,0.167,0.048,105,30
+Dry granular materials,0.0,0.0,35,2
+Dualities in field theory,0.095,0.062,65,42
+Duality,0.04,0.067,30,50
+Dusty or complex plasma,0.903,0.8,105,93
+Dynamical mean field theory,0.415,0.633,300,458
+Dynamical phase transitions,0.0,,0,58
+Dynamical symmetry breaking models,0.333,0.055,110,18
+Dynamical systems,0.054,0.214,140,551
+Dynamical tunneling,0.0,0.0,25,1
+Dynamics of networks,0.078,0.1,70,90
+Dynamics of phase separation,0.071,0.057,35,28
+Dynamo theory,0.649,0.8,30,37
+Dzyaloshinskii-Moriya interaction,0.546,0.8,250,366
+Earth's interior,0.8,0.16,25,5
+Ecological pattern formation,0.091,0.04,25,11
+Ecological population dynamics,0.227,0.167,30,22
+Econophysics,0.75,0.218,55,16
+Edge localized mode,0.0,0.0,20,2
+Edge states,0.346,0.527,545,830
+Educational policy,0.536,0.25,60,28
+Effective field theory,0.197,0.413,460,963
+Effective medium approach,0.394,0.186,70,33
+Effects of atomic coherence on light propagation,0.235,0.021,190,17
+Efficiency at maximum power,0.231,0.3,30,39
+Efimov states,0.64,0.356,45,25
+Eigenstate thermalization,0.418,0.242,95,55
+Elastic deformation,0.179,0.048,145,39
+Elastic forces,0.0,0.0,30,10
+Elastic modulus,0.256,0.138,80,43
+Elastic scattering reactions,0.0,,0,31
+Elastic wave theory,0.154,0.2,20,26
+Elasticity,0.255,0.45,260,458
+Elastomers,1.0,0.1,40,4
+Electric field effects,0.064,0.186,70,202
+Electric moment,0.3,0.333,90,100
+Electric polarization,0.047,0.013,160,43
+Electrical conductivity,0.302,0.32,1245,1323
+Electrical properties,0.0,0.0,170,65
+Electrical spin injection,0.0,0.0,35,1
+Electrical techniques,0.0,0.0,35,7
+Electro-optical spectra,,0.0,30,0
+Electrochemical properties,0.05,0.04,25,20
+Electrochemistry,0.5,0.015,65,2
+Electrokinetic flows,0.511,0.614,145,174
+Electroluminescence,0.556,0.167,30,9
+Electromagnetic field calculations,0.077,0.03,135,52
+Electromagnetic interactions,0.0,0.0,30,18
+Electromagnetic radiation astronomy,0.08,0.133,15,25
+Electromagnetic transitions,0.633,0.32,690,349
+Electromagnetic wave theory,0.128,0.123,155,149
+Electromagnetic waves & oscillations,0.2,0.04,50,10
+Electromagnetically induced transparency,0.773,0.554,240,172
+Electromagnetism,0.0,0.0,190,2
+Electron & muon capture,,0.0,40,0
+Electron & positron scattering,0.403,0.496,280,345
+Electron beams & optics,0.0,,0,54
+Electron correlation calculations for atoms & ions,0.146,0.255,145,254
+Electron diffraction,0.373,0.173,110,51
+Electron emission,0.0,,0,29
+Electron energy loss spectroscopy,0.602,0.448,145,108
+Electron microscopy,0.036,0.08,25,56
+Electron paramagnetic resonance,0.259,0.273,55,58
+Electron sources,0.176,0.433,30,74
+Electron spin resonance,0.504,0.377,175,131
+Electron thermal conductivity,0.0,0.0,30,1
+Electron-correlation calculations,0.0,0.0,75,11
+Electron-ion collisions,0.375,0.025,120,8
+Electron-mediated pairing,,0.0,20,0
+Electron-phonon coupling,0.334,0.73,470,1027
+Electronic & magnetic properties of clusters,0.0,0.0,35,1
+Electronic excitation & ionization,0.0,,0,328
+Electronic materials,,0.0,35,0
+Electronic structure,0.304,0.409,2025,2724
+Electronic structure of atoms & molecules,0.171,0.145,290,245
+Electronic transitions,0.194,0.072,195,72
+Electrons,0.0,0.0,30,19
+Electrophoresis,0.0,0.0,30,1
+Electrostatic double layer forces,0.357,0.2,25,14
+Electrostatic interactions,0.405,0.324,105,84
+Electrostatic waves & oscillations,0.0,0.0,25,7
+Electroweak interaction,0.204,0.145,200,142
+Electroweak interactions in nuclear physics,0.182,0.019,105,11
+Electroweak phase transition,0.0,,0,57
+Electroweak radiative corrections,0.232,0.257,140,155
+Elemental materials,0.44,0.138,80,25
+Elemental metals,0.0,,0,37
+Elemental semiconductors,0.22,0.113,160,82
+Eliashberg theory,0.483,0.35,40,29
+Ellipsometry,0.381,0.114,70,21
+Emergence of patterns,0.0,0.0,135,7
+Emergent biological functions from complex interactions,0.143,0.018,55,7
+Energy applications,0.0,0.0,30,7
+Energy levels,0.559,0.085,670,102
+Energy materials,0.0,0.0,30,8
+Energy transport,0.0,,0,29
+Energy-dispersive x-ray spectroscopy,,0.0,40,0
+Entanglement detection,0.294,0.307,270,282
+Entanglement entropy,0.0,,0,256
+Entanglement in field theory,0.514,0.16,225,70
+Entanglement in quantum gases,0.0,0.0,95,3
+Entanglement manipulation,0.333,0.04,250,30
+Entanglement measures,0.439,0.267,670,408
+Entanglement production,0.301,0.037,600,73
+Entropy,0.265,0.298,305,344
+Entropy production,0.212,0.232,95,104
+Epidemic,0.474,0.138,65,19
+Epidemic evolution,0.0,,0,46
+Epidemic spreading,0.161,0.286,35,62
+"Epistemology, attitudes, & beliefs",0.531,0.378,90,64
+Epitaxy,0.1,0.182,55,100
+Equations of state,0.264,0.2,115,87
+Equations of state of nuclear matter,0.285,0.304,230,246
+Equilibrium lattice models,0.0,0.0,30,3
+Ergodic theory,0.324,0.314,35,34
+Evaporation,0.64,0.213,75,25
+Evolution of the Universe,0.14,0.275,265,521
+Evolutionary & population dynamics,0.261,0.571,70,153
+Evolutionary games,0.364,0.356,45,44
+Evolving networks,0.185,0.143,35,27
+Exact diagonalization,0.243,0.206,165,140
+Exact solutions for many-body systems,0.051,0.048,105,99
+Exchange bias,0.686,0.64,75,70
+Exchange interaction,0.28,0.312,320,357
+Exciton polariton,0.574,0.856,250,373
+Excitons,0.62,0.793,765,979
+Exclusion processes,0.136,0.1,30,22
+Exotic atoms & molecules,0.55,0.169,130,40
+Exotic baryons,0.388,0.313,150,121
+Exotic mesons,0.546,0.179,330,108
+Experimental studies of gravity,0.636,0.247,275,107
+Explosive burning,,0.0,40,0
+Explosive percolation,1.0,0.05,20,1
+Extended Hubbard model,0.667,0.016,125,3
+Extensions of Higgs sector,0.507,0.616,940,1143
+Extensions of fermion sector,0.338,0.128,390,148
+Extensions of gauge sector,0.58,0.369,510,324
+Extraordinary optical transmission,0.0,0.0,35,1
+Extrasolar neutrino astronomy,0.438,0.082,85,16
+Extreme event statistics,0.081,0.2,35,86
+FFLO,0.71,0.293,75,31
+Fabry-Pérot interferometry,,0.0,40,0
+Face-centered cubic,0.2,0.1,20,10
+Fano resonance,0.0,,0,146
+Faraday effect,0.605,0.418,55,38
+Fast particle effects in plasmas,,0.0,30,0
+Femtosecond laser irradiation,0.0,0.0,45,1
+Femtosecond laser spectroscopy,0.0,0.0,70,12
+Fermi gases,0.725,0.609,745,626
+Fermi liquid theory,0.19,0.367,60,116
+Fermi surface,0.25,0.47,415,779
+Fermionic condensates,0.0,0.0,100,2
+Fermions,0.159,0.095,210,126
+Ferrimagnetism,0.399,0.518,110,143
+Ferrimagnets,0.244,0.244,90,90
+Ferroelasticity,0.762,0.2,80,21
+Ferroelectric domains,0.5,0.289,45,26
+Ferroelectric liquid crystals,0.857,0.3,20,7
+Ferroelectricity,0.521,0.628,505,609
+Ferroelectrics,0.337,0.21,310,193
+Ferrofluids,0.917,0.147,75,12
+Ferromagnetic resonance,0.62,0.515,200,166
+Ferromagnetic superconductors,0.143,0.05,20,7
+Ferromagnetism,0.299,0.552,755,1395
+Ferromagnets,0.132,0.037,410,114
+Feshbach resonance,0.406,0.473,150,175
+Few-body systems,0.444,0.427,335,322
+Feynman diagrams,0.102,0.071,170,118
+Fiber lasers,0.5,0.2,20,8
+Fibers,,0.0,40,0
+Field & string theory models & techniques,0.057,0.14,50,123
+Field-effect transistors,0.35,0.42,50,60
+Filamentation in plasmas,0.368,0.28,25,19
+Filaments,0.0,0.0,25,1
+Film deposition,0.125,0.05,40,16
+Fine & hyperfine structure,0.271,0.549,175,354
+Finite temperature field theory,0.361,0.295,430,352
+Finite-difference time-domain method,0.381,0.4,20,21
+Finite-element method,0.213,0.069,145,47
+Finite-size scaling,0.165,0.19,100,115
+First order phase transitions,0.136,0.147,75,81
+First passage problems,0.284,0.422,45,67
+First-principles calculations,0.317,0.382,1600,1930
+Fission,0.854,0.84,300,295
+Flagella,0.375,0.1,30,8
+Flat bands,0.0,,0,48
+Flavor changing neutral currents,0.323,0.606,175,328
+Flavor symmetries,0.473,0.163,270,93
+Flexoelectricity,1.0,0.343,35,12
+Floquet systems,0.012,1.0,5,430
+Flow boundary effects,0.0,0.0,20,39
+Flow confinement,0.222,0.031,65,9
+Flow control,0.0,,0,24
+Flow instability,0.242,0.518,330,708
+Flows in porous media,0.522,0.497,195,186
+Fluctuation mediated interactions,0.0,0.0,35,3
+Fluctuation theorems,0.217,0.509,220,517
+Fluctuation-dissipation theorem,0.0,,0,22
+Fluctuations,0.077,0.009,115,13
+Fluctuations & noise,0.166,0.275,520,860
+Fluid-particle interactions,0.137,0.168,185,227
+Fluidized beds,0.467,0.28,25,15
+Fluids & classical fields in curved spacetime,0.179,0.091,165,84
+Fluorescence,0.333,0.031,65,6
+Fluorescence spectroscopy,0.6,0.086,70,10
+Flux pinning,0.333,0.433,30,39
+Flying,0.5,0.08,25,4
+Fokker-Planck & Vlasov model,0.4,0.133,30,10
+Fokker–Planck equation,,0.0,110,0
+Form factors,0.369,0.639,355,616
+Formation & evolution of stars & galaxies,0.188,0.067,45,16
+Four-wave mixing,0.085,0.175,40,82
+Fourier transform infrared spectroscopy,1.0,0.04,50,2
+Fractal analysis,0.0,0.0,20,33
+Fractal dimension characterization,0.042,0.04,25,24
+Fractals,0.322,0.224,85,59
+Fractional Brownian motion,,0.0,40,0
+Fractional quantum Hall effect,0.632,0.754,305,364
+Fractionalization,0.39,0.231,130,77
+Fracture,0.596,0.648,125,136
+Fragmentation into hadrons,0.429,0.35,60,49
+Free-electron laser acceleration,0.0,0.0,35,2
+Free-electron lasers,0.339,0.336,110,109
+Free-electron model,0.0,0.0,60,1
+Frequency combs & self-phase locking,0.0,,0,54
+Friction,0.551,0.394,165,118
+Front propagation,0.0,0.0,20,7
+Frustrated magnetism,0.486,0.617,770,978
+Full counting statistics,0.0,,0,31
+Fullerenes,0.263,0.167,30,19
+Functional analytical methods,0.0,0.0,40,10
+Functional materials,0.0,0.0,55,3
+Functional renormalization group,0.523,0.518,110,109
+GGA,0.0,0.0,255,3
+GW method,0.652,0.504,230,178
+Galactic halos,0.222,0.04,50,9
+Galactic nuclei & quasars,,0.0,30,0
+Galaxies,0.0,0.0,25,9
+Galaxy clusters,0.343,0.24,50,35
+Game theory models,0.392,0.286,70,51
+Gamma ray astronomy,0.494,0.717,230,334
+Gamma ray bursts,0.415,0.262,65,41
+Gamma ray spectroscopy,0.018,0.022,45,56
+Gas-liquid interfaces,0.0,0.0,80,1
+Gauge bosons,,0.0,30,0
+Gauge symmetries,0.0,0.0,20,24
+Gauge theories,0.307,0.372,495,599
+Gauge theory techniques,0.095,0.05,40,21
+Gauge-gravity dualities,0.665,0.734,940,1037
+Gene expression,0.405,0.486,35,42
+Gene recombination,,0.0,20,0
+Gene regulatory networks,0.0,0.0,20,17
+General relativity,0.171,0.185,755,818
+General relativity equations & solutions,0.243,0.561,560,1294
+General relativity formalism,0.191,0.264,440,606
+Generalized parton distributions,0.0,,0,22
+Genomics,0.0,0.0,20,4
+Geometric & topological phases,0.317,0.155,530,259
+Geometrical & wave optics,0.159,0.106,170,113
+Geometry,0.059,0.04,50,34
+Geophysical fluid dynamics,0.065,0.08,25,31
+Germanene,0.917,0.244,45,12
+Giant magnetoresistance,0.5,0.073,55,8
+Giant resonances,0.0,,0,76
+Glass transition,0.48,0.395,210,173
+Glasses,0.333,0.244,180,132
+Glassy systems,0.146,0.22,100,151
+Glueballs,0.429,0.12,25,7
+Gluons,0.255,0.2,70,55
+Goldstone bosons,0.083,0.08,25,24
+Grain boundaries,0.566,0.627,110,122
+Grand unified models,0.66,0.587,225,200
+Granular avalanches,0.2,0.015,65,5
+Granular flows,0.468,0.523,195,218
+Granular fluids,0.182,0.036,55,11
+Granular gases,0.324,0.55,20,34
+Granular materials,0.3,0.363,215,260
+Granular packing,0.185,0.185,65,65
+Granular segregation,0.5,0.12,25,6
+Graph theory,0.0,,0,54
+Graphene,0.807,0.924,1710,1959
+Graphite,0.952,0.308,65,21
+Gravitation,0.031,0.043,230,324
+Gravitational lenses,0.353,0.421,145,173
+Gravitational wave detection,0.441,0.593,300,404
+Gravitational wave detectors,0.509,0.29,200,114
+Gravitational wave sources,0.405,0.18,355,158
+Gravitational waves,0.572,0.761,840,1118
+Gravitons,0.08,0.1,20,25
+Gravity in dimensions other than four,0.269,0.427,220,350
+Grazing-incidence X-ray diffraction,,0.0,35,0
+Green's function methods,0.305,0.365,575,689
+Group theory,0.012,0.009,110,83
+Growth,0.384,0.137,205,73
+Growth processes,0.178,0.316,95,169
+Gutzwiller approximation,0.5,0.018,55,2
+H & He burning,0.0,0.0,30,4
+H & He induced nuclear reactions,0.507,0.113,320,71
+Hadron colliders,0.25,0.479,585,1122
+Hadron mixing,0.333,0.043,70,9
+Hadron-hadron interactions,0.13,0.244,295,555
+Hadronic decays,0.406,0.398,425,416
+Hadrons,0.029,0.011,90,34
+Half-Heusler alloy,1.0,0.12,25,3
+Half-metals,0.486,0.425,80,70
+Hall bar,,0.0,75,0
+Hall effect,0.252,0.395,200,313
+Hamiltonian systems,0.177,0.117,120,79
+Hard scattering,0.0,0.0,70,13
+Hard sphere colloids,0.1,0.033,30,10
+Hard x-ray photoelectron spectroscopy,0.5,0.033,30,2
+Hard-core bosons,0.333,0.04,25,3
+Hardness,1.0,0.05,20,1
+Hartree-Fock methods,0.225,0.064,140,40
+Heat engines,0.373,0.259,85,59
+Heat transfer,0.0,,0,165
+Heavy baryons,0.312,0.125,40,16
+Heavy mesons,0.0,0.0,80,2
+Heavy neutrinos,0.316,0.12,50,19
+Heavy quark effective theory,0.228,0.289,45,57
+Heavy-fermion systems,0.712,0.691,350,340
+Heavy-particle decays,0.5,0.05,40,4
+Heisenberg model,0.454,0.485,485,518
+Hele-Shaw cell,0.586,0.34,50,29
+Helicoidal magnetic texture,0.083,0.033,30,12
+Helimagnets,0.37,0.425,40,46
+Helium-3 superfluids,0.25,0.225,40,36
+Helium-4 superfluids,0.76,0.173,110,25
+Heterostructures,0.303,0.319,530,558
+Heusler alloy,0.595,0.489,90,74
+Hexagonal boron nitride,0.0,,0,29
+Hexagonal close-packed,0.667,0.2,20,6
+Hierarchy problem,0.286,0.366,145,185
+Higgs bosons,0.449,0.428,540,515
+High intensity laser-plasma interactions,0.103,0.182,55,97
+High-energy accelerators & colliders,0.071,0.067,30,28
+High-energy-density plasmas,0.033,0.133,30,123
+High-frequency & RF discharges in plasmas,0.25,0.05,20,4
+High-harmonic generation,0.321,0.113,150,53
+High-order harmonic generation,0.49,0.649,305,404
+High-pressure studies,0.0,,0,27
+High-resolution electron energy loss spectroscopy,1.0,0.033,30,1
+High-resolution transmission electron microscopy,0.5,0.015,65,2
+High-temperature superconductors,0.338,0.476,380,536
+High-throughput calculations,0.5,0.08,50,8
+Higher-dimensional field theories,0.428,0.272,250,159
+Holography,0.0,0.0,35,36
+Holstein-Primakoff method,1.0,0.057,35,2
+Homodyne & heterodyne detection,0.48,0.171,70,25
+Honeycomb lattice,0.243,0.576,165,391
+Hopping transport,0.419,0.171,105,43
+Hot dense plasma,0.0,0.0,25,14
+Hubbard model,0.481,0.643,625,835
+Hybrid Monte Carlo algorithm,0.0,0.0,35,2
+Hybrid functionals,0.406,0.13,100,32
+Hybrid quantum systems,0.269,0.069,305,78
+Hydrodynamic instabilities,0.0,0.0,20,4
+Hydrodynamic models,0.285,0.317,315,351
+Hydrodynamic waves,0.016,0.018,55,62
+Hydrodynamics,0.065,0.062,130,124
+Hydrogen bonds,0.106,0.25,20,47
+Hydrogen storage materials,0.857,0.3,20,7
+Hydrostatic stellar nucleosynthesis,0.333,0.067,60,12
+Hyperbolic metamaterials,0.5,0.015,65,2
+Hypernuclei & mesic nuclei,0.727,0.582,110,88
+Hyperons,0.265,0.09,100,34
+Hypothetical fermions,0.074,0.029,70,27
+Hypothetical gauge bosons,0.125,0.187,75,112
+Hypothetical particle physics models,0.296,0.117,635,250
+Hypothetical particles,0.172,0.062,80,29
+Hypothetical scalars,0.221,0.064,265,77
+II-VI semiconductors,0.0,0.0,55,1
+III-V semiconductors,0.368,0.183,410,204
+Image processing,0.0,,0,28
+Imaging & optical processing,0.362,0.107,270,80
+Imbibition & injection,,0.0,20,0
+Impedance,0.0,0.0,25,3
+Implosion symmetry,0.615,0.178,45,13
+Impurities,0.231,0.204,280,247
+Impurities in superconductors,0.424,0.2,295,139
+Indirect drive,,0.0,25,0
+Inelastic electron tunneling spectroscopy,0.381,0.229,35,21
+Inelastic light scattering,1.0,0.029,35,1
+Inelastic neutron scattering,0.489,0.472,290,280
+Inertial confinement fusion,0.223,0.417,60,112
+Inertially confined plasmas,,0.0,20,0
+Inflation,0.57,0.902,600,949
+Information & communication theory,0.158,0.08,75,38
+Information theory,0.226,0.457,140,283
+Infrared spectroscopy,0.46,0.32,125,87
+Infrared techniques,0.083,0.017,60,12
+Inorganic compounds,0.0,0.0,30,7
+Instability control,0.0,0.0,25,19
+Instability of free-surface flows,0.067,0.022,45,15
+Instantons,0.294,0.182,55,34
+Instructional materials development,0.45,0.225,40,20
+Instructional strategies,0.415,0.491,110,130
+Insulators,0.145,0.044,225,69
+Integer quantum Hall effect,0.257,0.41,105,167
+Integrability in field theory,0.65,0.186,70,20
+Integrable systems,0.266,0.329,140,173
+Integrated optics,0.309,0.35,60,68
+Interactions & forces,0.0,0.0,95,35
+Interactions in fluids,0.0,0.0,25,3
+Interatomic & molecular potentials,0.271,0.205,190,144
+Interface & surface thermodynamics,0.091,0.18,100,198
+Interfaces,0.355,0.365,480,493
+Interfacial flows,0.174,0.57,270,883
+Interference & diffraction of light,0.0,,0,242
+Interferometry,0.11,0.157,70,100
+Intermetallic compounds,0.0,,0,63
+Interparticle interactions,0.047,0.057,35,43
+Interstellar medium,0.143,0.04,25,7
+Interstitials,0.389,0.2,35,18
+Intracellular transport,0.286,0.067,30,7
+Inverse problems,0.0,,0,26
+Inverse spin Hall effect,0.067,0.333,15,75
+Inversion symmetry,0.0,0.0,25,11
+Invisible decays,0.143,0.025,40,7
+Ion beam analysis,0.062,0.04,25,16
+Ion impact & scattering,0.262,0.244,45,42
+Ion implantation,0.296,0.32,25,27
+Ion scattering from surfaces,,0.0,55,0
+Ion-acoustic waves,0.235,0.133,30,17
+Ionic fluids,0.423,0.183,60,26
+Ionic solids,0.188,0.06,50,16
+Ionic transport,0.0,,0,35
+Ions,0.072,0.142,120,236
+Iridates,0.562,0.506,180,162
+Iron-based superconductors,0.0,,0,190
+Irradiation,,0.0,25,0
+Irradiation effects,0.259,0.231,65,58
+Irreversible processes,0.019,0.014,70,53
+Ising model,0.397,0.67,430,726
+Island,0.286,0.044,45,7
+Isomer decays,0.714,0.462,130,84
+Isospin violation,0.0,,0,20
+Isotope effect,0.061,0.4,5,33
+Isotope shift,0.0,,0,22
+Jahn-Teller effect,0.523,0.622,90,107
+Jamming,0.473,0.4,130,110
+Jaynes-Cummings model,0.438,0.6,70,96
+Jets & heavy flavor physics,0.341,0.4,115,135
+Josephson effect,0.433,0.612,330,467
+Josephson junctions,0.388,0.245,290,183
+Junctions,0.045,0.013,80,22
+K-12 students,0.667,0.057,35,3
+Kagome lattice,0.585,0.651,175,195
+Kane-Mele model,0.4,0.044,45,5
+Kaons,0.396,0.21,100,53
+Kardar–Parisi–Zhang equation,,0.0,85,0
+Kelvin-Helmholtz instability,0.857,0.2,30,7
+Kerr effect,0.288,0.131,130,59
+Kinetic theory,0.197,0.414,140,294
+Kitaev model,0.451,0.34,150,113
+Kitaev-Heisenberg model,0.36,0.225,40,25
+Kondo effect,0.506,0.765,340,514
+Kondo insulators,0.482,0.386,70,56
+Kondo lattice model,0.571,0.2,80,28
+Korringa-Kohn-Rostoker method,0.632,0.16,75,19
+Kuramoto model,0.333,0.033,30,3
+LDA,0.0,0.0,130,2
+LEDs,,0.0,35,0
+Laboratory plasma,0.0,0.0,20,2
+Laboratory studies of gravity,,0.0,40,0
+Laboratory studies of space & astrophysical plasmas,,0.0,50,0
+Lagrangian particle tracking,0.2,0.075,40,15
+Landau levels,0.386,0.584,385,583
+Landau-Ginzburg theory,0.179,0.162,105,95
+Landau-Lifschitz-Gilbert equation,0.352,0.273,205,159
+Landau-Lifshitz model,0.5,0.029,35,2
+Landau-Zener effect,0.0,,0,72
+Landauer formula,0.17,0.129,70,53
+Langevin algorithm,0.389,0.127,55,18
+Langevin equation,0.277,0.37,200,267
+Large deviation & rare event statistics,0.205,0.309,55,83
+Large scale structure of the Universe,0.368,0.761,330,682
+Large-N expansion in field theory,0.429,0.385,195,175
+Laser ablation,,0.0,35,0
+Laser applications,0.0,0.0,65,5
+Laser driven electron acceleration,0.261,0.171,35,23
+Laser driven ion acceleration,0.857,0.092,65,7
+Laser dynamics,0.0,,0,69
+Laser inertial confinement,0.312,0.1,50,16
+Laser light absorption in plasmas,,0.0,25,0
+Laser spectroscopy,0.175,0.3,110,189
+Laser systems,0.026,0.05,20,38
+Laser techniques,0.03,0.029,35,33
+Laser wakefield acceleration,0.846,0.157,140,26
+Laser-beam impact phenomena,0.037,0.05,20,27
+Laser-cluster interaction,1.0,0.08,25,2
+Laser-plasma interactions,0.274,0.561,180,369
+Laser-system design,0.091,0.029,35,11
+Lasers,0.277,0.2,140,101
+Lattice QCD,0.675,0.511,660,499
+Lattice dynamics,0.162,0.192,255,303
+Lattice field theory,0.171,0.467,225,614
+Lattice gases,0.143,0.044,45,14
+Lattice gauge theory,0.283,0.176,255,159
+Lattice models in condensed matter,0.091,0.144,180,285
+Lattice models in statistical physics,0.032,0.043,70,95
+Lattice thermal conductivity,0.282,0.22,100,78
+Lattice-Boltzmann methods,0.862,0.844,295,289
+Lattices,0.0,0.0,30,1
+Lattices in beam optics,0.0,0.0,25,7
+Learning environment,0.263,0.2,50,38
+Lepton colliders,0.304,0.156,135,69
+Lepton induced nuclear reactions,0.41,0.189,180,83
+Lepton-hadron colliders,0.0,0.0,25,2
+Lepton-lepton interactions,0.053,0.133,30,76
+"Leptonic, semileptonic & radiative decays",0.398,0.24,480,289
+Leptons,0.0,0.0,50,19
+Leptoquarks,0.818,0.189,95,22
+Levy flights,0.556,0.294,85,45
+Lifetimes & widths,0.563,0.351,430,268
+Light mesons,0.221,0.136,140,86
+"Light propagation, transmission & absorption",0.265,0.336,675,858
+Light scattering,0.123,0.167,120,162
+Light-matter interaction,0.071,0.181,420,1064
+Line defects,0.0,0.0,25,10
+Linear accelerators,0.154,0.067,30,13
+Linear acoustics,0.0,0.0,25,1
+Linear colliders,0.0,0.0,20,3
+Linear response theory,0.181,0.112,170,105
+Lipids,0.667,0.05,40,3
+Liquid bridges,1.0,0.1,20,2
+Liquid crystal phase transitions,0.256,0.25,80,78
+Liquid crystals,0.184,0.6,90,293
+Liquid helium cooling,1.0,0.027,75,2
+Liquid-liquid interfaces,0.231,0.043,70,13
+Liquid-liquid phase transition,0.423,0.275,40,26
+Liquid-solid interfaces,0.312,0.037,135,16
+Liquid-solid phase transition,0.2,0.089,45,20
+Liquids,0.418,0.217,175,91
+Lithography,0.0,0.0,60,5
+Living matter & active matter,0.373,0.205,185,102
+Local density of states,0.172,0.157,140,128
+Localization,0.149,0.167,180,201
+Locomotion,0.181,0.375,40,83
+Long-range interactions,0.191,0.15,140,110
+Loop quantum gravity,0.795,0.54,215,146
+Lorentz symmetry,0.69,0.591,230,197
+Low & intermediate energy heavy-ion reactions,0.638,0.37,755,437
+Low Reynolds number flows,0.0,,0,26
+Low Reynolds number swimmers,0.25,0.026,115,12
+Low-energy electron diffraction,0.658,0.179,140,38
+Low-energy electron microscopy,0.556,0.091,55,9
+Low-energy multiple-particle dynamics,0.0,0.0,30,2
+Low-temperature superconductors,0.056,0.012,85,18
+Lower undergraduate students,0.5,0.06,100,12
+Lower-dimensional field theories,0.157,0.029,275,51
+Lubrication,0.667,0.05,40,3
+Luminescence,0.231,0.193,140,117
+Luttinger liquid model,0.578,0.586,145,147
+M-theory,0.0,0.0,35,1
+Machine learning,0.236,0.557,70,165
+Magnetic anisotropy,0.461,0.616,505,675
+Magnetic colloids,0.3,0.12,25,10
+Magnetic confinement fusion,0.062,0.6,5,48
+Magnetic domains,0.345,0.337,175,171
+Magnetic field generation & plasma dynamo,0.182,0.171,35,33
+Magnetic force microscopy,1.0,0.257,35,9
+Magnetic insulators,0.303,0.11,210,76
+Magnetic interactions,0.082,0.142,260,449
+Magnetic moment,0.431,0.561,205,267
+Magnetic monopoles,0.25,0.24,50,48
+Magnetic multilayers,0.325,0.178,230,126
+Magnetic nanoparticles,0.343,0.4,60,70
+Magnetic order,0.074,0.242,165,544
+Magnetic phase transitions,0.13,0.472,345,1250
+Magnetic reconnection,0.69,0.8,75,87
+Magnetic refrigeration,0.6,0.075,40,5
+Magnetic semiconductors,0.67,0.366,205,112
+Magnetic susceptibility,0.341,0.182,400,214
+Magnetic systems,0.083,0.033,300,121
+Magnetic techniques,0.182,0.057,35,11
+Magnetic texture,0.14,0.246,130,229
+Magnetic tunnel junctions,0.71,0.704,125,124
+Magnetic vortices,0.632,0.133,90,19
+Magnetically confined plasmas,0.0,0.0,30,8
+Magnetism,0.201,0.172,1180,1009
+Magnetization dynamics,0.0,,0,159
+Magnetization measurements,0.48,0.146,735,223
+Magnetization switching,0.571,0.46,315,254
+Magnetized plasma,0.438,0.28,50,32
+Magneto-optical Kerr effect,0.593,0.262,195,86
+Magneto-optical effect,0.377,0.286,210,159
+Magneto-optical spectra,0.0,0.0,40,3
+Magnetocaloric effect,0.292,0.475,40,65
+Magnetoelastic effect,0.388,0.52,50,67
+Magnetoelectric effect,0.606,0.661,295,322
+Magnetohydrodynamic turbulence,0.467,0.3,70,45
+Magnetohydrodynamic waves,0.0,0.0,20,1
+Magnetohydrodynamics,0.446,0.503,165,186
+Magnetoresistance,0.482,0.391,440,357
+Magnetostriction,0.468,0.367,60,47
+Magnetotransport,0.24,0.369,455,700
+Magnonic crystals,0.2,0.029,35,5
+Magnons,0.628,0.592,380,358
+Majorana bound states,0.0,,0,159
+Majorana fermions,0.64,0.645,555,559
+Majorana neutrinos,0.324,0.277,130,111
+Manganites,0.625,0.435,115,80
+Many-body localization,0.824,0.8,310,301
+Many-body techniques,0.076,0.089,280,331
+Marangoni convection,0.429,0.225,40,21
+Markovian processes,0.4,0.131,260,85
+Martensitic phase transition,0.711,0.3,90,38
+Mass,0.183,0.049,265,71
+Master equation,0.0,,0,58
+Material failure,0.25,0.16,25,16
+Mathematical physics,0.056,0.008,125,18
+Mathematical physics methods,0.065,0.042,120,77
+Matrix product states,0.333,0.25,140,105
+Mean field theory,0.174,0.105,390,236
+Mean-field & cluster methods,0.067,0.086,35,45
+Mechanical & acoustical properties,0.024,0.046,65,125
+Mechanical deformation,0.128,0.317,180,447
+Mechanical effects of light on material media,0.35,0.035,200,20
+Mechanical metamaterials,0.0,,0,21
+Mechanical properties of membranes,0.013,0.022,45,79
+Medical imaging,0.0,0.0,20,3
+Medical physics & public health,0.5,0.033,30,2
+Meissner effect,0.571,0.32,25,14
+Membrane dynamics,0.092,0.24,25,65
+Membrane fluctuations,0.5,0.04,25,2
+Membrane structures,0.25,0.025,40,4
+Membranes,0.211,0.345,55,90
+Memory,0.0,0.0,20,4
+Meson & hyperon induced nuclear reactions,0.136,0.109,55,44
+Mesons,0.064,0.176,165,456
+Mesoscopics,0.176,0.168,315,301
+Metal-insulator transition,0.42,0.605,410,591
+Metallic glasses,0.644,0.543,70,59
+Metals,0.239,0.104,405,176
+Metamagnetism,0.533,0.4,40,30
+Metamaterials,0.554,0.744,585,785
+Methods in electromagnetism,0.0,0.0,25,5
+Methods in magnetism,0.0,0.0,85,5
+Methods in superconductivity,0.125,0.007,150,8
+Methods in transport,0.0,0.0,100,9
+Metrology,0.089,0.178,45,90
+Metropolis algorithm,0.125,0.017,60,8
+Microcavity & microdisk lasers,0.286,0.04,50,7
+Microfluidic devices,0.259,0.093,75,27
+Microfluidics,0.342,0.257,300,225
+Micromagnetic modeling,0.611,0.479,190,149
+Micromagnetism,0.062,0.071,70,80
+Micromechanical & nanomechanical oscillators,0.164,0.15,120,110
+Micromechanical devices,,0.0,60,0
+Microstructure,0.135,0.045,110,37
+Microswimmers,0.397,0.227,110,63
+Microwave techniques,0.215,0.367,150,256
+Mie scattering,0.425,0.212,80,40
+Milky Way,0.0,0.0,40,2
+Mixing in geophysical flows,0.0,0.0,10,31
+Mixtures of atomic and/or molecular quantum gases,0.0,,0,36
+Mode coupling theory,0.333,0.225,40,27
+Models & methods for nuclear reactions,0.082,0.118,85,122
+Models based on symmetries,0.45,0.15,120,40
+Modulation instability,0.0,,0,31
+Molecular beam epitaxy,0.3,0.057,105,20
+Molecular dynamics,0.468,0.615,1090,1433
+Molecular junctions,0.711,0.415,65,38
+Molecular magnetism,0.5,0.157,115,36
+Molecular magnets,0.556,0.091,55,9
+Molecular solids,0.212,0.1,70,33
+Molecular spectra,0.357,0.192,265,143
+Molecule trapping & guiding,0.438,0.14,50,16
+Molecules,0.226,0.397,390,685
+Monolayer films,0.158,0.064,235,95
+Monopoles,0.44,0.183,60,25
+Monte Carlo methods,0.404,0.455,1350,1521
+Morphogenesis,0.5,0.05,20,2
+Motor proteins,0.208,0.2,25,24
+Mott insulators,0.47,0.463,400,394
+Mott-superfluid transition,0.438,0.117,60,16
+Multiband superconductivity,0.629,0.24,275,105
+Multicomponent & negative-ion plasma,1.0,0.05,20,1
+Multiferroics,0.702,0.784,430,480
+Multilayer & multiplex networks,0.717,0.314,105,46
+Multilayer thin films,0.22,0.047,235,50
+Multiphase flows,0.222,0.092,240,99
+Multiphoton or tunneling ionization & excitation,0.595,0.313,780,410
+Multiple time scale dynamics,,0.0,30,0
+Multiscale modeling,0.167,0.02,50,6
+Muon spin relaxation & rotation,0.59,0.74,150,188
+Muon spin resonance,0.256,0.138,80,43
+Muons,0.632,0.096,125,19
+Mössbauer spectroscopy,1.0,0.037,80,3
+NV centers,0.0,0.0,50,4
+Nanoantennas,0.438,0.233,60,32
+Nanoclusters,0.059,0.05,20,17
+Nanocrystals,0.6,0.171,70,20
+Nanofluidics,0.314,0.188,85,51
+Nanomechanical devices,0.28,0.21,100,75
+Nanoparticles,0.424,0.469,320,354
+Nanophotonics,0.0,,0,176
+Nanoribbon,0.55,0.5,120,109
+Nanostructures,0.186,0.169,645,585
+Nanotubes,0.737,0.646,195,171
+Nanowires,0.586,0.556,480,456
+Navier-Stokes equation,0.09,0.069,145,111
+Near-critical & underdense plasmas,,0.0,20,0
+Near-field optical spectroscopy,0.286,0.044,45,7
+Near-field optics,0.0,,0,20
+Negative refraction,0.37,0.222,45,27
+Nematic liquid crystals,0.493,0.439,155,138
+Nematic order,0.562,0.589,285,299
+Nematic phase transition,0.0,0.0,25,2
+Nernst effect,0.372,0.32,50,43
+Nesting,1.0,0.017,60,1
+Network Models,0.25,0.029,70,8
+Network diffusion,0.0,0.0,20,11
+Network evolution,0.054,0.06,50,56
+Network flow,0.22,0.225,40,41
+Network formation & growth,0.233,0.182,55,43
+Network optimization,0.714,0.167,30,7
+Network phase transitions,0.109,0.215,65,129
+Network resilience,0.262,0.244,45,42
+Network searches,,0.0,20,0
+Network stability,0.048,0.08,25,42
+Network structure,0.19,0.545,220,631
+Networks & random structures,0.031,0.02,50,32
+Neural encoding,0.0,0.0,30,4
+Neural information,0.0,0.0,35,2
+Neuronal dynamics,0.104,0.309,55,163
+Neuronal network activity,0.091,0.2,10,22
+Neuronal network models,0.0,0.0,5,68
+"Neuroscience, neural computation & artificial intelligence",0.122,0.083,60,41
+Neutrino detection,0.227,0.339,115,172
+Neutrino interactions,0.388,0.23,370,219
+Neutrino mass,0.0,,0,106
+Neutrino mixing,0.0,,0,23
+Neutrino oscillations,0.387,0.661,330,564
+Neutrinoless double beta decay,0.589,0.722,115,141
+Neutrinos,0.339,0.184,615,333
+Neutron diffraction,0.695,0.627,515,465
+Neutron physics,0.315,0.262,65,54
+Neutron reflectometry,0.625,0.167,30,8
+Neutron scattering,0.249,0.361,230,334
+Neutron spin echo spectroscopy,0.5,0.075,40,6
+Neutron stars & pulsars,0.491,0.606,470,580
+Neutron techniques,0.4,0.114,35,10
+Neutrons,0.5,0.064,110,14
+Nitrides,0.181,0.253,75,105
+Nitrogen vacancy centers in diamond,0.641,0.774,235,284
+Nodal-line semimetals,0.0,0.0,45,6
+Noise,0.265,0.237,410,366
+Noise control,0.0,,0,20
+Noise measurements,0.0,,0,30
+Non-Abelian gauge theories,0.0,0.0,145,5
+Non-Abelian models,0.5,0.014,70,2
+Non-Fermi-liquid theory,0.296,0.582,55,108
+Non-Hermitian systems,0.0,,0,44
+Non-Markovian processes,0.449,0.234,205,107
+Non-Newtonian fluids,0.406,0.144,90,32
+Noncentrosymmetric materials,0.293,0.24,50,41
+Noncollinear magnets,0.091,0.025,40,11
+Noncommutative field theories,0.568,0.575,80,81
+Noncommutative geometry,0.357,0.125,40,14
+Noncontact atomic force microscopy,0.462,0.2,30,13
+Nonequilibrium & irreversible thermodynamics,0.336,0.332,660,652
+Nonequilibrium Green's function,0.539,0.343,300,191
+Nonequilibrium fluctuations,,0.0,80,0
+Nonequilibrium lattice models,0.156,0.043,115,32
+Nonequilibrium statistical mechanics,0.179,0.246,755,1039
+Nonequilibrium systems,0.0,0.0,5,59
+Nonlinear acoustics,0.667,0.057,35,3
+Nonlinear beam dynamics,0.174,0.08,50,23
+Nonlinear optics,0.269,0.671,785,1960
+Nonlinear phenomena in plasmas,0.065,0.05,40,31
+Nonlinear sigma model,0.246,0.2,75,61
+Nonlinear time-delay systems,0.192,0.125,80,52
+Nonlinear waveguides,0.333,0.013,150,6
+Nonlinear waves,0.127,0.354,130,362
+Nonlocality,0.577,0.609,635,671
+Nonneutral plasmas,1.0,0.04,25,1
+Nonperturbative effects in field theory,0.17,0.092,195,106
+Nonperturbative methods,0.0,0.0,430,21
+Nonrelativistic QCD,0.571,0.4,50,35
+Nonrelativistic wave equations,0.167,0.029,35,6
+Novae & supernovae,0.469,0.261,115,64
+Nuclear & electron resonance,0.0,0.0,25,4
+Nuclear astrophysics,0.341,0.386,280,317
+Nuclear binding,0.125,0.007,135,8
+Nuclear charge distribution,0.393,0.119,185,56
+Nuclear data analysis & compilation,0.104,0.045,110,48
+Nuclear density functional theory,0.681,0.4,485,285
+Nuclear forces,0.535,0.274,785,402
+Nuclear fragmentation,0.667,0.1,140,21
+Nuclear fusion,0.337,0.44,125,163
+Nuclear magnetic resonance,0.629,0.823,400,523
+Nuclear many-body theory,0.241,0.196,275,224
+Nuclear matter,0.37,0.304,230,189
+Nuclear matter in neutron stars,0.647,0.345,420,224
+Nuclear physics of explosive environments,0.0,0.0,60,5
+Nuclear quadrupole resonance,0.556,0.286,35,18
+Nuclear reactions,0.391,0.415,825,875
+Nuclear reactors,0.5,0.24,25,12
+Nuclear spin & parity,0.111,0.013,75,9
+Nuclear spin resonance,0.333,0.033,30,3
+Nuclear structure & decays,0.358,0.635,1070,1895
+Nuclear tests of fundamental interactions,0.16,0.067,60,25
+Nucleation,0.625,0.421,95,64
+Nucleation on surfaces,0.143,0.05,20,7
+Nucleic acid replication & information processes,0.0,0.0,20,4
+Nucleic acids,0.0,,0,28
+Nucleon distribution,0.37,0.067,150,27
+Nucleon induced nuclear reactions,0.299,0.184,250,154
+Nucleon spin structure,0.0,,0,25
+Nucleon-nucleon interactions,0.561,0.186,420,139
+Nucleosynthesis in explosive environments,0.488,0.174,115,41
+Nucleus-neutrino interactions,0.735,0.185,195,49
+Numerical Renormalization Group,0.944,0.2,85,18
+Numerical approximation & analysis,0.016,0.021,95,126
+Numerical relativity,0.574,0.369,390,251
+Numerical simulations in gravitation & astrophysics,0.075,0.125,40,67
+Numerical techniques,0.039,0.075,120,229
+Oceanography,1.0,0.04,25,1
+Odd-frequency superconductivity,0.462,0.24,50,26
+Open quantum systems,0.185,0.077,310,130
+Open quantum systems & decoherence,0.376,0.577,855,1311
+Optical & microwave phenomena,0.057,0.079,215,300
+Optical absorption spectroscopy,0.161,0.162,210,211
+Optical bistability,0.394,0.373,75,71
+Optical chaos,0.0,0.0,30,1
+Optical coherence,0.174,0.094,170,92
+Optical conductivity,0.558,0.477,400,342
+Optical fibers,0.351,0.108,120,37
+Optical forces,0.0,,0,21
+Optical generation of spin carriers,,0.0,20,0
+Optical interferometry,0.308,0.143,230,107
+Optical lattices & traps,0.021,0.05,80,193
+Optical materials & elements,0.091,0.027,110,33
+Optical microcavities,0.186,0.158,215,183
+Optical microscopy,0.423,0.096,115,26
+Optical nanoscopy,0.042,0.1,10,24
+Optical parametric oscillators & amplifiers,0.42,0.264,110,69
+Optical phonons,0.141,0.09,100,64
+Optical plasma measurements,0.0,0.0,25,2
+Optical properties of clusters,0.0,0.0,40,12
+Optical pumping,0.407,0.137,175,59
+Optical quantum information processing,0.0,,0,25
+Optical second-harmonic generation,0.579,0.085,130,19
+Optical solitons,0.322,0.548,210,357
+Optical sources & detectors,0.0,0.0,35,27
+Optical spectroscopy,0.064,0.067,135,140
+Optical techniques,0.041,0.133,90,293
+Optical tests of quantum theory,0.0,0.0,85,10
+Optical transient phenomena,0.034,0.025,80,58
+Optical tweezers,0.29,0.3,30,31
+Optical vortices,0.056,0.8,5,72
+"Optical, UV, & IR astronomy",0.0,0.0,20,2
+"Optical, coupled-channel & distorted wave models",0.522,0.551,285,301
+Optically detected magnetic resonance,0.933,0.165,85,15
+Optics & lasers,0.044,0.02,100,45
+Optimization problems,0.144,0.183,120,153
+Optoelectronics,0.225,0.072,125,40
+Optomechanics,0.764,0.719,720,678
+Orbital order,0.246,0.6,95,232
+Order parameters,0.102,0.106,85,88
+Organic & organometallic chemistry,,0.0,20,0
+Organic compounds,0.189,0.234,145,180
+Organic electronics,0.0,0.0,40,8
+Organic semiconductors,0.581,0.303,165,86
+Organic sensors,,0.0,30,0
+Organic superconductors,0.625,0.2,50,16
+"Organismal, population, evolutionary & ecological systems",0.111,0.08,25,18
+Organometallic materials,,0.0,30,0
+Osmosis,0.0,0.0,20,3
+Oxides,0.412,0.18,890,388
+P-symmetry,,0.0,30,0
+PT-symmetric quantum mechanics,0.538,0.522,205,199
+PT-symmetry,0.0,,0,63
+Packing & jamming problems,0.264,0.133,105,53
+Pairing mechanisms,0.131,0.109,165,137
+Parafermions,0.667,0.4,20,12
+Paramagnetism,0.308,0.076,105,26
+Paramagnets,0.6,0.067,45,5
+Parametric resonance,0.0,,0,28
+Parity,0.0,0.0,50,3
+Particle & resonance production,0.5,0.273,300,164
+Particle acceleration in plasmas,0.099,0.28,25,71
+Particle astrophysics,0.072,0.041,170,97
+Particle correlations & fluctuations,0.488,0.662,355,482
+Particle dark matter,0.577,0.854,1070,1584
+Particle data analysis,0.109,0.154,65,92
+Particle decays,0.148,0.329,340,757
+Particle detection signatures,0.0,,0,28
+Particle detectors,0.2,0.167,30,25
+Particle image velocimetry,0.0,0.0,30,12
+Particle interactions,0.104,0.115,575,633
+Particle mixing & oscillations,0.104,0.229,140,309
+Particle phenomena,0.016,0.01,100,63
+Particle plasma measurements,0.0,0.0,20,2
+Particle production,0.248,0.349,740,1040
+Particle properties,0.2,0.033,30,5
+Particle sources & targets,0.0,0.0,45,5
+Particle-in-cell methods,0.26,0.46,100,177
+Particle-laden flows,0.333,0.379,145,165
+Parton distribution functions,0.0,,0,410
+Patchy particles,0.0,0.0,20,1
+Path integrals,0.059,0.08,75,101
+Path-integral Monte Carlo,0.5,0.062,80,10
+Path-integral methods,0.174,0.047,85,23
+Pattern formation,0.219,0.583,290,771
+Patterning,0.0,0.0,25,2
+Patterns in complex systems,0.0,0.0,135,2
+Peierls transition,0.688,0.147,75,16
+Penetration depth,0.444,0.178,45,18
+Penning traps,0.375,0.1,30,8
+Percolation,0.3,0.031,195,20
+Percolation phase transition,0.228,0.325,80,114
+Percolation theory,0.161,0.487,80,242
+Permalloy,,0.0,20,0
+Permittivity,0.0,0.0,115,1
+Perovskites,0.417,0.564,535,724
+Persistence length,0.0,0.0,25,2
+Perturbation theory,0.17,0.179,530,560
+Perturbative QCD,0.4,0.416,500,520
+Perturbative methods,0.03,0.013,240,99
+Phase behavior,0.286,0.16,25,14
+Phase diagrams,0.276,0.228,785,649
+Phase separation,0.26,0.352,145,196
+Phase separation driven self-assembly,0.036,0.067,15,28
+Phase slips,0.312,0.167,30,16
+Phase space dynamics,0.0,0.0,30,1
+Phase space methods,0.082,0.094,85,97
+Phase transitions,0.185,0.456,1385,3410
+Phase transitions by order,0.0,0.0,60,4
+Phase-field modeling,0.743,0.577,130,101
+Phonon polariton,0.75,0.225,40,12
+Phononic crystals,0.0,,0,21
+Phonons,0.354,0.675,910,1734
+Phosphorene,0.75,0.852,155,176
+Photoassociation,0.722,0.52,50,36
+Photoconductivity,0.289,0.2,55,38
+Photodetachment,1.0,0.144,90,13
+Photodissociation,0.585,0.51,155,135
+Photoelectron emission microscopy,0.0,0.0,30,9
+Photoelectron techniques,0.2,0.022,45,5
+Photoemission,0.228,0.117,180,92
+Photoemission spectroscopy,0.163,0.219,160,215
+Photoexcitation,0.5,0.021,140,6
+Photoionization,0.12,0.072,125,75
+Photoluminescence,0.63,0.466,500,370
+Photon & charged-lepton interactions with hadrons,0.096,0.045,110,52
+Photon correlation spectroscopy,0.0,0.0,25,7
+Photon counting,0.0,0.0,35,28
+Photon pairs & parametric down-conversion,0.0,,0,194
+Photon statistics,0.431,0.382,220,195
+"Photon, lepton & quark production",0.658,0.152,165,38
+Photonic crystals,0.645,0.63,395,386
+Photonics,0.221,0.055,495,122
+Photons,0.156,0.04,125,32
+Photonuclear reactions,0.592,0.25,180,76
+Photorefractive & Kerr effects,0.8,0.057,70,5
+Photovoltaic absorbers,0.425,0.131,130,40
+Photovoltaic effect,0.0,,0,51
+Physical vapor deposition,,0.0,20,0
+Physiological flows,0.308,0.133,30,13
+Physisorption,,0.0,20,0
+Piezoelectricity,0.556,0.476,145,124
+Piezoelectrics,0.385,0.037,135,13
+Piezoresponse force microscopy,0.5,0.15,20,6
+Pions,0.214,0.046,195,42
+Plasma acceleration & new acceleration techniques,0.429,0.1,120,28
+Plasma diagnostic techniques,0.0,0.0,10,30
+Plasma discharges,0.25,0.05,20,4
+Plasma fusion,0.0,0.0,175,1
+Plasma instabilities,0.116,0.262,65,146
+Plasma interactions,0.0,0.0,45,2
+Plasma kinetic theory,0.13,0.1,30,23
+Plasma oscillations,0.05,0.022,45,20
+Plasma production & heating,0.0,0.0,20,6
+"Plasma production & heating by laser beams, laser-foil, laser-cluster",0.111,0.02,50,9
+Plasma stability,0.333,0.089,45,12
+Plasma thermodynamics,0.5,0.156,45,14
+Plasma transport,0.143,0.2,50,70
+Plasma turbulence,0.52,0.279,140,75
+Plasma waves,0.218,0.425,40,78
+Plasma-beam interactions,,0.0,50,0
+Plasma-particle interactions,0.043,0.022,45,23
+Plasma-solid interactions,0.111,0.022,45,9
+Plasmonics,0.462,0.466,455,459
+Plasmons,0.423,0.538,260,331
+Plastic deformation,0.261,0.109,110,46
+Plasticity,0.377,0.379,145,146
+Pnictides,0.617,0.645,695,726
+Point contacts,0.462,0.067,90,13
+Point defects,0.189,0.411,190,412
+Polaritons,0.303,0.196,240,155
+Polarizability,0.0,,0,78
+Polarization,0.019,0.005,195,53
+Polarization in interactions & scattering,0.098,0.071,70,51
+Polarization of light,0.0,,0,286
+Polarization phenomena,0.405,0.32,100,79
+Polarized optical microscopy,0.0,0.0,25,1
+Polarons,0.563,0.563,190,190
+Polycrystalline materials,0.222,0.021,95,9
+Polydisperse materials,0.167,0.04,25,6
+Polyelectrolytes,0.429,0.3,20,14
+Polymer aging,,0.0,25,0
+Polymer behavior,0.029,0.025,40,34
+Polymer conformation & topology,0.104,0.4,35,135
+Polymer conformation changes,0.114,0.257,35,79
+Polymer entanglement,0.533,0.2,40,15
+Polymer gels,0.455,0.25,20,11
+Polymer melts,0.556,0.4,25,18
+Polymer networks,0.6,0.333,45,25
+Polymer scaling theory,0.036,0.067,15,28
+Polymer solutions,0.417,0.111,90,24
+Polymer theory,0.167,0.12,25,18
+Polymer translocation,0.333,0.05,20,3
+Polymer-nanoparticle composites,0.455,0.25,20,11
+Polymers,0.45,0.058,155,20
+Population dynamics,0.143,0.01,105,7
+Porous materials,0.205,0.18,50,44
+Porous media,0.156,0.071,70,32
+Positron annihilation spectroscopy,0.652,0.5,30,23
+Positronium,0.0,,0,51
+Positrons,0.1,0.029,35,10
+Potential energy surfaces,0.075,0.067,45,40
+Potts model,0.7,0.175,40,10
+Power grid networks,1.0,0.3,30,9
+Precision measurements,0.161,0.171,170,180
+Preferential attachment,0.2,0.1,20,10
+Pressure effects,0.659,0.685,715,743
+Pressure techniques,0.333,0.022,180,12
+Primordial magnetic fields,0.66,0.326,95,47
+Probability theory,0.2,0.117,60,35
+"Processes in cells, tissues & organoids",,0.0,30,0
+Projected entangled pair states,0.692,0.225,40,13
+Protein folding,0.629,0.88,25,35
+Protein-membrane interactions,0.389,0.233,30,18
+Protein-protein interactions,0.235,0.16,25,17
+Proteins,0.267,0.05,80,15
+Proton emission,0.676,0.46,50,34
+Protons,0.5,0.05,240,24
+Proximity effect,0.283,0.318,170,191
+Pseudogap,0.294,0.538,65,119
+Pseudopotentials,0.667,0.255,55,21
+Pulsed-power accelerators,0.667,0.4,25,15
+Pump-probe spectroscopy,0.154,0.015,130,13
+Pyrochlores,0.612,0.806,170,224
+Pyroelectricity,1.0,0.25,20,5
+QCD in nuclear reactions,0.0,0.0,140,1
+QCD phase transitions,0.338,0.315,235,219
+Quantum Fisher information,0.0,,0,36
+Quantum Hall effect,0.558,0.383,475,326
+Quantum Monte Carlo,0.502,0.587,535,625
+Quantum Zeno dynamics,0.5,0.156,45,14
+Quantum algorithms,0.571,0.297,435,226
+Quantum anomalous Hall effect,0.557,0.692,120,149
+Quantum aspects of black holes,0.657,0.297,465,210
+Quantum cavities,0.047,0.034,175,128
+Quantum channels,0.0,,0,183
+Quantum chaos,0.28,0.35,160,200
+Quantum chemistry methods,0.067,0.057,35,30
+Quantum chromodynamics,0.267,0.367,1060,1455
+Quantum coherence & coherence measures,0.446,0.403,295,267
+Quantum communication,0.419,0.497,600,712
+Quantum computation,0.355,0.492,610,846
+Quantum control,0.221,0.55,420,1047
+Quantum correlations in quantum information,0.0,,0,293
+"Quantum correlations, foundations & formalism",0.027,0.057,230,488
+Quantum cosmology,0.489,0.47,185,178
+Quantum criticality,0.184,0.231,225,282
+Quantum cryptography,0.808,0.8,390,386
+Quantum description of light-matter interaction,0.236,0.08,515,174
+Quantum discord,0.0,,0,34
+Quantum dots,0.702,0.745,1055,1119
+Quantum effects in biological systems,,0.0,20,0
+Quantum electrodynamics,0.434,0.507,540,631
+Quantum entanglement,0.276,0.576,1080,2254
+Quantum error correction,0.525,0.683,360,469
+Quantum feedback,0.261,0.24,25,23
+Quantum field theory,0.169,0.37,610,1336
+Quantum field theory (low energy),0.0,0.0,30,14
+Quantum fields in curved spacetime,0.473,0.348,600,442
+Quantum fluctuations & noise,0.127,0.102,255,205
+Quantum fluids & solids,0.062,0.035,285,161
+Quantum formalism,0.153,0.154,175,177
+Quantum foundations,0.37,0.396,570,611
+Quantum gates,0.0,,0,545
+Quantum graphs,1.0,0.1,30,3
+Quantum gravity,0.581,0.448,640,494
+Quantum group symmetries,0.0,0.0,20,1
+Quantum heat engines & refrigerators,0.254,0.34,50,67
+Quantum information architectures & platforms,0.226,0.094,530,221
+Quantum information processing,0.123,0.179,715,1039
+Quantum information processing with continuous variables,0.396,0.414,220,230
+Quantum information theory,0.0,,0,149
+Quantum information with atoms & light,0.102,0.014,345,49
+Quantum information with solid state qubits,0.361,0.203,340,191
+Quantum interference effects,0.121,0.311,190,488
+Quantum kicked rotor,1.0,0.05,40,2
+Quantum master equation,0.182,0.2,150,165
+Quantum measurements,0.243,0.473,545,1062
+Quantum memories,0.453,0.46,200,203
+Quantum metrology,0.326,0.521,445,712
+Quantum networks,0.0,,0,92
+Quantum nondemolition measurement,0.0,,0,21
+Quantum optics,0.171,0.245,840,1207
+Quantum optics with artificial atoms,0.1,0.01,105,10
+Quantum oscillation techniques,0.28,0.435,85,132
+Quantum parameter estimation,0.231,0.069,130,39
+Quantum phase transitions,0.339,0.409,1000,1205
+Quantum plasmas,1.0,0.16,25,4
+Quantum protocols,0.0,,0,21
+Quantum quench,0.0,,0,87
+Quantum sensing,0.0,,0,130
+Quantum simulation,0.504,0.349,355,246
+Quantum spin Hall effect,0.535,0.5,200,187
+Quantum spin chains,0.284,0.093,225,74
+Quantum spin liquid,0.391,0.796,245,499
+Quantum spin models,0.263,0.118,255,114
+Quantum state engineering,0.358,0.177,570,282
+Quantum state transfer,0.308,0.267,45,39
+Quantum states of light,0.0,,0,120
+Quantum statistical mechanics,0.245,0.195,415,331
+Quantum stochastic processes,0.0,0.0,20,13
+Quantum teleportation,0.0,,0,51
+Quantum thermodynamics,0.453,0.459,355,360
+Quantum tomography,0.613,0.519,235,199
+Quantum transport,0.167,0.329,395,779
+Quantum walks,0.662,0.736,125,139
+Quantum wells,0.693,0.643,485,450
+Quantum wires,0.5,0.152,125,38
+Quantum-to-classical transition,0.28,0.067,105,25
+Quark & gluon jets,0.486,0.336,250,173
+Quark matter,0.0,,0,21
+Quark mixing,0.368,0.247,85,57
+Quark model,0.414,0.457,420,464
+Quark-gluon plasma,0.505,0.399,750,592
+Quarkonia,0.548,0.308,370,208
+Quarks,0.053,0.009,110,19
+Quasi elastic neutron scattering,,0.0,30,0
+Quasicrystalline structure,0.875,0.117,60,8
+Quasicrystals,0.685,0.871,70,89
+Quasiparticles & collective excitations,0.135,0.219,155,251
+RKKY interaction,0.556,0.273,110,54
+RNA,0.0,0.0,30,4
+Rabi model,0.208,0.182,55,48
+Radiation & particle generation in plasmas,0.029,0.02,50,34
+Radiation damage,0.5,0.178,45,16
+Radiation detectors,0.229,0.133,60,35
+Radiation from moving charges,0.133,0.057,70,30
+Radiative capture,0.722,0.532,220,162
+Radio frequency calculations,,0.0,40,0
+Radio frequency techniques,0.133,0.089,45,30
+"Radio, microwave, & sub-mm astronomy",0.2,0.15,40,30
+Radioactive beams,0.171,0.056,125,41
+Raman lasers,0.111,0.05,20,9
+Raman spectroscopy,0.688,0.785,470,536
+Random & disordered media,0.191,0.149,175,136
+Random field Ising model,0.333,0.04,50,6
+Random graphs,0.235,0.383,60,98
+Random lasers,0.615,0.4,20,13
+Random matrix theory,0.463,0.843,140,255
+Random phase approximation,0.364,0.285,165,129
+Random walks,0.281,0.217,240,185
+Rare & new isotopes,0.444,0.123,65,18
+Rare decays,0.248,0.471,170,323
+Rare-earth alloys,0.041,0.05,40,49
+Rare-earth doped crystals,0.259,0.108,65,27
+Rare-earth ions,0.0,,0,30
+Rarefied flows,0.367,0.6,30,49
+Rashba coupling,0.511,0.449,370,325
+Rayleigh-Bénard convection,,0.0,55,0
+Rayleigh-Taylor instability,0.611,0.552,105,95
+Reacting flows,0.576,0.38,50,33
+Reaction diffusion systems,0.231,0.647,85,238
+Reactions at surfaces & chemisorption,0.0,0.0,20,1
+Real & complex analysis,0.0,0.0,25,6
+Real world networks,0.0,0.0,70,1
+Reflection high-energy electron diffraction,0.0,0.0,20,1
+Reflectivity,0.364,0.08,100,22
+Refraction,0.0,0.0,30,10
+"Relativistic & quantum electrodynamic effects in atoms, molecules,& ions",0.343,0.595,195,338
+Relativistic aspects of cosmology,0.158,0.015,205,19
+Relativistic heavy-ion collisions,0.734,0.77,1110,1165
+Relativistic hydrodynamics,0.207,0.114,105,58
+Relativistic kinetic theory,0.097,0.28,25,72
+Relativistic magnetohydrodynamics,0.429,0.15,20,7
+Relativistic multiple-particle dynamics,0.0,0.0,35,7
+Relativistic plasmas,0.211,0.16,25,19
+Relativistic wave equations,0.25,0.122,90,44
+Relaxor ferroelectrics,0.75,0.247,85,28
+Renormalization,0.337,0.316,285,267
+Renormalization group,0.41,0.683,640,1066
+Replica methods,0.677,0.467,45,31
+Replica theory,0.167,0.033,30,6
+Research methodology,0.181,0.644,45,160
+Resistivity measurements,0.096,0.12,125,157
+Resonance reactions,0.18,0.1,180,100
+Resonant elastic x-ray scattering,0.182,0.171,35,33
+Resonant inelastic x-ray scattering,0.621,0.497,165,132
+Resource theories,0.0,,0,380
+Resummation methods,0.278,0.167,120,72
+Rheological properties,0.0,,0,24
+Rheology,0.369,0.421,235,268
+Rheology techniques,0.049,0.123,65,164
+Richtmyer-Meshkov instability,1.0,0.4,30,12
+Rigorous coupled-wave analysis,,0.0,20,0
+Robustness,0.333,0.133,60,24
+Room temperature RF,0.133,0.067,30,15
+Rotating geophysical flows,0.145,0.6,30,124
+Rotating wave approximation,0.333,0.085,130,33
+Roughness,0.192,0.111,45,26
+Ruthenates,0.557,0.309,110,61
+Rydberg atoms & molecules,0.687,0.811,455,537
+S-matrix method in transport,0.143,0.021,95,14
+SQUID,0.529,0.062,145,17
+SU(N) symmetries,,0.0,35,0
+Saffman-Taylor instability,0.552,0.291,55,29
+Satellite data analysis,,0.0,45,0
+Scale free & inhomogeneous networks,0.478,0.244,45,23
+Scaling laws of complex systems,0.121,0.207,150,257
+Scaling methods,0.079,0.126,95,151
+Scanning electron microscopy,0.417,0.059,85,12
+Scanning probe microscopy,0.137,0.333,30,73
+Scanning techniques,0.143,0.025,40,7
+Scanning transmission electron microscopy,0.709,0.312,125,55
+Scanning tunneling microscopy,0.658,0.66,630,632
+Scanning tunneling spectroscopy,0.474,0.204,265,114
+Scattering amplitudes,0.383,0.47,315,386
+"Scattering of atoms, molecules, clusters & ions",0.295,0.142,325,156
+Scattering theory,0.111,0.323,310,902
+Schroedinger equation,0.148,0.025,325,54
+Schwinger effect,0.236,0.425,40,72
+Scientific reasoning & problem solving,0.363,0.733,45,91
+Scintillators,0.556,0.2,25,9
+Second order nonlinear optical processes,0.093,0.037,240,97
+Second order phase transitions,0.0,0.0,70,10
+Second quantization,0.0,0.0,20,4
+Sediment transport,0.25,0.1,30,12
+Seebeck effect,0.245,0.137,95,53
+Seesaw mechanism,0.0,,0,25
+Seismology,,0.0,30,0
+Self-assembly,0.439,0.297,195,132
+Self-focusing & filamentation in plasmas,0.0,0.0,45,2
+Self-organized criticality,0.216,0.229,35,37
+Self-organized systems,0.444,0.053,75,9
+Self-propelled janus particles,,0.0,25,0
+Self-propelled particles,0.246,0.233,120,114
+Semiclassical methods,0.209,0.249,205,244
+Semiclassical physics,0.0,0.0,55,22
+Semiconductor compounds,0.066,0.054,130,106
+Semiconductor lasers,0.328,0.292,65,58
+Semiconductor microcavities,0.41,0.265,155,100
+Semiconductor quantum optics,0.1,0.046,65,30
+Semiconductors,0.248,0.224,985,892
+Semimetals,0.286,0.203,305,217
+Series expansions & exact enumeration,0.286,0.05,40,7
+Shape-memory materials,,0.0,20,0
+Shear deformation,0.118,0.029,70,17
+Shear flows,0.207,0.231,130,145
+Shear layer turbulence,0.0,0.0,30,2
+Shear thinning,0.75,0.15,20,4
+Shell model,0.568,0.637,510,572
+Shock waves,0.485,0.679,140,196
+Shock waves & discontinuities in plasma,0.333,0.04,25,3
+Shot noise,0.0,,0,42
+Shubnikov-de Haas effect,0.566,0.476,170,143
+Sigma models,0.0,0.0,70,18
+Signal transduction,,0.0,25,0
+Silicene,0.82,0.695,105,89
+Simulated annealing,0.062,0.033,30,16
+Single crystal materials,0.227,0.087,230,88
+Single molecule techniques,0.286,0.031,65,7
+Single photon sources,0.0,,0,117
+Single polymer chains,,0.0,20,0
+Single- and few-photon ionization & excitation,0.289,0.06,215,45
+Single-component plasmas,,0.0,30,0
+Single-particle dynamics,0.0,0.0,70,2
+Singularities In general relativity,0.077,0.016,125,26
+Skutterudites,0.636,0.467,30,22
+Sky surveys,0.0,0.0,65,5
+Skyrmions,0.695,0.783,355,400
+Slave bosons,0.0,0.0,40,4
+Slip boundary effects,0.0,0.0,40,3
+Small angle neutron scattering,0.739,0.378,45,23
+Small-angle x-ray scattering,0.5,0.033,30,2
+Smectic liquid crystals,0.381,0.178,45,21
+Social dynamics,0.216,0.4,20,37
+Social networks,0.313,0.175,120,67
+Social system dynamics,,0.0,30,0
+Social systems,0.0,0.0,105,4
+Solar cells,0.442,0.4,85,77
+Solar neutrinos,0.308,0.1,40,13
+Solar wind,0.643,0.3,30,14
+Solid solutions,1.0,0.125,40,5
+Solid state lasers,,0.0,20,0
+Solid-gas interfaces,,0.0,25,0
+Solid-solid interfaces,0.1,0.009,110,10
+Solid-solid transformations,0.231,0.063,95,26
+Solid-state detectors,0.312,0.071,70,16
+Solitons,0.541,0.484,730,652
+Space & astrophysical plasma,0.238,0.222,45,42
+Space charge in beams,0.231,0.4,15,26
+Space science,0.0,0.0,30,7
+Spacetime symmetries,0.044,0.044,45,45
+Spacetime topology & causal structure,0.086,0.087,80,81
+Spatiotemporal chaos,0.056,0.029,35,18
+Special relativity,0.303,0.118,85,33
+Specific heat,0.244,0.069,320,90
+Specific heat measurements,0.349,0.427,260,318
+Specific phase transitions,,0.0,105,0
+Spectrometers & spectroscopic techniques,0.358,0.084,225,53
+Spectroscopic factors & electromagnetic moments,0.576,0.145,235,59
+Spectroscopy,0.108,0.12,150,167
+Spectroscopy of clusters,,0.0,30,0
+Spiking neuron models,0.067,0.133,15,30
+Spin,0.033,0.038,105,123
+Spin Hall effect,0.535,0.471,225,198
+Spin Hall magnetoresistance,0.727,0.178,45,11
+Spin Seebeck effect,0.519,0.318,85,52
+Spin accumulation,0.75,0.109,55,8
+Spin caloritronics,0.379,0.147,75,29
+Spin chains,0.239,0.056,195,46
+Spin current,0.398,0.411,370,382
+Spin density waves,0.43,0.68,150,237
+Spin diffusion,0.375,0.2,60,32
+Spin dynamics,0.0,,0,476
+Spin filtering,0.533,0.267,30,15
+Spin fluctuations,0.154,0.457,70,208
+Spin glasses,0.5,0.697,165,230
+Spin ice,0.898,0.379,140,59
+Spin injection,0.312,0.2,25,16
+Spin ladders,0.455,0.133,75,22
+Spin lattice models,0.135,0.086,220,141
+Spin liquid,0.373,0.119,210,67
+Spin noise spectroscopy,0.5,0.08,25,4
+Spin polarization,0.224,0.349,390,606
+Spin pumping,0.43,0.4,85,79
+Spin relaxation,0.417,0.546,315,412
+Spin state transition,0.0,,0,38
+Spin texture,0.293,0.1,120,41
+Spin torque,0.301,0.478,115,183
+Spin transfer torque,0.309,0.41,105,139
+Spin valves,0.524,0.129,85,21
+Spin waves,0.485,0.565,520,606
+Spin-boson model,0.0,,0,48
+Spin-orbit coupling,0.417,0.754,1625,2936
+Spin-phonon coupling,0.0,,0,54
+Spin-polarized scanning tunneling microscopy,0.333,0.12,25,9
+Spin-resolved photoemission spectroscopy,0.474,0.18,50,19
+Spin-singlet pairing,0.143,0.027,75,14
+Spin-triplet pairing,0.196,0.25,120,153
+Spinels,0.52,0.289,45,25
+Spinodal decomposition,0.5,0.15,20,6
+Spinon,0.492,0.62,50,63
+Spinor Bose-Einstein condensates,0.0,,0,167
+Spintronics,0.41,0.301,1050,770
+Spontaneous emission,0.333,0.336,125,126
+Spontaneous symmetry breaking,0.258,0.149,335,194
+Spot-profile analysis LEED,,0.0,25,0
+Spreading,,0.0,35,0
+Spreading models,0.033,0.2,10,61
+Sputtering,0.0,0.0,60,3
+Square lattice,0.0,,0,24
+Squeezing of quantum noise,0.398,0.678,255,435
+Stacking faults,0.708,0.378,45,24
+Stark effect,0.565,0.475,255,214
+Stars,0.467,0.058,120,15
+Statistical field theory,0.0,0.0,10,33
+Statistical hydrodynamics,0.0,0.0,25,24
+Statistical methods,0.039,0.192,120,589
+Statistical phenomena & chaos,0.0,0.0,10,26
+Sterile neutrinos,0.663,0.293,215,95
+Stimulated Brillouin & Raman scattering in plasmas,0.739,0.567,60,46
+Stimulated Raman adiabatic passage,0.353,0.3,40,34
+Stimulated Raman scattering,0.222,0.229,35,36
+Stochastic analysis,0.0,0.0,80,6
+Stochastic analysis methods,0.0,0.0,50,33
+Stochastic differential equations,0.333,0.011,90,3
+Stochastic dynamical systems,,0.0,80,0
+Stochastic inference,0.667,0.029,70,3
+Stochastic networks,0.0,0.0,40,7
+Stochastic processes,0.225,0.456,675,1366
+Stochastic processes & statistics,0.035,0.031,65,57
+Stochastic resonance,0.0,,0,29
+Stopping power,0.0,,0,38
+Storage rings,0.368,0.156,45,19
+Strain,0.269,0.578,270,579
+Strain engineering,0.0,,0,81
+Strange quark,0.0,0.0,35,2
+Stratified geophysical flows,0.588,0.444,45,34
+Stress,0.13,0.04,75,23
+Stress propagation,,0.0,25,0
+String dualities,0.286,0.12,50,21
+String phenomenology,0.25,0.021,95,8
+String theory techniques in condensed matter,0.0,0.0,40,74
+Strings & branes,0.438,0.421,375,361
+Stripes,0.5,0.017,60,2
+Strong electromagnetic field effects,0.092,0.217,180,422
+Strong field ionization & excitation,0.081,0.148,115,209
+Strong interaction,0.063,0.076,315,380
+Strong-field approximation,0.16,0.145,55,50
+Strong-field-induced spectra,0.143,0.043,140,42
+Strongly correlated systems,0.172,0.228,795,1050
+Strongly-coupled plasmas,0.375,0.075,40,8
+Structural order parameter,0.0,0.0,55,7
+Structural phase transition,0.0,,0,195
+Structural properties,0.11,0.133,400,481
+Structure & turbulence of boundary layers,0.379,0.338,65,58
+Student preparation,0.171,0.127,55,41
+Su-Schrieffer-Heeger model,0.0,,0,21
+Sum rules,0.0,,0,43
+Super-resolution techniques,1.0,0.067,30,2
+Superconducting RF,0.6,0.42,100,70
+Superconducting devices,0.085,0.041,270,129
+Superconducting fluctuations,0.364,0.107,150,44
+Superconducting gap,0.377,0.211,380,212
+Superconducting order parameter,0.11,0.042,265,100
+Superconducting phase transition,0.094,0.06,100,64
+Superconducting qubits,0.624,0.572,470,431
+Superconductivity,0.316,0.731,1355,3130
+Superconductor-insulator transition,0.0,,0,37
+Superconductors,0.204,0.014,810,54
+Superfluid density,0.154,0.029,70,13
+Superfluidity,0.453,0.488,475,512
+Superfluids,0.0,0.0,20,101
+Supergravity,0.718,0.265,230,85
+Superlattices,0.543,0.268,190,94
+Superparamagnetism,0.793,0.383,60,29
+Superpartners,,0.0,190,0
+Superradiance & subradiance,0.477,0.567,180,214
+Supersolids,0.2,0.133,45,30
+Supersymmetric field theories,0.288,0.319,185,205
+Supersymmetric models,0.666,0.757,670,761
+Supersymmetry,0.282,0.213,230,174
+Surface & interfacial phenomena,0.056,0.16,225,640
+Surface acoustic wave,0.0,,0,29
+Surface code quantum computing,0.0,,0,20
+Surface diffusion,0.353,0.343,35,34
+Surface gravity waves,0.588,0.1,100,17
+Surface growth,0.556,0.083,60,9
+Surface instabilities,0.0,0.0,75,2
+Surface magneto-optical Kerr effect,,0.0,25,0
+Surface plasmon polariton,0.172,0.347,95,192
+Surface plasmons,0.352,0.182,170,88
+Surface reconstruction,0.315,0.242,95,73
+Surface scattering,0.0,0.0,25,3
+Surface states,0.289,0.385,530,706
+Surface tension effects,0.167,0.232,185,257
+Surfaces,0.215,0.284,405,535
+"Surfactants, micelles & vesicles",0.136,0.1,30,22
+Susceptibility measurements,0.155,0.069,160,71
+Suspensions,0.478,0.157,70,23
+Swarming,0.136,0.086,35,22
+Swimming,0.225,0.459,85,173
+Symmetries,0.049,0.113,240,549
+Symmetries in condensed matter,0.059,0.082,85,118
+Symmetry energy,0.627,0.313,150,75
+Symmetry protected topological states,0.0,,0,132
+Synapses,,0.0,20,0
+Synchronization,0.551,0.587,470,501
+Synchronization transition,0.036,0.017,60,28
+Synchrotron radiation & free-electron lasers,0.112,0.262,65,152
+Synchrotron radiation facilities,0.231,0.1,30,13
+Synthetic gauge fields,0.384,0.233,120,73
+T-symmetry,0.0,0.0,95,2
+Target design & fabrication,0.0,0.0,45,3
+Target normal sheath acceleration,,0.0,25,0
+Tau leptons,0.214,0.1,30,14
+Taylor-Couette system,0.826,0.345,55,23
+Temperature,0.036,0.013,80,28
+Tensor network methods,0.246,0.474,95,183
+Tensor network renormalization,0.133,0.057,35,15
+Terahertz generation in plasmas,0.833,0.111,45,6
+Terahertz spectroscopy,0.0,,0,28
+Terahertz techniques,0.0,,0,129
+Tests of fundamental symmetries,0.0,,0,32
+Theories of collective dynamics & active matter,0.0,0.0,50,4
+Thermal & statistical models,0.21,0.149,235,167
+Thermal Hall effect,0.1,0.133,15,20
+Thermal conductivity,0.604,0.577,555,530
+Thermal expansion,0.696,0.457,140,92
+Thermal properties,0.195,0.081,270,113
+Thermal techniques,0.0,0.0,30,1
+Thermionic emission,,0.0,20,0
+Thermodynamics,0.242,0.196,495,401
+Thermodynamics of computation,0.0,0.0,15,24
+Thermodynamics of mixing,,0.0,20,0
+Thermoelectric effects,0.627,0.695,380,421
+Thermoelectrics,0.318,0.093,75,22
+Thermomagnetic effects,0.083,0.156,45,84
+Thermopower,0.647,0.122,90,17
+Thin films,0.343,0.494,960,1381
+Thin fluid films,0.089,0.22,50,124
+Third order nonlinear optical processes,0.0,,0,31
+Tight-binding model,0.505,0.381,700,529
+Time & angle resolved photoemission spectroscopy,0.5,0.186,70,26
+Time & frequency standards,0.0,0.0,25,4
+Time series analysis,0.498,0.456,250,229
+Time-dependent DFT,0.255,0.2,135,106
+Time-dependent Ginzburg-Landau theory,0.636,0.28,25,11
+Time-of-flight neutron spectroscopy,,0.0,25,0
+Time-projection chambers,0.333,0.04,25,3
+Time-resolved infrared spectroscopy,0.043,0.029,35,23
+Time-resolved photoluminescence,0.188,0.164,55,48
+Tokamaks,0.723,0.723,65,65
+Tomography,0.111,0.04,25,9
+Top quark,0.639,0.721,265,299
+Topological defects,0.215,0.362,105,177
+Topological effects in photonic systems,0.326,0.255,110,86
+Topological field theories,0.107,0.086,70,56
+Topological insulators,0.704,0.574,1365,1114
+Topological materials,0.34,0.349,985,1012
+Topological phase transition,0.233,0.246,260,275
+Topological phases of matter,0.22,0.587,910,2430
+Topological quantum computing,0.522,0.277,130,69
+Topological superconductors,0.272,0.662,260,633
+Topology,0.087,0.064,110,80
+Traffic,0.176,0.12,25,17
+Traffic models,0.44,0.44,25,25
+Transcription,,0.0,20,0
+Transfer matrix method,0.208,0.111,45,24
+Transfer reactions,0.694,0.521,305,229
+Transformation optics,0.388,0.564,55,80
+Transient & explosive astronomical phenomena,0.0,0.0,10,25
+Transient absorption spectroscopy,0.0,0.0,30,4
+Transistors,0.0,0.0,45,7
+Transition metal alloys,0.0,0.0,185,1
+Transition metal dichalcogenides,0.555,0.901,475,771
+Transition metal oxides,0.0,,0,194
+Transition metals,0.302,0.069,275,63
+Transition temperature,0.0,0.0,95,17
+Transition to turbulence,0.5,0.133,75,20
+Transition-metal rare-earth alloys,0.4,0.057,70,10
+Transmission electron microscopy,0.427,0.2,175,82
+Transport in networks,,0.0,20,0
+Transport phenomena,0.14,0.328,995,2328
+Transport techniques,0.143,0.012,245,21
+Transportation networks,0.385,0.2,25,13
+Transverse momentum dependent distribution,0.0,,0,35
+Trapped ions,0.364,0.587,150,242
+Traveling waves,0.241,0.19,100,79
+Tree network,0.333,0.033,30,3
+Triangular lattice,0.0,,0,68
+Tribology,0.462,0.15,40,13
+Trions,0.769,0.364,55,26
+Tunnel junctions,0.269,0.117,240,104
+Tunneling & traversal time,0.333,0.242,120,87
+Tunneling anisotropic magnetoresistance,0.0,0.0,20,2
+Turbulence,0.564,0.801,705,1002
+Turbulence modeling,0.0,,0,23
+Turbulent mixing,0.218,0.305,95,133
+Twinning,,0.0,40,0
+Twist deformation,,0.0,20,0
+Two-dimensional electron gas,0.519,0.387,620,462
+Two-dimensional electron system,0.0,,0,51
+Two-fluid & multi-fluid model,0.067,0.05,20,15
+Two-level models,0.078,0.057,105,77
+Type-II superconductors,0.182,0.073,55,22
+Ultracold collisions,0.478,0.41,295,253
+Ultracold gases,0.267,0.055,585,120
+Ultrafast magnetization dynamics,0.0,,0,27
+Ultrafast optics,0.0,,0,217
+Ultrafast phenomena,0.175,0.245,490,686
+Ultrafast pump-probe spectroscopy,0.242,0.4,275,454
+Ultrashort pulses,0.302,0.038,345,43
+Ultrasonics,,0.0,65,0
+Ultrasound techniques,0.5,0.057,35,4
+Ultrathin films,0.0,0.0,165,6
+Ultraviolet photoelectron spectroscopy,0.5,0.025,40,2
+Uncertainty relation,0.0,,0,22
+Unconventional superconductors,0.36,0.07,385,75
+Undulators & wigglers,0.464,0.433,30,28
+Unruh effect,0.281,0.2,45,32
+Unstable nuclei induced nuclear reactions,0.182,0.012,170,11
+Upper undergraduate students,0.4,0.067,30,5
+Vacancies,0.534,0.155,200,58
+Vacuum stability,0.285,0.339,115,137
+Valleytronics,0.569,0.676,170,202
+Vanadates,0.5,0.013,80,2
+Variational approach,0.2,0.2,130,130
+Vector mesons,0.091,0.033,60,22
+Vibrofluidized granular materials,,0.0,25,0
+Virial theorem,0.5,0.08,25,4
+Viruses,0.2,0.017,60,5
+Viscoelasticity,0.354,0.556,135,212
+Viscosity,0.207,0.231,160,179
+Vortex dynamics,0.0,,0,37
+Vortex flows,0.315,0.455,235,340
+Vortex lattices,0.324,0.12,100,37
+Vortices in field theory,0.556,0.125,40,9
+Vortices in superconductors,0.476,0.57,230,275
+Vortices in superfluids,0.305,0.671,170,374
+W & Z bosons,0.462,0.511,305,338
+Wakes & jets,0.542,0.26,100,48
+Wannier function methods,0.35,0.108,65,20
+Warm-dense matter,0.726,0.424,125,73
+Water,0.0,,0,29
+Wave chaos,0.2,0.04,25,5
+"Wave-wave, wave-particle interactions",1.0,0.029,35,1
+Waveguide arrays,0.07,0.312,80,357
+Waveguides,0.202,0.344,215,367
+Weak antilocalization,0.59,0.418,55,39
+Weak links,0.0,0.0,25,8
+Weak localization,0.462,0.4,60,52
+Weak measurements,0.135,0.125,40,37
+Weak turbulence,0.333,0.033,30,3
+Weak values & weak measurements,0.622,0.209,110,37
+Weakly interacting massive particles,0.31,0.468,190,287
+Wet granular materials,1.0,0.025,40,1
+Wetting,0.623,0.535,260,223
+Weyl fermions,0.45,0.038,235,20
+Weyl semimetal,0.533,0.874,475,779
+Whispering gallery mode resonators,0.5,0.14,50,14
+Wigner crystal,0.0,,0,64
+Work theorems,0.032,0.1,10,31
+Wurtzite,0.091,0.033,30,11
+X ray astronomy,0.188,0.086,35,16
+X-ray & gamma ray plasma measurements,0.273,0.086,35,11
+X-ray absorption fine structure spectroscopy,0.81,0.17,100,21
+X-ray absorption near-edge spectroscopy,0.273,0.05,60,11
+X-ray absorption spectroscopy,0.332,0.464,220,307
+X-ray beams & optics,0.226,0.108,65,31
+X-ray diffraction,0.577,0.306,865,459
+X-ray diffuse scattering,0.5,0.05,40,4
+X-ray emission spectroscopy,0.571,0.267,45,21
+X-ray generation in plasmas,0.476,0.143,70,21
+X-ray imaging,0.368,0.2,70,38
+X-ray lasers,0.273,0.109,55,22
+X-ray magnetic circular dichroism,0.455,0.464,140,143
+X-ray magnetic linear dichroism,,0.0,35,0
+X-ray photoelectron spectroscopy,0.542,0.236,110,48
+X-ray photoemission electron microscopy,,0.0,25,0
+X-ray powder diffraction,0.128,0.048,105,39
+X-ray reflectivity,0.667,0.089,45,6
+X-ray resonant magnetic scattering,0.667,0.073,55,6
+X-ray scattering,0.259,0.442,165,282
+X-ray standing waves,0.833,0.2,25,6
+X-ray techniques,0.04,0.091,55,126
+X-ray tomography,0.733,0.314,35,15
+XY model,0.313,0.238,130,99
+XYZ model,,0.0,45,0
+Z-pinches,1.0,0.15,40,6
+Z_2 symmetry,0.0,0.0,40,12
+Zeeman effect,0.252,0.24,150,143
+Zinc-blende structure,0.0,0.0,20,4
+d-wave,0.301,0.509,55,93
+de Haas-van Alphen effect,0.44,0.22,50,25
+k dot p method,0.449,0.2,155,69
+p-wave,0.306,0.309,110,111
+r process,0.619,0.163,80,21
+s process,0.375,0.1,30,8
+s-wave,0.16,0.084,95,50
+t-J model,0.643,0.2,45,14
+van der Waals interaction,0.667,0.035,230,12
+van der Waals systems,0.25,0.013,75,4
